@@ -1,0 +1,169 @@
+[2026-05-10T21:19:06.236+0000] {processor.py:186} INFO - Started process (PID=358) to work on /opt/airflow/dags/02_taskflow_api/02_taskflow_multiple_outputs.py
+[2026-05-10T21:19:06.236+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/02_taskflow_api/02_taskflow_multiple_outputs.py for tasks to queue
+[2026-05-10T21:19:06.238+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:19:06.237+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/02_taskflow_api/02_taskflow_multiple_outputs.py
+[2026-05-10T21:19:06.247+0000] {processor.py:925} INFO - DAG(s) 'mod_02_02_multiple_outputs' retrieved from /opt/airflow/dags/02_taskflow_api/02_taskflow_multiple_outputs.py
+[2026-05-10T21:19:06.291+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:19:06.290+0000] {override.py:1912} INFO - Created Permission View: can delete on DAG:mod_02_02_multiple_outputs
+[2026-05-10T21:19:06.293+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:19:06.293+0000] {override.py:1912} INFO - Created Permission View: can edit on DAG:mod_02_02_multiple_outputs
+[2026-05-10T21:19:06.296+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:19:06.296+0000] {override.py:1912} INFO - Created Permission View: can read on DAG:mod_02_02_multiple_outputs
+[2026-05-10T21:19:06.299+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:19:06.299+0000] {override.py:1912} INFO - Created Permission View: can delete on DAG Run:mod_02_02_multiple_outputs
+[2026-05-10T21:19:06.305+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:19:06.304+0000] {override.py:1912} INFO - Created Permission View: menu access on DAG Run:mod_02_02_multiple_outputs
+[2026-05-10T21:19:06.307+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:19:06.307+0000] {override.py:1912} INFO - Created Permission View: can create on DAG Run:mod_02_02_multiple_outputs
+[2026-05-10T21:19:06.309+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:19:06.309+0000] {override.py:1912} INFO - Created Permission View: can read on DAG Run:mod_02_02_multiple_outputs
+[2026-05-10T21:19:06.309+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:19:06.309+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-10T21:19:06.315+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:19:06.315+0000] {dag.py:3262} INFO - Creating ORM DAG for mod_02_02_multiple_outputs
+[2026-05-10T21:19:06.317+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:19:06.317+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_02_02_multiple_outputs to None, run_after=None
+[2026-05-10T21:19:06.329+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/02_taskflow_api/02_taskflow_multiple_outputs.py took 0.097 seconds
+[2026-05-10T21:19:37.076+0000] {processor.py:186} INFO - Started process (PID=563) to work on /opt/airflow/dags/02_taskflow_api/02_taskflow_multiple_outputs.py
+[2026-05-10T21:19:37.077+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/02_taskflow_api/02_taskflow_multiple_outputs.py for tasks to queue
+[2026-05-10T21:19:37.078+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:19:37.078+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/02_taskflow_api/02_taskflow_multiple_outputs.py
+[2026-05-10T21:19:37.083+0000] {processor.py:925} INFO - DAG(s) 'mod_02_02_multiple_outputs' retrieved from /opt/airflow/dags/02_taskflow_api/02_taskflow_multiple_outputs.py
+[2026-05-10T21:19:37.096+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:19:37.096+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-10T21:19:37.102+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:19:37.102+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_02_02_multiple_outputs to None, run_after=None
+[2026-05-10T21:19:37.111+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/02_taskflow_api/02_taskflow_multiple_outputs.py took 0.038 seconds
+[2026-05-10T21:20:07.532+0000] {processor.py:186} INFO - Started process (PID=766) to work on /opt/airflow/dags/02_taskflow_api/02_taskflow_multiple_outputs.py
+[2026-05-10T21:20:07.532+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/02_taskflow_api/02_taskflow_multiple_outputs.py for tasks to queue
+[2026-05-10T21:20:07.534+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:20:07.533+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/02_taskflow_api/02_taskflow_multiple_outputs.py
+[2026-05-10T21:20:07.539+0000] {processor.py:925} INFO - DAG(s) 'mod_02_02_multiple_outputs' retrieved from /opt/airflow/dags/02_taskflow_api/02_taskflow_multiple_outputs.py
+[2026-05-10T21:20:07.550+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:20:07.549+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-10T21:20:07.556+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:20:07.556+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_02_02_multiple_outputs to None, run_after=None
+[2026-05-10T21:20:07.564+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/02_taskflow_api/02_taskflow_multiple_outputs.py took 0.034 seconds
+[2026-05-10T21:20:38.158+0000] {processor.py:186} INFO - Started process (PID=969) to work on /opt/airflow/dags/02_taskflow_api/02_taskflow_multiple_outputs.py
+[2026-05-10T21:20:38.159+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/02_taskflow_api/02_taskflow_multiple_outputs.py for tasks to queue
+[2026-05-10T21:20:38.160+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:20:38.160+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/02_taskflow_api/02_taskflow_multiple_outputs.py
+[2026-05-10T21:20:38.165+0000] {processor.py:925} INFO - DAG(s) 'mod_02_02_multiple_outputs' retrieved from /opt/airflow/dags/02_taskflow_api/02_taskflow_multiple_outputs.py
+[2026-05-10T21:20:38.177+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:20:38.176+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-10T21:20:38.183+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:20:38.183+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_02_02_multiple_outputs to None, run_after=None
+[2026-05-10T21:20:38.191+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/02_taskflow_api/02_taskflow_multiple_outputs.py took 0.036 seconds
+[2026-05-10T21:21:08.663+0000] {processor.py:186} INFO - Started process (PID=1172) to work on /opt/airflow/dags/02_taskflow_api/02_taskflow_multiple_outputs.py
+[2026-05-10T21:21:08.664+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/02_taskflow_api/02_taskflow_multiple_outputs.py for tasks to queue
+[2026-05-10T21:21:08.664+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:21:08.664+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/02_taskflow_api/02_taskflow_multiple_outputs.py
+[2026-05-10T21:21:08.671+0000] {processor.py:925} INFO - DAG(s) 'mod_02_02_multiple_outputs' retrieved from /opt/airflow/dags/02_taskflow_api/02_taskflow_multiple_outputs.py
+[2026-05-10T21:21:08.683+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:21:08.683+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-10T21:21:08.690+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:21:08.690+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_02_02_multiple_outputs to None, run_after=None
+[2026-05-10T21:21:08.699+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/02_taskflow_api/02_taskflow_multiple_outputs.py took 0.039 seconds
+[2026-05-10T21:21:39.213+0000] {processor.py:186} INFO - Started process (PID=1375) to work on /opt/airflow/dags/02_taskflow_api/02_taskflow_multiple_outputs.py
+[2026-05-10T21:21:39.213+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/02_taskflow_api/02_taskflow_multiple_outputs.py for tasks to queue
+[2026-05-10T21:21:39.215+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:21:39.214+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/02_taskflow_api/02_taskflow_multiple_outputs.py
+[2026-05-10T21:21:39.223+0000] {processor.py:925} INFO - DAG(s) 'mod_02_02_multiple_outputs' retrieved from /opt/airflow/dags/02_taskflow_api/02_taskflow_multiple_outputs.py
+[2026-05-10T21:21:39.232+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:21:39.232+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-10T21:21:39.237+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:21:39.237+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_02_02_multiple_outputs to None, run_after=None
+[2026-05-10T21:21:39.246+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/02_taskflow_api/02_taskflow_multiple_outputs.py took 0.036 seconds
+[2026-05-10T21:22:09.665+0000] {processor.py:186} INFO - Started process (PID=1578) to work on /opt/airflow/dags/02_taskflow_api/02_taskflow_multiple_outputs.py
+[2026-05-10T21:22:09.665+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/02_taskflow_api/02_taskflow_multiple_outputs.py for tasks to queue
+[2026-05-10T21:22:09.666+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:22:09.666+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/02_taskflow_api/02_taskflow_multiple_outputs.py
+[2026-05-10T21:22:09.672+0000] {processor.py:925} INFO - DAG(s) 'mod_02_02_multiple_outputs' retrieved from /opt/airflow/dags/02_taskflow_api/02_taskflow_multiple_outputs.py
+[2026-05-10T21:22:09.685+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:22:09.685+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-10T21:22:09.692+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:22:09.692+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_02_02_multiple_outputs to None, run_after=None
+[2026-05-10T21:22:09.705+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/02_taskflow_api/02_taskflow_multiple_outputs.py took 0.044 seconds
+[2026-05-10T21:22:40.145+0000] {processor.py:186} INFO - Started process (PID=1781) to work on /opt/airflow/dags/02_taskflow_api/02_taskflow_multiple_outputs.py
+[2026-05-10T21:22:40.146+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/02_taskflow_api/02_taskflow_multiple_outputs.py for tasks to queue
+[2026-05-10T21:22:40.148+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:22:40.147+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/02_taskflow_api/02_taskflow_multiple_outputs.py
+[2026-05-10T21:22:40.153+0000] {processor.py:925} INFO - DAG(s) 'mod_02_02_multiple_outputs' retrieved from /opt/airflow/dags/02_taskflow_api/02_taskflow_multiple_outputs.py
+[2026-05-10T21:22:40.165+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:22:40.165+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-10T21:22:40.173+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:22:40.173+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_02_02_multiple_outputs to None, run_after=None
+[2026-05-10T21:22:40.182+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/02_taskflow_api/02_taskflow_multiple_outputs.py took 0.040 seconds
+[2026-05-10T21:23:10.580+0000] {processor.py:186} INFO - Started process (PID=1984) to work on /opt/airflow/dags/02_taskflow_api/02_taskflow_multiple_outputs.py
+[2026-05-10T21:23:10.581+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/02_taskflow_api/02_taskflow_multiple_outputs.py for tasks to queue
+[2026-05-10T21:23:10.582+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:23:10.582+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/02_taskflow_api/02_taskflow_multiple_outputs.py
+[2026-05-10T21:23:10.587+0000] {processor.py:925} INFO - DAG(s) 'mod_02_02_multiple_outputs' retrieved from /opt/airflow/dags/02_taskflow_api/02_taskflow_multiple_outputs.py
+[2026-05-10T21:23:10.600+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:23:10.600+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-10T21:23:10.606+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:23:10.606+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_02_02_multiple_outputs to None, run_after=None
+[2026-05-10T21:23:10.616+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/02_taskflow_api/02_taskflow_multiple_outputs.py took 0.038 seconds
+[2026-05-10T21:23:41.054+0000] {processor.py:186} INFO - Started process (PID=2187) to work on /opt/airflow/dags/02_taskflow_api/02_taskflow_multiple_outputs.py
+[2026-05-10T21:23:41.055+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/02_taskflow_api/02_taskflow_multiple_outputs.py for tasks to queue
+[2026-05-10T21:23:41.056+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:23:41.056+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/02_taskflow_api/02_taskflow_multiple_outputs.py
+[2026-05-10T21:23:41.063+0000] {processor.py:925} INFO - DAG(s) 'mod_02_02_multiple_outputs' retrieved from /opt/airflow/dags/02_taskflow_api/02_taskflow_multiple_outputs.py
+[2026-05-10T21:23:41.073+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:23:41.073+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-10T21:23:41.080+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:23:41.080+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_02_02_multiple_outputs to None, run_after=None
+[2026-05-10T21:23:41.088+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/02_taskflow_api/02_taskflow_multiple_outputs.py took 0.036 seconds
+[2026-05-10T21:24:11.605+0000] {processor.py:186} INFO - Started process (PID=2404) to work on /opt/airflow/dags/02_taskflow_api/02_taskflow_multiple_outputs.py
+[2026-05-10T21:24:11.606+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/02_taskflow_api/02_taskflow_multiple_outputs.py for tasks to queue
+[2026-05-10T21:24:11.607+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:24:11.607+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/02_taskflow_api/02_taskflow_multiple_outputs.py
+[2026-05-10T21:24:11.612+0000] {processor.py:925} INFO - DAG(s) 'mod_02_02_multiple_outputs' retrieved from /opt/airflow/dags/02_taskflow_api/02_taskflow_multiple_outputs.py
+[2026-05-10T21:24:11.627+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:24:11.627+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-10T21:24:11.631+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:24:11.631+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_02_02_multiple_outputs to None, run_after=None
+[2026-05-10T21:24:11.639+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/02_taskflow_api/02_taskflow_multiple_outputs.py took 0.036 seconds
+[2026-05-10T21:24:42.064+0000] {processor.py:186} INFO - Started process (PID=2606) to work on /opt/airflow/dags/02_taskflow_api/02_taskflow_multiple_outputs.py
+[2026-05-10T21:24:42.065+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/02_taskflow_api/02_taskflow_multiple_outputs.py for tasks to queue
+[2026-05-10T21:24:42.066+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:24:42.066+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/02_taskflow_api/02_taskflow_multiple_outputs.py
+[2026-05-10T21:24:42.070+0000] {processor.py:925} INFO - DAG(s) 'mod_02_02_multiple_outputs' retrieved from /opt/airflow/dags/02_taskflow_api/02_taskflow_multiple_outputs.py
+[2026-05-10T21:24:42.081+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:24:42.081+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-10T21:24:42.087+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:24:42.087+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_02_02_multiple_outputs to None, run_after=None
+[2026-05-10T21:24:42.097+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/02_taskflow_api/02_taskflow_multiple_outputs.py took 0.035 seconds
+[2026-05-10T21:25:12.604+0000] {processor.py:186} INFO - Started process (PID=2810) to work on /opt/airflow/dags/02_taskflow_api/02_taskflow_multiple_outputs.py
+[2026-05-10T21:25:12.604+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/02_taskflow_api/02_taskflow_multiple_outputs.py for tasks to queue
+[2026-05-10T21:25:12.606+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:25:12.605+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/02_taskflow_api/02_taskflow_multiple_outputs.py
+[2026-05-10T21:25:12.613+0000] {processor.py:925} INFO - DAG(s) 'mod_02_02_multiple_outputs' retrieved from /opt/airflow/dags/02_taskflow_api/02_taskflow_multiple_outputs.py
+[2026-05-10T21:25:12.624+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:25:12.624+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-10T21:25:12.630+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:25:12.630+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_02_02_multiple_outputs to None, run_after=None
+[2026-05-10T21:25:12.638+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/02_taskflow_api/02_taskflow_multiple_outputs.py took 0.038 seconds
+[2026-05-10T21:25:43.137+0000] {processor.py:186} INFO - Started process (PID=3011) to work on /opt/airflow/dags/02_taskflow_api/02_taskflow_multiple_outputs.py
+[2026-05-10T21:25:43.137+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/02_taskflow_api/02_taskflow_multiple_outputs.py for tasks to queue
+[2026-05-10T21:25:43.139+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:25:43.139+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/02_taskflow_api/02_taskflow_multiple_outputs.py
+[2026-05-10T21:25:43.145+0000] {processor.py:925} INFO - DAG(s) 'mod_02_02_multiple_outputs' retrieved from /opt/airflow/dags/02_taskflow_api/02_taskflow_multiple_outputs.py
+[2026-05-10T21:25:43.158+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:25:43.157+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-10T21:25:43.165+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:25:43.165+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_02_02_multiple_outputs to None, run_after=None
+[2026-05-10T21:25:43.174+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/02_taskflow_api/02_taskflow_multiple_outputs.py took 0.040 seconds
+[2026-05-10T21:26:13.725+0000] {processor.py:186} INFO - Started process (PID=3214) to work on /opt/airflow/dags/02_taskflow_api/02_taskflow_multiple_outputs.py
+[2026-05-10T21:26:13.725+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/02_taskflow_api/02_taskflow_multiple_outputs.py for tasks to queue
+[2026-05-10T21:26:13.727+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:26:13.726+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/02_taskflow_api/02_taskflow_multiple_outputs.py
+[2026-05-10T21:26:13.731+0000] {processor.py:925} INFO - DAG(s) 'mod_02_02_multiple_outputs' retrieved from /opt/airflow/dags/02_taskflow_api/02_taskflow_multiple_outputs.py
+[2026-05-10T21:26:13.743+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:26:13.743+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-10T21:26:13.749+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:26:13.749+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_02_02_multiple_outputs to None, run_after=None
+[2026-05-10T21:26:13.760+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/02_taskflow_api/02_taskflow_multiple_outputs.py took 0.039 seconds
+[2026-05-10T21:26:44.283+0000] {processor.py:186} INFO - Started process (PID=3419) to work on /opt/airflow/dags/02_taskflow_api/02_taskflow_multiple_outputs.py
+[2026-05-10T21:26:44.284+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/02_taskflow_api/02_taskflow_multiple_outputs.py for tasks to queue
+[2026-05-10T21:26:44.285+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:26:44.285+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/02_taskflow_api/02_taskflow_multiple_outputs.py
+[2026-05-10T21:26:44.290+0000] {processor.py:925} INFO - DAG(s) 'mod_02_02_multiple_outputs' retrieved from /opt/airflow/dags/02_taskflow_api/02_taskflow_multiple_outputs.py
+[2026-05-10T21:26:44.302+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:26:44.302+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-10T21:26:44.312+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:26:44.312+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_02_02_multiple_outputs to None, run_after=None
+[2026-05-10T21:26:44.319+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/02_taskflow_api/02_taskflow_multiple_outputs.py took 0.038 seconds
+[2026-05-10T21:27:14.863+0000] {processor.py:186} INFO - Started process (PID=3622) to work on /opt/airflow/dags/02_taskflow_api/02_taskflow_multiple_outputs.py
+[2026-05-10T21:27:14.864+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/02_taskflow_api/02_taskflow_multiple_outputs.py for tasks to queue
+[2026-05-10T21:27:14.865+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:27:14.865+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/02_taskflow_api/02_taskflow_multiple_outputs.py
+[2026-05-10T21:27:14.874+0000] {processor.py:925} INFO - DAG(s) 'mod_02_02_multiple_outputs' retrieved from /opt/airflow/dags/02_taskflow_api/02_taskflow_multiple_outputs.py
+[2026-05-10T21:27:14.882+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:27:14.882+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-10T21:27:14.888+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:27:14.888+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_02_02_multiple_outputs to None, run_after=None
+[2026-05-10T21:27:14.897+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/02_taskflow_api/02_taskflow_multiple_outputs.py took 0.036 seconds
+[2026-05-10T21:27:45.336+0000] {processor.py:186} INFO - Started process (PID=3825) to work on /opt/airflow/dags/02_taskflow_api/02_taskflow_multiple_outputs.py
+[2026-05-10T21:27:45.337+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/02_taskflow_api/02_taskflow_multiple_outputs.py for tasks to queue
+[2026-05-10T21:27:45.338+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:27:45.338+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/02_taskflow_api/02_taskflow_multiple_outputs.py
+[2026-05-10T21:27:45.343+0000] {processor.py:925} INFO - DAG(s) 'mod_02_02_multiple_outputs' retrieved from /opt/airflow/dags/02_taskflow_api/02_taskflow_multiple_outputs.py
+[2026-05-10T21:27:45.355+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:27:45.355+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-10T21:27:45.362+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:27:45.362+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_02_02_multiple_outputs to None, run_after=None
+[2026-05-10T21:27:45.372+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/02_taskflow_api/02_taskflow_multiple_outputs.py took 0.038 seconds
+[2026-05-10T21:28:15.821+0000] {processor.py:186} INFO - Started process (PID=4028) to work on /opt/airflow/dags/02_taskflow_api/02_taskflow_multiple_outputs.py
+[2026-05-10T21:28:15.821+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/02_taskflow_api/02_taskflow_multiple_outputs.py for tasks to queue
+[2026-05-10T21:28:15.822+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:28:15.822+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/02_taskflow_api/02_taskflow_multiple_outputs.py
+[2026-05-10T21:28:15.830+0000] {processor.py:925} INFO - DAG(s) 'mod_02_02_multiple_outputs' retrieved from /opt/airflow/dags/02_taskflow_api/02_taskflow_multiple_outputs.py
+[2026-05-10T21:28:15.840+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:28:15.840+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-10T21:28:15.845+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:28:15.845+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_02_02_multiple_outputs to None, run_after=None
+[2026-05-10T21:28:15.854+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/02_taskflow_api/02_taskflow_multiple_outputs.py took 0.036 seconds
+[2026-05-10T21:28:46.362+0000] {processor.py:186} INFO - Started process (PID=4231) to work on /opt/airflow/dags/02_taskflow_api/02_taskflow_multiple_outputs.py
+[2026-05-10T21:28:46.363+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/02_taskflow_api/02_taskflow_multiple_outputs.py for tasks to queue
+[2026-05-10T21:28:46.364+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:28:46.364+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/02_taskflow_api/02_taskflow_multiple_outputs.py
+[2026-05-10T21:28:46.369+0000] {processor.py:925} INFO - DAG(s) 'mod_02_02_multiple_outputs' retrieved from /opt/airflow/dags/02_taskflow_api/02_taskflow_multiple_outputs.py
+[2026-05-10T21:28:46.381+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:28:46.381+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-10T21:28:46.386+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:28:46.386+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_02_02_multiple_outputs to None, run_after=None
+[2026-05-10T21:28:46.397+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/02_taskflow_api/02_taskflow_multiple_outputs.py took 0.038 seconds
+[2026-05-10T21:29:16.923+0000] {processor.py:186} INFO - Started process (PID=4434) to work on /opt/airflow/dags/02_taskflow_api/02_taskflow_multiple_outputs.py
+[2026-05-10T21:29:16.923+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/02_taskflow_api/02_taskflow_multiple_outputs.py for tasks to queue
+[2026-05-10T21:29:16.924+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:29:16.924+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/02_taskflow_api/02_taskflow_multiple_outputs.py
+[2026-05-10T21:29:16.930+0000] {processor.py:925} INFO - DAG(s) 'mod_02_02_multiple_outputs' retrieved from /opt/airflow/dags/02_taskflow_api/02_taskflow_multiple_outputs.py
+[2026-05-10T21:29:16.943+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:29:16.943+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-10T21:29:16.948+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:29:16.948+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_02_02_multiple_outputs to None, run_after=None
+[2026-05-10T21:29:16.957+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/02_taskflow_api/02_taskflow_multiple_outputs.py took 0.036 seconds
+[2026-05-10T21:29:47.455+0000] {processor.py:186} INFO - Started process (PID=4635) to work on /opt/airflow/dags/02_taskflow_api/02_taskflow_multiple_outputs.py
+[2026-05-10T21:29:47.456+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/02_taskflow_api/02_taskflow_multiple_outputs.py for tasks to queue
+[2026-05-10T21:29:47.458+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:29:47.457+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/02_taskflow_api/02_taskflow_multiple_outputs.py
+[2026-05-10T21:29:47.466+0000] {processor.py:925} INFO - DAG(s) 'mod_02_02_multiple_outputs' retrieved from /opt/airflow/dags/02_taskflow_api/02_taskflow_multiple_outputs.py
+[2026-05-10T21:29:47.481+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:29:47.481+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-10T21:29:47.488+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:29:47.488+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_02_02_multiple_outputs to None, run_after=None
+[2026-05-10T21:29:47.497+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/02_taskflow_api/02_taskflow_multiple_outputs.py took 0.045 seconds
+[2026-05-10T21:30:17.976+0000] {processor.py:186} INFO - Started process (PID=4840) to work on /opt/airflow/dags/02_taskflow_api/02_taskflow_multiple_outputs.py
+[2026-05-10T21:30:17.976+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/02_taskflow_api/02_taskflow_multiple_outputs.py for tasks to queue
+[2026-05-10T21:30:17.978+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:30:17.978+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/02_taskflow_api/02_taskflow_multiple_outputs.py
+[2026-05-10T21:30:17.983+0000] {processor.py:925} INFO - DAG(s) 'mod_02_02_multiple_outputs' retrieved from /opt/airflow/dags/02_taskflow_api/02_taskflow_multiple_outputs.py
+[2026-05-10T21:30:17.997+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:30:17.997+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-10T21:30:18.007+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:30:18.007+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_02_02_multiple_outputs to None, run_after=None
+[2026-05-10T21:30:18.020+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/02_taskflow_api/02_taskflow_multiple_outputs.py took 0.048 seconds

@@ -1,0 +1,200 @@
+[2026-05-10T21:19:04.946+0000] {processor.py:186} INFO - Started process (PID=253) to work on /opt/airflow/dags/08_datasets/03_dataset_aliases.py
+[2026-05-10T21:19:04.947+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/08_datasets/03_dataset_aliases.py for tasks to queue
+[2026-05-10T21:19:04.949+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:19:04.949+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/08_datasets/03_dataset_aliases.py
+[2026-05-10T21:19:04.965+0000] {processor.py:925} INFO - DAG(s) 'mod_08_03_alias_consumer', 'mod_08_03_alias_producer' retrieved from /opt/airflow/dags/08_datasets/03_dataset_aliases.py
+[2026-05-10T21:19:05.015+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:19:05.015+0000] {override.py:1912} INFO - Created Permission View: can delete on DAG:mod_08_03_alias_consumer
+[2026-05-10T21:19:05.020+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:19:05.020+0000] {override.py:1912} INFO - Created Permission View: can edit on DAG:mod_08_03_alias_consumer
+[2026-05-10T21:19:05.028+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:19:05.028+0000] {override.py:1912} INFO - Created Permission View: can read on DAG:mod_08_03_alias_consumer
+[2026-05-10T21:19:05.029+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:19:05.029+0000] {override.py:1912} INFO - Created Permission View: can delete on DAG Run:mod_08_03_alias_consumer
+[2026-05-10T21:19:05.031+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:19:05.031+0000] {override.py:1912} INFO - Created Permission View: menu access on DAG Run:mod_08_03_alias_consumer
+[2026-05-10T21:19:05.034+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:19:05.034+0000] {override.py:1912} INFO - Created Permission View: can create on DAG Run:mod_08_03_alias_consumer
+[2026-05-10T21:19:05.038+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:19:05.038+0000] {override.py:1912} INFO - Created Permission View: can read on DAG Run:mod_08_03_alias_consumer
+[2026-05-10T21:19:05.048+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:19:05.048+0000] {override.py:1912} INFO - Created Permission View: can delete on DAG:mod_08_03_alias_producer
+[2026-05-10T21:19:05.049+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:19:05.049+0000] {override.py:1912} INFO - Created Permission View: can edit on DAG:mod_08_03_alias_producer
+[2026-05-10T21:19:05.051+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:19:05.051+0000] {override.py:1912} INFO - Created Permission View: can read on DAG:mod_08_03_alias_producer
+[2026-05-10T21:19:05.053+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:19:05.053+0000] {override.py:1912} INFO - Created Permission View: can delete on DAG Run:mod_08_03_alias_producer
+[2026-05-10T21:19:05.056+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:19:05.056+0000] {override.py:1912} INFO - Created Permission View: menu access on DAG Run:mod_08_03_alias_producer
+[2026-05-10T21:19:05.059+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:19:05.059+0000] {override.py:1912} INFO - Created Permission View: can create on DAG Run:mod_08_03_alias_producer
+[2026-05-10T21:19:05.061+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:19:05.061+0000] {override.py:1912} INFO - Created Permission View: can read on DAG Run:mod_08_03_alias_producer
+[2026-05-10T21:19:05.061+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:19:05.061+0000] {dag.py:3239} INFO - Sync 2 DAGs
+[2026-05-10T21:19:05.068+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:19:05.068+0000] {dag.py:3262} INFO - Creating ORM DAG for mod_08_03_alias_producer
+[2026-05-10T21:19:05.069+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:19:05.069+0000] {dag.py:3262} INFO - Creating ORM DAG for mod_08_03_alias_consumer
+[2026-05-10T21:19:05.073+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:19:05.073+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_08_03_alias_consumer to None, run_after=None
+[2026-05-10T21:19:05.074+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:19:05.074+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_08_03_alias_producer to 2026-05-09 00:00:00+00:00, run_after=2026-05-10 00:00:00+00:00
+[2026-05-10T21:19:05.084+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/08_datasets/03_dataset_aliases.py took 0.140 seconds
+[2026-05-10T21:19:35.487+0000] {processor.py:186} INFO - Started process (PID=456) to work on /opt/airflow/dags/08_datasets/03_dataset_aliases.py
+[2026-05-10T21:19:35.488+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/08_datasets/03_dataset_aliases.py for tasks to queue
+[2026-05-10T21:19:35.490+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:19:35.490+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/08_datasets/03_dataset_aliases.py
+[2026-05-10T21:19:35.510+0000] {processor.py:925} INFO - DAG(s) 'mod_08_03_alias_consumer', 'mod_08_03_alias_producer' retrieved from /opt/airflow/dags/08_datasets/03_dataset_aliases.py
+[2026-05-10T21:19:35.518+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:19:35.518+0000] {dag.py:3239} INFO - Sync 2 DAGs
+[2026-05-10T21:19:35.527+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:19:35.527+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_08_03_alias_consumer to None, run_after=None
+[2026-05-10T21:19:35.529+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:19:35.529+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_08_03_alias_producer to 2026-05-09 00:00:00+00:00, run_after=2026-05-10 00:00:00+00:00
+[2026-05-10T21:19:35.536+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/08_datasets/03_dataset_aliases.py took 0.051 seconds
+[2026-05-10T21:20:05.970+0000] {processor.py:186} INFO - Started process (PID=659) to work on /opt/airflow/dags/08_datasets/03_dataset_aliases.py
+[2026-05-10T21:20:05.971+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/08_datasets/03_dataset_aliases.py for tasks to queue
+[2026-05-10T21:20:05.972+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:20:05.972+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/08_datasets/03_dataset_aliases.py
+[2026-05-10T21:20:05.986+0000] {processor.py:925} INFO - DAG(s) 'mod_08_03_alias_producer', 'mod_08_03_alias_consumer' retrieved from /opt/airflow/dags/08_datasets/03_dataset_aliases.py
+[2026-05-10T21:20:05.996+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:20:05.996+0000] {dag.py:3239} INFO - Sync 2 DAGs
+[2026-05-10T21:20:06.004+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:20:06.004+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_08_03_alias_consumer to None, run_after=None
+[2026-05-10T21:20:06.006+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:20:06.006+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_08_03_alias_producer to 2026-05-09 00:00:00+00:00, run_after=2026-05-10 00:00:00+00:00
+[2026-05-10T21:20:06.016+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/08_datasets/03_dataset_aliases.py took 0.049 seconds
+[2026-05-10T21:20:36.492+0000] {processor.py:186} INFO - Started process (PID=862) to work on /opt/airflow/dags/08_datasets/03_dataset_aliases.py
+[2026-05-10T21:20:36.494+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/08_datasets/03_dataset_aliases.py for tasks to queue
+[2026-05-10T21:20:36.495+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:20:36.495+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/08_datasets/03_dataset_aliases.py
+[2026-05-10T21:20:36.513+0000] {processor.py:925} INFO - DAG(s) 'mod_08_03_alias_producer', 'mod_08_03_alias_consumer' retrieved from /opt/airflow/dags/08_datasets/03_dataset_aliases.py
+[2026-05-10T21:20:36.523+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:20:36.523+0000] {dag.py:3239} INFO - Sync 2 DAGs
+[2026-05-10T21:20:36.533+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:20:36.532+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_08_03_alias_consumer to None, run_after=None
+[2026-05-10T21:20:36.535+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:20:36.534+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_08_03_alias_producer to 2026-05-09 00:00:00+00:00, run_after=2026-05-10 00:00:00+00:00
+[2026-05-10T21:20:36.542+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/08_datasets/03_dataset_aliases.py took 0.054 seconds
+[2026-05-10T21:21:07.038+0000] {processor.py:186} INFO - Started process (PID=1065) to work on /opt/airflow/dags/08_datasets/03_dataset_aliases.py
+[2026-05-10T21:21:07.039+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/08_datasets/03_dataset_aliases.py for tasks to queue
+[2026-05-10T21:21:07.040+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:21:07.040+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/08_datasets/03_dataset_aliases.py
+[2026-05-10T21:21:07.055+0000] {processor.py:925} INFO - DAG(s) 'mod_08_03_alias_consumer', 'mod_08_03_alias_producer' retrieved from /opt/airflow/dags/08_datasets/03_dataset_aliases.py
+[2026-05-10T21:21:07.068+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:21:07.068+0000] {dag.py:3239} INFO - Sync 2 DAGs
+[2026-05-10T21:21:07.077+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:21:07.077+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_08_03_alias_consumer to None, run_after=None
+[2026-05-10T21:21:07.079+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:21:07.079+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_08_03_alias_producer to 2026-05-09 00:00:00+00:00, run_after=2026-05-10 00:00:00+00:00
+[2026-05-10T21:21:07.090+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/08_datasets/03_dataset_aliases.py took 0.055 seconds
+[2026-05-10T21:21:37.607+0000] {processor.py:186} INFO - Started process (PID=1268) to work on /opt/airflow/dags/08_datasets/03_dataset_aliases.py
+[2026-05-10T21:21:37.608+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/08_datasets/03_dataset_aliases.py for tasks to queue
+[2026-05-10T21:21:37.609+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:21:37.609+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/08_datasets/03_dataset_aliases.py
+[2026-05-10T21:21:37.625+0000] {processor.py:925} INFO - DAG(s) 'mod_08_03_alias_producer', 'mod_08_03_alias_consumer' retrieved from /opt/airflow/dags/08_datasets/03_dataset_aliases.py
+[2026-05-10T21:21:37.632+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:21:37.632+0000] {dag.py:3239} INFO - Sync 2 DAGs
+[2026-05-10T21:21:37.640+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:21:37.640+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_08_03_alias_consumer to None, run_after=None
+[2026-05-10T21:21:37.642+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:21:37.642+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_08_03_alias_producer to 2026-05-09 00:00:00+00:00, run_after=2026-05-10 00:00:00+00:00
+[2026-05-10T21:21:37.654+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/08_datasets/03_dataset_aliases.py took 0.050 seconds
+[2026-05-10T21:22:08.099+0000] {processor.py:186} INFO - Started process (PID=1471) to work on /opt/airflow/dags/08_datasets/03_dataset_aliases.py
+[2026-05-10T21:22:08.101+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/08_datasets/03_dataset_aliases.py for tasks to queue
+[2026-05-10T21:22:08.101+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:22:08.101+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/08_datasets/03_dataset_aliases.py
+[2026-05-10T21:22:08.118+0000] {processor.py:925} INFO - DAG(s) 'mod_08_03_alias_consumer', 'mod_08_03_alias_producer' retrieved from /opt/airflow/dags/08_datasets/03_dataset_aliases.py
+[2026-05-10T21:22:08.124+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:22:08.124+0000] {dag.py:3239} INFO - Sync 2 DAGs
+[2026-05-10T21:22:08.132+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:22:08.132+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_08_03_alias_consumer to None, run_after=None
+[2026-05-10T21:22:08.134+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:22:08.134+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_08_03_alias_producer to 2026-05-09 00:00:00+00:00, run_after=2026-05-10 00:00:00+00:00
+[2026-05-10T21:22:08.144+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/08_datasets/03_dataset_aliases.py took 0.048 seconds
+[2026-05-10T21:22:38.562+0000] {processor.py:186} INFO - Started process (PID=1675) to work on /opt/airflow/dags/08_datasets/03_dataset_aliases.py
+[2026-05-10T21:22:38.563+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/08_datasets/03_dataset_aliases.py for tasks to queue
+[2026-05-10T21:22:38.564+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:22:38.564+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/08_datasets/03_dataset_aliases.py
+[2026-05-10T21:22:38.582+0000] {processor.py:925} INFO - DAG(s) 'mod_08_03_alias_producer', 'mod_08_03_alias_consumer' retrieved from /opt/airflow/dags/08_datasets/03_dataset_aliases.py
+[2026-05-10T21:22:38.591+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:22:38.591+0000] {dag.py:3239} INFO - Sync 2 DAGs
+[2026-05-10T21:22:38.600+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:22:38.600+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_08_03_alias_consumer to None, run_after=None
+[2026-05-10T21:22:38.603+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:22:38.603+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_08_03_alias_producer to 2026-05-09 00:00:00+00:00, run_after=2026-05-10 00:00:00+00:00
+[2026-05-10T21:22:38.611+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/08_datasets/03_dataset_aliases.py took 0.052 seconds
+[2026-05-10T21:23:09.010+0000] {processor.py:186} INFO - Started process (PID=1877) to work on /opt/airflow/dags/08_datasets/03_dataset_aliases.py
+[2026-05-10T21:23:09.011+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/08_datasets/03_dataset_aliases.py for tasks to queue
+[2026-05-10T21:23:09.012+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:23:09.012+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/08_datasets/03_dataset_aliases.py
+[2026-05-10T21:23:09.026+0000] {processor.py:925} INFO - DAG(s) 'mod_08_03_alias_producer', 'mod_08_03_alias_consumer' retrieved from /opt/airflow/dags/08_datasets/03_dataset_aliases.py
+[2026-05-10T21:23:09.037+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:23:09.037+0000] {dag.py:3239} INFO - Sync 2 DAGs
+[2026-05-10T21:23:09.047+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:23:09.047+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_08_03_alias_consumer to None, run_after=None
+[2026-05-10T21:23:09.051+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:23:09.051+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_08_03_alias_producer to 2026-05-09 00:00:00+00:00, run_after=2026-05-10 00:00:00+00:00
+[2026-05-10T21:23:09.058+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/08_datasets/03_dataset_aliases.py took 0.051 seconds
+[2026-05-10T21:23:39.444+0000] {processor.py:186} INFO - Started process (PID=2080) to work on /opt/airflow/dags/08_datasets/03_dataset_aliases.py
+[2026-05-10T21:23:39.445+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/08_datasets/03_dataset_aliases.py for tasks to queue
+[2026-05-10T21:23:39.447+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:23:39.447+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/08_datasets/03_dataset_aliases.py
+[2026-05-10T21:23:39.462+0000] {processor.py:925} INFO - DAG(s) 'mod_08_03_alias_producer', 'mod_08_03_alias_consumer' retrieved from /opt/airflow/dags/08_datasets/03_dataset_aliases.py
+[2026-05-10T21:23:39.475+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:23:39.475+0000] {dag.py:3239} INFO - Sync 2 DAGs
+[2026-05-10T21:23:39.483+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:23:39.483+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_08_03_alias_consumer to None, run_after=None
+[2026-05-10T21:23:39.485+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:23:39.485+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_08_03_alias_producer to 2026-05-09 00:00:00+00:00, run_after=2026-05-10 00:00:00+00:00
+[2026-05-10T21:23:39.493+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/08_datasets/03_dataset_aliases.py took 0.051 seconds
+[2026-05-10T21:24:10.011+0000] {processor.py:186} INFO - Started process (PID=2297) to work on /opt/airflow/dags/08_datasets/03_dataset_aliases.py
+[2026-05-10T21:24:10.011+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/08_datasets/03_dataset_aliases.py for tasks to queue
+[2026-05-10T21:24:10.013+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:24:10.013+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/08_datasets/03_dataset_aliases.py
+[2026-05-10T21:24:10.030+0000] {processor.py:925} INFO - DAG(s) 'mod_08_03_alias_consumer', 'mod_08_03_alias_producer' retrieved from /opt/airflow/dags/08_datasets/03_dataset_aliases.py
+[2026-05-10T21:24:10.037+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:24:10.037+0000] {dag.py:3239} INFO - Sync 2 DAGs
+[2026-05-10T21:24:10.047+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:24:10.046+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_08_03_alias_consumer to None, run_after=None
+[2026-05-10T21:24:10.051+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:24:10.051+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_08_03_alias_producer to 2026-05-09 00:00:00+00:00, run_after=2026-05-10 00:00:00+00:00
+[2026-05-10T21:24:10.060+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/08_datasets/03_dataset_aliases.py took 0.052 seconds
+[2026-05-10T21:24:40.483+0000] {processor.py:186} INFO - Started process (PID=2500) to work on /opt/airflow/dags/08_datasets/03_dataset_aliases.py
+[2026-05-10T21:24:40.484+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/08_datasets/03_dataset_aliases.py for tasks to queue
+[2026-05-10T21:24:40.486+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:24:40.486+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/08_datasets/03_dataset_aliases.py
+[2026-05-10T21:24:40.505+0000] {processor.py:925} INFO - DAG(s) 'mod_08_03_alias_producer', 'mod_08_03_alias_consumer' retrieved from /opt/airflow/dags/08_datasets/03_dataset_aliases.py
+[2026-05-10T21:24:40.513+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:24:40.513+0000] {dag.py:3239} INFO - Sync 2 DAGs
+[2026-05-10T21:24:40.523+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:24:40.522+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_08_03_alias_consumer to None, run_after=None
+[2026-05-10T21:24:40.524+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:24:40.524+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_08_03_alias_producer to 2026-05-09 00:00:00+00:00, run_after=2026-05-10 00:00:00+00:00
+[2026-05-10T21:24:40.531+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/08_datasets/03_dataset_aliases.py took 0.050 seconds
+[2026-05-10T21:25:10.960+0000] {processor.py:186} INFO - Started process (PID=2703) to work on /opt/airflow/dags/08_datasets/03_dataset_aliases.py
+[2026-05-10T21:25:10.961+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/08_datasets/03_dataset_aliases.py for tasks to queue
+[2026-05-10T21:25:10.962+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:25:10.962+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/08_datasets/03_dataset_aliases.py
+[2026-05-10T21:25:10.977+0000] {processor.py:925} INFO - DAG(s) 'mod_08_03_alias_consumer', 'mod_08_03_alias_producer' retrieved from /opt/airflow/dags/08_datasets/03_dataset_aliases.py
+[2026-05-10T21:25:10.985+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:25:10.985+0000] {dag.py:3239} INFO - Sync 2 DAGs
+[2026-05-10T21:25:10.996+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:25:10.996+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_08_03_alias_consumer to None, run_after=None
+[2026-05-10T21:25:10.998+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:25:10.998+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_08_03_alias_producer to 2026-05-09 00:00:00+00:00, run_after=2026-05-10 00:00:00+00:00
+[2026-05-10T21:25:11.006+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/08_datasets/03_dataset_aliases.py took 0.048 seconds
+[2026-05-10T21:25:41.520+0000] {processor.py:186} INFO - Started process (PID=2906) to work on /opt/airflow/dags/08_datasets/03_dataset_aliases.py
+[2026-05-10T21:25:41.521+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/08_datasets/03_dataset_aliases.py for tasks to queue
+[2026-05-10T21:25:41.522+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:25:41.521+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/08_datasets/03_dataset_aliases.py
+[2026-05-10T21:25:41.537+0000] {processor.py:925} INFO - DAG(s) 'mod_08_03_alias_producer', 'mod_08_03_alias_consumer' retrieved from /opt/airflow/dags/08_datasets/03_dataset_aliases.py
+[2026-05-10T21:25:41.550+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:25:41.550+0000] {dag.py:3239} INFO - Sync 2 DAGs
+[2026-05-10T21:25:41.559+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:25:41.559+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_08_03_alias_consumer to None, run_after=None
+[2026-05-10T21:25:41.560+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:25:41.560+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_08_03_alias_producer to 2026-05-09 00:00:00+00:00, run_after=2026-05-10 00:00:00+00:00
+[2026-05-10T21:25:41.569+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/08_datasets/03_dataset_aliases.py took 0.052 seconds
+[2026-05-10T21:26:12.139+0000] {processor.py:186} INFO - Started process (PID=3111) to work on /opt/airflow/dags/08_datasets/03_dataset_aliases.py
+[2026-05-10T21:26:12.140+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/08_datasets/03_dataset_aliases.py for tasks to queue
+[2026-05-10T21:26:12.141+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:26:12.141+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/08_datasets/03_dataset_aliases.py
+[2026-05-10T21:26:12.158+0000] {processor.py:925} INFO - DAG(s) 'mod_08_03_alias_producer', 'mod_08_03_alias_consumer' retrieved from /opt/airflow/dags/08_datasets/03_dataset_aliases.py
+[2026-05-10T21:26:12.169+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:26:12.168+0000] {dag.py:3239} INFO - Sync 2 DAGs
+[2026-05-10T21:26:12.179+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:26:12.179+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_08_03_alias_consumer to None, run_after=None
+[2026-05-10T21:26:12.181+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:26:12.181+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_08_03_alias_producer to 2026-05-09 00:00:00+00:00, run_after=2026-05-10 00:00:00+00:00
+[2026-05-10T21:26:12.189+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/08_datasets/03_dataset_aliases.py took 0.054 seconds
+[2026-05-10T21:26:42.593+0000] {processor.py:186} INFO - Started process (PID=3312) to work on /opt/airflow/dags/08_datasets/03_dataset_aliases.py
+[2026-05-10T21:26:42.593+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/08_datasets/03_dataset_aliases.py for tasks to queue
+[2026-05-10T21:26:42.595+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:26:42.595+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/08_datasets/03_dataset_aliases.py
+[2026-05-10T21:26:42.611+0000] {processor.py:925} INFO - DAG(s) 'mod_08_03_alias_consumer', 'mod_08_03_alias_producer' retrieved from /opt/airflow/dags/08_datasets/03_dataset_aliases.py
+[2026-05-10T21:26:42.619+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:26:42.619+0000] {dag.py:3239} INFO - Sync 2 DAGs
+[2026-05-10T21:26:42.628+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:26:42.628+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_08_03_alias_consumer to None, run_after=None
+[2026-05-10T21:26:42.629+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:26:42.629+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_08_03_alias_producer to 2026-05-09 00:00:00+00:00, run_after=2026-05-10 00:00:00+00:00
+[2026-05-10T21:26:42.638+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/08_datasets/03_dataset_aliases.py took 0.048 seconds
+[2026-05-10T21:27:13.213+0000] {processor.py:186} INFO - Started process (PID=3515) to work on /opt/airflow/dags/08_datasets/03_dataset_aliases.py
+[2026-05-10T21:27:13.214+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/08_datasets/03_dataset_aliases.py for tasks to queue
+[2026-05-10T21:27:13.216+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:27:13.216+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/08_datasets/03_dataset_aliases.py
+[2026-05-10T21:27:13.232+0000] {processor.py:925} INFO - DAG(s) 'mod_08_03_alias_consumer', 'mod_08_03_alias_producer' retrieved from /opt/airflow/dags/08_datasets/03_dataset_aliases.py
+[2026-05-10T21:27:13.243+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:27:13.243+0000] {dag.py:3239} INFO - Sync 2 DAGs
+[2026-05-10T21:27:13.252+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:27:13.252+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_08_03_alias_consumer to None, run_after=None
+[2026-05-10T21:27:13.254+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:27:13.254+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_08_03_alias_producer to 2026-05-09 00:00:00+00:00, run_after=2026-05-10 00:00:00+00:00
+[2026-05-10T21:27:13.269+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/08_datasets/03_dataset_aliases.py took 0.058 seconds
+[2026-05-10T21:27:43.745+0000] {processor.py:186} INFO - Started process (PID=3718) to work on /opt/airflow/dags/08_datasets/03_dataset_aliases.py
+[2026-05-10T21:27:43.745+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/08_datasets/03_dataset_aliases.py for tasks to queue
+[2026-05-10T21:27:43.747+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:27:43.747+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/08_datasets/03_dataset_aliases.py
+[2026-05-10T21:27:43.764+0000] {processor.py:925} INFO - DAG(s) 'mod_08_03_alias_producer', 'mod_08_03_alias_consumer' retrieved from /opt/airflow/dags/08_datasets/03_dataset_aliases.py
+[2026-05-10T21:27:43.772+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:27:43.772+0000] {dag.py:3239} INFO - Sync 2 DAGs
+[2026-05-10T21:27:43.782+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:27:43.781+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_08_03_alias_consumer to None, run_after=None
+[2026-05-10T21:27:43.783+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:27:43.783+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_08_03_alias_producer to 2026-05-09 00:00:00+00:00, run_after=2026-05-10 00:00:00+00:00
+[2026-05-10T21:27:43.791+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/08_datasets/03_dataset_aliases.py took 0.049 seconds
+[2026-05-10T21:28:14.236+0000] {processor.py:186} INFO - Started process (PID=3923) to work on /opt/airflow/dags/08_datasets/03_dataset_aliases.py
+[2026-05-10T21:28:14.236+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/08_datasets/03_dataset_aliases.py for tasks to queue
+[2026-05-10T21:28:14.237+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:28:14.237+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/08_datasets/03_dataset_aliases.py
+[2026-05-10T21:28:14.253+0000] {processor.py:925} INFO - DAG(s) 'mod_08_03_alias_consumer', 'mod_08_03_alias_producer' retrieved from /opt/airflow/dags/08_datasets/03_dataset_aliases.py
+[2026-05-10T21:28:14.263+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:28:14.262+0000] {dag.py:3239} INFO - Sync 2 DAGs
+[2026-05-10T21:28:14.270+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:28:14.270+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_08_03_alias_consumer to None, run_after=None
+[2026-05-10T21:28:14.272+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:28:14.272+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_08_03_alias_producer to 2026-05-09 00:00:00+00:00, run_after=2026-05-10 00:00:00+00:00
+[2026-05-10T21:28:14.281+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/08_datasets/03_dataset_aliases.py took 0.048 seconds
+[2026-05-10T21:28:44.723+0000] {processor.py:186} INFO - Started process (PID=4124) to work on /opt/airflow/dags/08_datasets/03_dataset_aliases.py
+[2026-05-10T21:28:44.723+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/08_datasets/03_dataset_aliases.py for tasks to queue
+[2026-05-10T21:28:44.724+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:28:44.724+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/08_datasets/03_dataset_aliases.py
+[2026-05-10T21:28:44.745+0000] {processor.py:925} INFO - DAG(s) 'mod_08_03_alias_producer', 'mod_08_03_alias_consumer' retrieved from /opt/airflow/dags/08_datasets/03_dataset_aliases.py
+[2026-05-10T21:28:44.755+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:28:44.755+0000] {dag.py:3239} INFO - Sync 2 DAGs
+[2026-05-10T21:28:44.767+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:28:44.767+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_08_03_alias_consumer to None, run_after=None
+[2026-05-10T21:28:44.770+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:28:44.770+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_08_03_alias_producer to 2026-05-09 00:00:00+00:00, run_after=2026-05-10 00:00:00+00:00
+[2026-05-10T21:28:44.782+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/08_datasets/03_dataset_aliases.py took 0.064 seconds
+[2026-05-10T21:29:15.313+0000] {processor.py:186} INFO - Started process (PID=4327) to work on /opt/airflow/dags/08_datasets/03_dataset_aliases.py
+[2026-05-10T21:29:15.315+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/08_datasets/03_dataset_aliases.py for tasks to queue
+[2026-05-10T21:29:15.316+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:29:15.316+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/08_datasets/03_dataset_aliases.py
+[2026-05-10T21:29:15.334+0000] {processor.py:925} INFO - DAG(s) 'mod_08_03_alias_producer', 'mod_08_03_alias_consumer' retrieved from /opt/airflow/dags/08_datasets/03_dataset_aliases.py
+[2026-05-10T21:29:15.342+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:29:15.341+0000] {dag.py:3239} INFO - Sync 2 DAGs
+[2026-05-10T21:29:15.352+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:29:15.352+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_08_03_alias_consumer to None, run_after=None
+[2026-05-10T21:29:15.356+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:29:15.356+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_08_03_alias_producer to 2026-05-09 00:00:00+00:00, run_after=2026-05-10 00:00:00+00:00
+[2026-05-10T21:29:15.367+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/08_datasets/03_dataset_aliases.py took 0.057 seconds
+[2026-05-10T21:29:45.881+0000] {processor.py:186} INFO - Started process (PID=4530) to work on /opt/airflow/dags/08_datasets/03_dataset_aliases.py
+[2026-05-10T21:29:45.882+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/08_datasets/03_dataset_aliases.py for tasks to queue
+[2026-05-10T21:29:45.883+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:29:45.882+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/08_datasets/03_dataset_aliases.py
+[2026-05-10T21:29:45.899+0000] {processor.py:925} INFO - DAG(s) 'mod_08_03_alias_producer', 'mod_08_03_alias_consumer' retrieved from /opt/airflow/dags/08_datasets/03_dataset_aliases.py
+[2026-05-10T21:29:45.909+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:29:45.909+0000] {dag.py:3239} INFO - Sync 2 DAGs
+[2026-05-10T21:29:45.917+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:29:45.917+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_08_03_alias_consumer to None, run_after=None
+[2026-05-10T21:29:45.919+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:29:45.919+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_08_03_alias_producer to 2026-05-09 00:00:00+00:00, run_after=2026-05-10 00:00:00+00:00
+[2026-05-10T21:29:45.927+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/08_datasets/03_dataset_aliases.py took 0.049 seconds
+[2026-05-10T21:30:16.352+0000] {processor.py:186} INFO - Started process (PID=4733) to work on /opt/airflow/dags/08_datasets/03_dataset_aliases.py
+[2026-05-10T21:30:16.352+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/08_datasets/03_dataset_aliases.py for tasks to queue
+[2026-05-10T21:30:16.354+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:30:16.354+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/08_datasets/03_dataset_aliases.py
+[2026-05-10T21:30:16.368+0000] {processor.py:925} INFO - DAG(s) 'mod_08_03_alias_consumer', 'mod_08_03_alias_producer' retrieved from /opt/airflow/dags/08_datasets/03_dataset_aliases.py
+[2026-05-10T21:30:16.377+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:30:16.377+0000] {dag.py:3239} INFO - Sync 2 DAGs
+[2026-05-10T21:30:16.385+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:30:16.385+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_08_03_alias_consumer to None, run_after=None
+[2026-05-10T21:30:16.386+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:30:16.386+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_08_03_alias_producer to 2026-05-09 00:00:00+00:00, run_after=2026-05-10 00:00:00+00:00
+[2026-05-10T21:30:16.395+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/08_datasets/03_dataset_aliases.py took 0.047 seconds

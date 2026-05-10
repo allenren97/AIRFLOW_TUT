@@ -1,0 +1,169 @@
+[2026-05-10T21:19:05.244+0000] {processor.py:186} INFO - Started process (PID=273) to work on /opt/airflow/dags/07_dynamic_task_mapping/03_partial_and_chained.py
+[2026-05-10T21:19:05.245+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/07_dynamic_task_mapping/03_partial_and_chained.py for tasks to queue
+[2026-05-10T21:19:05.247+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:19:05.247+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/07_dynamic_task_mapping/03_partial_and_chained.py
+[2026-05-10T21:19:05.255+0000] {processor.py:925} INFO - DAG(s) 'mod_07_03_partial_and_chained' retrieved from /opt/airflow/dags/07_dynamic_task_mapping/03_partial_and_chained.py
+[2026-05-10T21:19:05.306+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:19:05.306+0000] {override.py:1912} INFO - Created Permission View: can delete on DAG:mod_07_03_partial_and_chained
+[2026-05-10T21:19:05.312+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:19:05.312+0000] {override.py:1912} INFO - Created Permission View: can edit on DAG:mod_07_03_partial_and_chained
+[2026-05-10T21:19:05.316+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:19:05.316+0000] {override.py:1912} INFO - Created Permission View: can read on DAG:mod_07_03_partial_and_chained
+[2026-05-10T21:19:05.318+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:19:05.318+0000] {override.py:1912} INFO - Created Permission View: can delete on DAG Run:mod_07_03_partial_and_chained
+[2026-05-10T21:19:05.321+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:19:05.320+0000] {override.py:1912} INFO - Created Permission View: menu access on DAG Run:mod_07_03_partial_and_chained
+[2026-05-10T21:19:05.322+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:19:05.322+0000] {override.py:1912} INFO - Created Permission View: can create on DAG Run:mod_07_03_partial_and_chained
+[2026-05-10T21:19:05.330+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:19:05.330+0000] {override.py:1912} INFO - Created Permission View: can read on DAG Run:mod_07_03_partial_and_chained
+[2026-05-10T21:19:05.330+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:19:05.330+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-10T21:19:05.335+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:19:05.335+0000] {dag.py:3262} INFO - Creating ORM DAG for mod_07_03_partial_and_chained
+[2026-05-10T21:19:05.335+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:19:05.335+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_07_03_partial_and_chained to None, run_after=None
+[2026-05-10T21:19:05.343+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/07_dynamic_task_mapping/03_partial_and_chained.py took 0.101 seconds
+[2026-05-10T21:19:35.607+0000] {processor.py:186} INFO - Started process (PID=476) to work on /opt/airflow/dags/07_dynamic_task_mapping/03_partial_and_chained.py
+[2026-05-10T21:19:35.609+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/07_dynamic_task_mapping/03_partial_and_chained.py for tasks to queue
+[2026-05-10T21:19:35.609+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:19:35.609+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/07_dynamic_task_mapping/03_partial_and_chained.py
+[2026-05-10T21:19:35.615+0000] {processor.py:925} INFO - DAG(s) 'mod_07_03_partial_and_chained' retrieved from /opt/airflow/dags/07_dynamic_task_mapping/03_partial_and_chained.py
+[2026-05-10T21:19:35.623+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:19:35.623+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-10T21:19:35.628+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:19:35.628+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_07_03_partial_and_chained to None, run_after=None
+[2026-05-10T21:19:35.637+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/07_dynamic_task_mapping/03_partial_and_chained.py took 0.032 seconds
+[2026-05-10T21:20:06.088+0000] {processor.py:186} INFO - Started process (PID=679) to work on /opt/airflow/dags/07_dynamic_task_mapping/03_partial_and_chained.py
+[2026-05-10T21:20:06.088+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/07_dynamic_task_mapping/03_partial_and_chained.py for tasks to queue
+[2026-05-10T21:20:06.090+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:20:06.090+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/07_dynamic_task_mapping/03_partial_and_chained.py
+[2026-05-10T21:20:06.097+0000] {processor.py:925} INFO - DAG(s) 'mod_07_03_partial_and_chained' retrieved from /opt/airflow/dags/07_dynamic_task_mapping/03_partial_and_chained.py
+[2026-05-10T21:20:06.106+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:20:06.106+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-10T21:20:06.110+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:20:06.110+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_07_03_partial_and_chained to None, run_after=None
+[2026-05-10T21:20:06.121+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/07_dynamic_task_mapping/03_partial_and_chained.py took 0.036 seconds
+[2026-05-10T21:20:36.647+0000] {processor.py:186} INFO - Started process (PID=884) to work on /opt/airflow/dags/07_dynamic_task_mapping/03_partial_and_chained.py
+[2026-05-10T21:20:36.648+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/07_dynamic_task_mapping/03_partial_and_chained.py for tasks to queue
+[2026-05-10T21:20:36.649+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:20:36.649+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/07_dynamic_task_mapping/03_partial_and_chained.py
+[2026-05-10T21:20:36.655+0000] {processor.py:925} INFO - DAG(s) 'mod_07_03_partial_and_chained' retrieved from /opt/airflow/dags/07_dynamic_task_mapping/03_partial_and_chained.py
+[2026-05-10T21:20:36.668+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:20:36.667+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-10T21:20:36.673+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:20:36.673+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_07_03_partial_and_chained to None, run_after=None
+[2026-05-10T21:20:36.680+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/07_dynamic_task_mapping/03_partial_and_chained.py took 0.036 seconds
+[2026-05-10T21:21:07.203+0000] {processor.py:186} INFO - Started process (PID=1087) to work on /opt/airflow/dags/07_dynamic_task_mapping/03_partial_and_chained.py
+[2026-05-10T21:21:07.204+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/07_dynamic_task_mapping/03_partial_and_chained.py for tasks to queue
+[2026-05-10T21:21:07.205+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:21:07.205+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/07_dynamic_task_mapping/03_partial_and_chained.py
+[2026-05-10T21:21:07.211+0000] {processor.py:925} INFO - DAG(s) 'mod_07_03_partial_and_chained' retrieved from /opt/airflow/dags/07_dynamic_task_mapping/03_partial_and_chained.py
+[2026-05-10T21:21:07.223+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:21:07.223+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-10T21:21:07.228+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:21:07.228+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_07_03_partial_and_chained to None, run_after=None
+[2026-05-10T21:21:07.236+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/07_dynamic_task_mapping/03_partial_and_chained.py took 0.036 seconds
+[2026-05-10T21:21:37.727+0000] {processor.py:186} INFO - Started process (PID=1288) to work on /opt/airflow/dags/07_dynamic_task_mapping/03_partial_and_chained.py
+[2026-05-10T21:21:37.728+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/07_dynamic_task_mapping/03_partial_and_chained.py for tasks to queue
+[2026-05-10T21:21:37.730+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:21:37.729+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/07_dynamic_task_mapping/03_partial_and_chained.py
+[2026-05-10T21:21:37.740+0000] {processor.py:925} INFO - DAG(s) 'mod_07_03_partial_and_chained' retrieved from /opt/airflow/dags/07_dynamic_task_mapping/03_partial_and_chained.py
+[2026-05-10T21:21:37.752+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:21:37.752+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-10T21:21:37.759+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:21:37.759+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_07_03_partial_and_chained to None, run_after=None
+[2026-05-10T21:21:37.767+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/07_dynamic_task_mapping/03_partial_and_chained.py took 0.043 seconds
+[2026-05-10T21:22:08.213+0000] {processor.py:186} INFO - Started process (PID=1491) to work on /opt/airflow/dags/07_dynamic_task_mapping/03_partial_and_chained.py
+[2026-05-10T21:22:08.214+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/07_dynamic_task_mapping/03_partial_and_chained.py for tasks to queue
+[2026-05-10T21:22:08.214+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:22:08.214+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/07_dynamic_task_mapping/03_partial_and_chained.py
+[2026-05-10T21:22:08.221+0000] {processor.py:925} INFO - DAG(s) 'mod_07_03_partial_and_chained' retrieved from /opt/airflow/dags/07_dynamic_task_mapping/03_partial_and_chained.py
+[2026-05-10T21:22:08.234+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:22:08.234+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-10T21:22:08.239+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:22:08.239+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_07_03_partial_and_chained to None, run_after=None
+[2026-05-10T21:22:08.250+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/07_dynamic_task_mapping/03_partial_and_chained.py took 0.040 seconds
+[2026-05-10T21:22:38.665+0000] {processor.py:186} INFO - Started process (PID=1694) to work on /opt/airflow/dags/07_dynamic_task_mapping/03_partial_and_chained.py
+[2026-05-10T21:22:38.666+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/07_dynamic_task_mapping/03_partial_and_chained.py for tasks to queue
+[2026-05-10T21:22:38.668+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:22:38.668+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/07_dynamic_task_mapping/03_partial_and_chained.py
+[2026-05-10T21:22:38.674+0000] {processor.py:925} INFO - DAG(s) 'mod_07_03_partial_and_chained' retrieved from /opt/airflow/dags/07_dynamic_task_mapping/03_partial_and_chained.py
+[2026-05-10T21:22:38.685+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:22:38.685+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-10T21:22:38.691+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:22:38.690+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_07_03_partial_and_chained to None, run_after=None
+[2026-05-10T21:22:38.698+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/07_dynamic_task_mapping/03_partial_and_chained.py took 0.035 seconds
+[2026-05-10T21:23:09.128+0000] {processor.py:186} INFO - Started process (PID=1897) to work on /opt/airflow/dags/07_dynamic_task_mapping/03_partial_and_chained.py
+[2026-05-10T21:23:09.129+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/07_dynamic_task_mapping/03_partial_and_chained.py for tasks to queue
+[2026-05-10T21:23:09.130+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:23:09.130+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/07_dynamic_task_mapping/03_partial_and_chained.py
+[2026-05-10T21:23:09.135+0000] {processor.py:925} INFO - DAG(s) 'mod_07_03_partial_and_chained' retrieved from /opt/airflow/dags/07_dynamic_task_mapping/03_partial_and_chained.py
+[2026-05-10T21:23:09.147+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:23:09.147+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-10T21:23:09.153+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:23:09.153+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_07_03_partial_and_chained to None, run_after=None
+[2026-05-10T21:23:09.162+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/07_dynamic_task_mapping/03_partial_and_chained.py took 0.037 seconds
+[2026-05-10T21:23:39.566+0000] {processor.py:186} INFO - Started process (PID=2100) to work on /opt/airflow/dags/07_dynamic_task_mapping/03_partial_and_chained.py
+[2026-05-10T21:23:39.567+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/07_dynamic_task_mapping/03_partial_and_chained.py for tasks to queue
+[2026-05-10T21:23:39.569+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:23:39.568+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/07_dynamic_task_mapping/03_partial_and_chained.py
+[2026-05-10T21:23:39.575+0000] {processor.py:925} INFO - DAG(s) 'mod_07_03_partial_and_chained' retrieved from /opt/airflow/dags/07_dynamic_task_mapping/03_partial_and_chained.py
+[2026-05-10T21:23:39.588+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:23:39.588+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-10T21:23:39.593+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:23:39.593+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_07_03_partial_and_chained to None, run_after=None
+[2026-05-10T21:23:39.602+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/07_dynamic_task_mapping/03_partial_and_chained.py took 0.039 seconds
+[2026-05-10T21:24:10.141+0000] {processor.py:186} INFO - Started process (PID=2317) to work on /opt/airflow/dags/07_dynamic_task_mapping/03_partial_and_chained.py
+[2026-05-10T21:24:10.142+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/07_dynamic_task_mapping/03_partial_and_chained.py for tasks to queue
+[2026-05-10T21:24:10.143+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:24:10.143+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/07_dynamic_task_mapping/03_partial_and_chained.py
+[2026-05-10T21:24:10.150+0000] {processor.py:925} INFO - DAG(s) 'mod_07_03_partial_and_chained' retrieved from /opt/airflow/dags/07_dynamic_task_mapping/03_partial_and_chained.py
+[2026-05-10T21:24:10.162+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:24:10.162+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-10T21:24:10.167+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:24:10.167+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_07_03_partial_and_chained to None, run_after=None
+[2026-05-10T21:24:10.179+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/07_dynamic_task_mapping/03_partial_and_chained.py took 0.041 seconds
+[2026-05-10T21:24:40.606+0000] {processor.py:186} INFO - Started process (PID=2520) to work on /opt/airflow/dags/07_dynamic_task_mapping/03_partial_and_chained.py
+[2026-05-10T21:24:40.607+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/07_dynamic_task_mapping/03_partial_and_chained.py for tasks to queue
+[2026-05-10T21:24:40.608+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:24:40.608+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/07_dynamic_task_mapping/03_partial_and_chained.py
+[2026-05-10T21:24:40.612+0000] {processor.py:925} INFO - DAG(s) 'mod_07_03_partial_and_chained' retrieved from /opt/airflow/dags/07_dynamic_task_mapping/03_partial_and_chained.py
+[2026-05-10T21:24:40.622+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:24:40.622+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-10T21:24:40.626+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:24:40.626+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_07_03_partial_and_chained to None, run_after=None
+[2026-05-10T21:24:40.637+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/07_dynamic_task_mapping/03_partial_and_chained.py took 0.033 seconds
+[2026-05-10T21:25:11.112+0000] {processor.py:186} INFO - Started process (PID=2725) to work on /opt/airflow/dags/07_dynamic_task_mapping/03_partial_and_chained.py
+[2026-05-10T21:25:11.113+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/07_dynamic_task_mapping/03_partial_and_chained.py for tasks to queue
+[2026-05-10T21:25:11.114+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:25:11.114+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/07_dynamic_task_mapping/03_partial_and_chained.py
+[2026-05-10T21:25:11.119+0000] {processor.py:925} INFO - DAG(s) 'mod_07_03_partial_and_chained' retrieved from /opt/airflow/dags/07_dynamic_task_mapping/03_partial_and_chained.py
+[2026-05-10T21:25:11.132+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:25:11.132+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-10T21:25:11.137+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:25:11.137+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_07_03_partial_and_chained to None, run_after=None
+[2026-05-10T21:25:11.146+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/07_dynamic_task_mapping/03_partial_and_chained.py took 0.036 seconds
+[2026-05-10T21:25:41.673+0000] {processor.py:186} INFO - Started process (PID=2928) to work on /opt/airflow/dags/07_dynamic_task_mapping/03_partial_and_chained.py
+[2026-05-10T21:25:41.673+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/07_dynamic_task_mapping/03_partial_and_chained.py for tasks to queue
+[2026-05-10T21:25:41.674+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:25:41.674+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/07_dynamic_task_mapping/03_partial_and_chained.py
+[2026-05-10T21:25:41.680+0000] {processor.py:925} INFO - DAG(s) 'mod_07_03_partial_and_chained' retrieved from /opt/airflow/dags/07_dynamic_task_mapping/03_partial_and_chained.py
+[2026-05-10T21:25:41.692+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:25:41.692+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-10T21:25:41.699+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:25:41.699+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_07_03_partial_and_chained to None, run_after=None
+[2026-05-10T21:25:41.708+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/07_dynamic_task_mapping/03_partial_and_chained.py took 0.037 seconds
+[2026-05-10T21:26:12.258+0000] {processor.py:186} INFO - Started process (PID=3131) to work on /opt/airflow/dags/07_dynamic_task_mapping/03_partial_and_chained.py
+[2026-05-10T21:26:12.258+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/07_dynamic_task_mapping/03_partial_and_chained.py for tasks to queue
+[2026-05-10T21:26:12.259+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:26:12.259+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/07_dynamic_task_mapping/03_partial_and_chained.py
+[2026-05-10T21:26:12.264+0000] {processor.py:925} INFO - DAG(s) 'mod_07_03_partial_and_chained' retrieved from /opt/airflow/dags/07_dynamic_task_mapping/03_partial_and_chained.py
+[2026-05-10T21:26:12.277+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:26:12.276+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-10T21:26:12.283+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:26:12.283+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_07_03_partial_and_chained to None, run_after=None
+[2026-05-10T21:26:12.291+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/07_dynamic_task_mapping/03_partial_and_chained.py took 0.036 seconds
+[2026-05-10T21:26:42.746+0000] {processor.py:186} INFO - Started process (PID=3334) to work on /opt/airflow/dags/07_dynamic_task_mapping/03_partial_and_chained.py
+[2026-05-10T21:26:42.746+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/07_dynamic_task_mapping/03_partial_and_chained.py for tasks to queue
+[2026-05-10T21:26:42.747+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:26:42.747+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/07_dynamic_task_mapping/03_partial_and_chained.py
+[2026-05-10T21:26:42.756+0000] {processor.py:925} INFO - DAG(s) 'mod_07_03_partial_and_chained' retrieved from /opt/airflow/dags/07_dynamic_task_mapping/03_partial_and_chained.py
+[2026-05-10T21:26:42.766+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:26:42.766+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-10T21:26:42.774+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:26:42.774+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_07_03_partial_and_chained to None, run_after=None
+[2026-05-10T21:26:42.784+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/07_dynamic_task_mapping/03_partial_and_chained.py took 0.041 seconds
+[2026-05-10T21:27:13.343+0000] {processor.py:186} INFO - Started process (PID=3537) to work on /opt/airflow/dags/07_dynamic_task_mapping/03_partial_and_chained.py
+[2026-05-10T21:27:13.344+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/07_dynamic_task_mapping/03_partial_and_chained.py for tasks to queue
+[2026-05-10T21:27:13.345+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:27:13.345+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/07_dynamic_task_mapping/03_partial_and_chained.py
+[2026-05-10T21:27:13.350+0000] {processor.py:925} INFO - DAG(s) 'mod_07_03_partial_and_chained' retrieved from /opt/airflow/dags/07_dynamic_task_mapping/03_partial_and_chained.py
+[2026-05-10T21:27:13.358+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:27:13.357+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-10T21:27:13.362+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:27:13.362+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_07_03_partial_and_chained to None, run_after=None
+[2026-05-10T21:27:13.368+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/07_dynamic_task_mapping/03_partial_and_chained.py took 0.027 seconds
+[2026-05-10T21:27:43.863+0000] {processor.py:186} INFO - Started process (PID=3740) to work on /opt/airflow/dags/07_dynamic_task_mapping/03_partial_and_chained.py
+[2026-05-10T21:27:43.864+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/07_dynamic_task_mapping/03_partial_and_chained.py for tasks to queue
+[2026-05-10T21:27:43.865+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:27:43.865+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/07_dynamic_task_mapping/03_partial_and_chained.py
+[2026-05-10T21:27:43.869+0000] {processor.py:925} INFO - DAG(s) 'mod_07_03_partial_and_chained' retrieved from /opt/airflow/dags/07_dynamic_task_mapping/03_partial_and_chained.py
+[2026-05-10T21:27:43.877+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:27:43.877+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-10T21:27:43.881+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:27:43.881+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_07_03_partial_and_chained to None, run_after=None
+[2026-05-10T21:27:43.887+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/07_dynamic_task_mapping/03_partial_and_chained.py took 0.026 seconds
+[2026-05-10T21:28:14.350+0000] {processor.py:186} INFO - Started process (PID=3943) to work on /opt/airflow/dags/07_dynamic_task_mapping/03_partial_and_chained.py
+[2026-05-10T21:28:14.350+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/07_dynamic_task_mapping/03_partial_and_chained.py for tasks to queue
+[2026-05-10T21:28:14.351+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:28:14.351+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/07_dynamic_task_mapping/03_partial_and_chained.py
+[2026-05-10T21:28:14.355+0000] {processor.py:925} INFO - DAG(s) 'mod_07_03_partial_and_chained' retrieved from /opt/airflow/dags/07_dynamic_task_mapping/03_partial_and_chained.py
+[2026-05-10T21:28:14.363+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:28:14.363+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-10T21:28:14.367+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:28:14.367+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_07_03_partial_and_chained to None, run_after=None
+[2026-05-10T21:28:14.373+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/07_dynamic_task_mapping/03_partial_and_chained.py took 0.025 seconds
+[2026-05-10T21:28:44.891+0000] {processor.py:186} INFO - Started process (PID=4144) to work on /opt/airflow/dags/07_dynamic_task_mapping/03_partial_and_chained.py
+[2026-05-10T21:28:44.891+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/07_dynamic_task_mapping/03_partial_and_chained.py for tasks to queue
+[2026-05-10T21:28:44.892+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:28:44.892+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/07_dynamic_task_mapping/03_partial_and_chained.py
+[2026-05-10T21:28:44.897+0000] {processor.py:925} INFO - DAG(s) 'mod_07_03_partial_and_chained' retrieved from /opt/airflow/dags/07_dynamic_task_mapping/03_partial_and_chained.py
+[2026-05-10T21:28:44.910+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:28:44.909+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-10T21:28:44.918+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:28:44.918+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_07_03_partial_and_chained to None, run_after=None
+[2026-05-10T21:28:44.927+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/07_dynamic_task_mapping/03_partial_and_chained.py took 0.039 seconds
+[2026-05-10T21:29:15.441+0000] {processor.py:186} INFO - Started process (PID=4347) to work on /opt/airflow/dags/07_dynamic_task_mapping/03_partial_and_chained.py
+[2026-05-10T21:29:15.441+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/07_dynamic_task_mapping/03_partial_and_chained.py for tasks to queue
+[2026-05-10T21:29:15.443+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:29:15.443+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/07_dynamic_task_mapping/03_partial_and_chained.py
+[2026-05-10T21:29:15.448+0000] {processor.py:925} INFO - DAG(s) 'mod_07_03_partial_and_chained' retrieved from /opt/airflow/dags/07_dynamic_task_mapping/03_partial_and_chained.py
+[2026-05-10T21:29:15.459+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:29:15.459+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-10T21:29:15.464+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:29:15.464+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_07_03_partial_and_chained to None, run_after=None
+[2026-05-10T21:29:15.477+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/07_dynamic_task_mapping/03_partial_and_chained.py took 0.039 seconds
+[2026-05-10T21:29:46.033+0000] {processor.py:186} INFO - Started process (PID=4552) to work on /opt/airflow/dags/07_dynamic_task_mapping/03_partial_and_chained.py
+[2026-05-10T21:29:46.034+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/07_dynamic_task_mapping/03_partial_and_chained.py for tasks to queue
+[2026-05-10T21:29:46.035+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:29:46.035+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/07_dynamic_task_mapping/03_partial_and_chained.py
+[2026-05-10T21:29:46.044+0000] {processor.py:925} INFO - DAG(s) 'mod_07_03_partial_and_chained' retrieved from /opt/airflow/dags/07_dynamic_task_mapping/03_partial_and_chained.py
+[2026-05-10T21:29:46.053+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:29:46.053+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-10T21:29:46.058+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:29:46.058+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_07_03_partial_and_chained to None, run_after=None
+[2026-05-10T21:29:46.067+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/07_dynamic_task_mapping/03_partial_and_chained.py took 0.036 seconds
+[2026-05-10T21:30:16.467+0000] {processor.py:186} INFO - Started process (PID=4753) to work on /opt/airflow/dags/07_dynamic_task_mapping/03_partial_and_chained.py
+[2026-05-10T21:30:16.468+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/07_dynamic_task_mapping/03_partial_and_chained.py for tasks to queue
+[2026-05-10T21:30:16.469+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:30:16.469+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/07_dynamic_task_mapping/03_partial_and_chained.py
+[2026-05-10T21:30:16.474+0000] {processor.py:925} INFO - DAG(s) 'mod_07_03_partial_and_chained' retrieved from /opt/airflow/dags/07_dynamic_task_mapping/03_partial_and_chained.py
+[2026-05-10T21:30:16.485+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:30:16.485+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-10T21:30:16.490+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:30:16.490+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_07_03_partial_and_chained to None, run_after=None
+[2026-05-10T21:30:16.497+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/07_dynamic_task_mapping/03_partial_and_chained.py took 0.033 seconds

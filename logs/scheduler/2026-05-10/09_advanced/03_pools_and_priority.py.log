@@ -1,0 +1,169 @@
+[2026-05-10T21:19:04.641+0000] {processor.py:186} INFO - Started process (PID=233) to work on /opt/airflow/dags/09_advanced/03_pools_and_priority.py
+[2026-05-10T21:19:04.642+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/09_advanced/03_pools_and_priority.py for tasks to queue
+[2026-05-10T21:19:04.644+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:19:04.643+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/09_advanced/03_pools_and_priority.py
+[2026-05-10T21:19:04.654+0000] {processor.py:925} INFO - DAG(s) 'mod_09_03_pools_and_priority' retrieved from /opt/airflow/dags/09_advanced/03_pools_and_priority.py
+[2026-05-10T21:19:04.705+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:19:04.704+0000] {override.py:1912} INFO - Created Permission View: can delete on DAG:mod_09_03_pools_and_priority
+[2026-05-10T21:19:04.710+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:19:04.709+0000] {override.py:1912} INFO - Created Permission View: can edit on DAG:mod_09_03_pools_and_priority
+[2026-05-10T21:19:04.712+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:19:04.712+0000] {override.py:1912} INFO - Created Permission View: can read on DAG:mod_09_03_pools_and_priority
+[2026-05-10T21:19:04.714+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:19:04.714+0000] {override.py:1912} INFO - Created Permission View: can delete on DAG Run:mod_09_03_pools_and_priority
+[2026-05-10T21:19:04.717+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:19:04.716+0000] {override.py:1912} INFO - Created Permission View: menu access on DAG Run:mod_09_03_pools_and_priority
+[2026-05-10T21:19:04.719+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:19:04.719+0000] {override.py:1912} INFO - Created Permission View: can create on DAG Run:mod_09_03_pools_and_priority
+[2026-05-10T21:19:04.721+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:19:04.721+0000] {override.py:1912} INFO - Created Permission View: can read on DAG Run:mod_09_03_pools_and_priority
+[2026-05-10T21:19:04.721+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:19:04.721+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-10T21:19:04.729+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:19:04.729+0000] {dag.py:3262} INFO - Creating ORM DAG for mod_09_03_pools_and_priority
+[2026-05-10T21:19:04.729+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:19:04.729+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_09_03_pools_and_priority to None, run_after=None
+[2026-05-10T21:19:04.741+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/09_advanced/03_pools_and_priority.py took 0.102 seconds
+[2026-05-10T21:19:35.358+0000] {processor.py:186} INFO - Started process (PID=436) to work on /opt/airflow/dags/09_advanced/03_pools_and_priority.py
+[2026-05-10T21:19:35.359+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/09_advanced/03_pools_and_priority.py for tasks to queue
+[2026-05-10T21:19:35.359+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:19:35.359+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/09_advanced/03_pools_and_priority.py
+[2026-05-10T21:19:35.365+0000] {processor.py:925} INFO - DAG(s) 'mod_09_03_pools_and_priority' retrieved from /opt/airflow/dags/09_advanced/03_pools_and_priority.py
+[2026-05-10T21:19:35.378+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:19:35.378+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-10T21:19:35.384+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:19:35.383+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_09_03_pools_and_priority to None, run_after=None
+[2026-05-10T21:19:35.393+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/09_advanced/03_pools_and_priority.py took 0.037 seconds
+[2026-05-10T21:20:05.865+0000] {processor.py:186} INFO - Started process (PID=639) to work on /opt/airflow/dags/09_advanced/03_pools_and_priority.py
+[2026-05-10T21:20:05.865+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/09_advanced/03_pools_and_priority.py for tasks to queue
+[2026-05-10T21:20:05.866+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:20:05.866+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/09_advanced/03_pools_and_priority.py
+[2026-05-10T21:20:05.871+0000] {processor.py:925} INFO - DAG(s) 'mod_09_03_pools_and_priority' retrieved from /opt/airflow/dags/09_advanced/03_pools_and_priority.py
+[2026-05-10T21:20:05.881+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:20:05.881+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-10T21:20:05.889+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:20:05.888+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_09_03_pools_and_priority to None, run_after=None
+[2026-05-10T21:20:05.900+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/09_advanced/03_pools_and_priority.py took 0.038 seconds
+[2026-05-10T21:20:36.359+0000] {processor.py:186} INFO - Started process (PID=842) to work on /opt/airflow/dags/09_advanced/03_pools_and_priority.py
+[2026-05-10T21:20:36.360+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/09_advanced/03_pools_and_priority.py for tasks to queue
+[2026-05-10T21:20:36.361+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:20:36.361+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/09_advanced/03_pools_and_priority.py
+[2026-05-10T21:20:36.366+0000] {processor.py:925} INFO - DAG(s) 'mod_09_03_pools_and_priority' retrieved from /opt/airflow/dags/09_advanced/03_pools_and_priority.py
+[2026-05-10T21:20:36.378+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:20:36.378+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-10T21:20:36.388+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:20:36.388+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_09_03_pools_and_priority to None, run_after=None
+[2026-05-10T21:20:36.401+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/09_advanced/03_pools_and_priority.py took 0.046 seconds
+[2026-05-10T21:21:06.945+0000] {processor.py:186} INFO - Started process (PID=1047) to work on /opt/airflow/dags/09_advanced/03_pools_and_priority.py
+[2026-05-10T21:21:06.946+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/09_advanced/03_pools_and_priority.py for tasks to queue
+[2026-05-10T21:21:06.947+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:21:06.946+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/09_advanced/03_pools_and_priority.py
+[2026-05-10T21:21:06.951+0000] {processor.py:925} INFO - DAG(s) 'mod_09_03_pools_and_priority' retrieved from /opt/airflow/dags/09_advanced/03_pools_and_priority.py
+[2026-05-10T21:21:06.959+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:21:06.959+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-10T21:21:06.964+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:21:06.964+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_09_03_pools_and_priority to None, run_after=None
+[2026-05-10T21:21:06.970+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/09_advanced/03_pools_and_priority.py took 0.027 seconds
+[2026-05-10T21:21:37.475+0000] {processor.py:186} INFO - Started process (PID=1248) to work on /opt/airflow/dags/09_advanced/03_pools_and_priority.py
+[2026-05-10T21:21:37.476+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/09_advanced/03_pools_and_priority.py for tasks to queue
+[2026-05-10T21:21:37.477+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:21:37.476+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/09_advanced/03_pools_and_priority.py
+[2026-05-10T21:21:37.481+0000] {processor.py:925} INFO - DAG(s) 'mod_09_03_pools_and_priority' retrieved from /opt/airflow/dags/09_advanced/03_pools_and_priority.py
+[2026-05-10T21:21:37.489+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:21:37.489+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-10T21:21:37.494+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:21:37.494+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_09_03_pools_and_priority to None, run_after=None
+[2026-05-10T21:21:37.501+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/09_advanced/03_pools_and_priority.py took 0.029 seconds
+[2026-05-10T21:22:07.996+0000] {processor.py:186} INFO - Started process (PID=1451) to work on /opt/airflow/dags/09_advanced/03_pools_and_priority.py
+[2026-05-10T21:22:07.998+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/09_advanced/03_pools_and_priority.py for tasks to queue
+[2026-05-10T21:22:07.999+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:22:07.998+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/09_advanced/03_pools_and_priority.py
+[2026-05-10T21:22:08.004+0000] {processor.py:925} INFO - DAG(s) 'mod_09_03_pools_and_priority' retrieved from /opt/airflow/dags/09_advanced/03_pools_and_priority.py
+[2026-05-10T21:22:08.014+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:22:08.014+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-10T21:22:08.020+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:22:08.020+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_09_03_pools_and_priority to None, run_after=None
+[2026-05-10T21:22:08.030+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/09_advanced/03_pools_and_priority.py took 0.036 seconds
+[2026-05-10T21:22:38.450+0000] {processor.py:186} INFO - Started process (PID=1654) to work on /opt/airflow/dags/09_advanced/03_pools_and_priority.py
+[2026-05-10T21:22:38.450+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/09_advanced/03_pools_and_priority.py for tasks to queue
+[2026-05-10T21:22:38.452+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:22:38.452+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/09_advanced/03_pools_and_priority.py
+[2026-05-10T21:22:38.460+0000] {processor.py:925} INFO - DAG(s) 'mod_09_03_pools_and_priority' retrieved from /opt/airflow/dags/09_advanced/03_pools_and_priority.py
+[2026-05-10T21:22:38.469+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:22:38.469+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-10T21:22:38.475+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:22:38.475+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_09_03_pools_and_priority to None, run_after=None
+[2026-05-10T21:22:38.486+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/09_advanced/03_pools_and_priority.py took 0.039 seconds
+[2026-05-10T21:23:08.903+0000] {processor.py:186} INFO - Started process (PID=1857) to work on /opt/airflow/dags/09_advanced/03_pools_and_priority.py
+[2026-05-10T21:23:08.903+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/09_advanced/03_pools_and_priority.py for tasks to queue
+[2026-05-10T21:23:08.904+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:23:08.904+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/09_advanced/03_pools_and_priority.py
+[2026-05-10T21:23:08.913+0000] {processor.py:925} INFO - DAG(s) 'mod_09_03_pools_and_priority' retrieved from /opt/airflow/dags/09_advanced/03_pools_and_priority.py
+[2026-05-10T21:23:08.923+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:23:08.923+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-10T21:23:08.930+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:23:08.930+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_09_03_pools_and_priority to None, run_after=None
+[2026-05-10T21:23:08.940+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/09_advanced/03_pools_and_priority.py took 0.040 seconds
+[2026-05-10T21:23:39.348+0000] {processor.py:186} INFO - Started process (PID=2060) to work on /opt/airflow/dags/09_advanced/03_pools_and_priority.py
+[2026-05-10T21:23:39.349+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/09_advanced/03_pools_and_priority.py for tasks to queue
+[2026-05-10T21:23:39.350+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:23:39.349+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/09_advanced/03_pools_and_priority.py
+[2026-05-10T21:23:39.355+0000] {processor.py:925} INFO - DAG(s) 'mod_09_03_pools_and_priority' retrieved from /opt/airflow/dags/09_advanced/03_pools_and_priority.py
+[2026-05-10T21:23:39.365+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:23:39.365+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-10T21:23:39.376+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:23:39.376+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_09_03_pools_and_priority to None, run_after=None
+[2026-05-10T21:23:39.383+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/09_advanced/03_pools_and_priority.py took 0.038 seconds
+[2026-05-10T21:24:09.907+0000] {processor.py:186} INFO - Started process (PID=2277) to work on /opt/airflow/dags/09_advanced/03_pools_and_priority.py
+[2026-05-10T21:24:09.908+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/09_advanced/03_pools_and_priority.py for tasks to queue
+[2026-05-10T21:24:09.909+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:24:09.909+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/09_advanced/03_pools_and_priority.py
+[2026-05-10T21:24:09.913+0000] {processor.py:925} INFO - DAG(s) 'mod_09_03_pools_and_priority' retrieved from /opt/airflow/dags/09_advanced/03_pools_and_priority.py
+[2026-05-10T21:24:09.924+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:24:09.924+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-10T21:24:09.929+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:24:09.929+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_09_03_pools_and_priority to None, run_after=None
+[2026-05-10T21:24:09.937+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/09_advanced/03_pools_and_priority.py took 0.033 seconds
+[2026-05-10T21:24:40.373+0000] {processor.py:186} INFO - Started process (PID=2480) to work on /opt/airflow/dags/09_advanced/03_pools_and_priority.py
+[2026-05-10T21:24:40.374+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/09_advanced/03_pools_and_priority.py for tasks to queue
+[2026-05-10T21:24:40.375+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:24:40.375+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/09_advanced/03_pools_and_priority.py
+[2026-05-10T21:24:40.379+0000] {processor.py:925} INFO - DAG(s) 'mod_09_03_pools_and_priority' retrieved from /opt/airflow/dags/09_advanced/03_pools_and_priority.py
+[2026-05-10T21:24:40.390+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:24:40.390+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-10T21:24:40.395+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:24:40.395+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_09_03_pools_and_priority to None, run_after=None
+[2026-05-10T21:24:40.405+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/09_advanced/03_pools_and_priority.py took 0.034 seconds
+[2026-05-10T21:25:10.840+0000] {processor.py:186} INFO - Started process (PID=2683) to work on /opt/airflow/dags/09_advanced/03_pools_and_priority.py
+[2026-05-10T21:25:10.841+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/09_advanced/03_pools_and_priority.py for tasks to queue
+[2026-05-10T21:25:10.843+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:25:10.843+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/09_advanced/03_pools_and_priority.py
+[2026-05-10T21:25:10.851+0000] {processor.py:925} INFO - DAG(s) 'mod_09_03_pools_and_priority' retrieved from /opt/airflow/dags/09_advanced/03_pools_and_priority.py
+[2026-05-10T21:25:10.864+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:25:10.863+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-10T21:25:10.869+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:25:10.869+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_09_03_pools_and_priority to None, run_after=None
+[2026-05-10T21:25:10.879+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/09_advanced/03_pools_and_priority.py took 0.041 seconds
+[2026-05-10T21:25:41.416+0000] {processor.py:186} INFO - Started process (PID=2886) to work on /opt/airflow/dags/09_advanced/03_pools_and_priority.py
+[2026-05-10T21:25:41.417+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/09_advanced/03_pools_and_priority.py for tasks to queue
+[2026-05-10T21:25:41.420+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:25:41.420+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/09_advanced/03_pools_and_priority.py
+[2026-05-10T21:25:41.427+0000] {processor.py:925} INFO - DAG(s) 'mod_09_03_pools_and_priority' retrieved from /opt/airflow/dags/09_advanced/03_pools_and_priority.py
+[2026-05-10T21:25:41.436+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:25:41.436+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-10T21:25:41.441+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:25:41.441+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_09_03_pools_and_priority to None, run_after=None
+[2026-05-10T21:25:41.451+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/09_advanced/03_pools_and_priority.py took 0.038 seconds
+[2026-05-10T21:26:11.991+0000] {processor.py:186} INFO - Started process (PID=3089) to work on /opt/airflow/dags/09_advanced/03_pools_and_priority.py
+[2026-05-10T21:26:11.992+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/09_advanced/03_pools_and_priority.py for tasks to queue
+[2026-05-10T21:26:11.994+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:26:11.993+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/09_advanced/03_pools_and_priority.py
+[2026-05-10T21:26:11.998+0000] {processor.py:925} INFO - DAG(s) 'mod_09_03_pools_and_priority' retrieved from /opt/airflow/dags/09_advanced/03_pools_and_priority.py
+[2026-05-10T21:26:12.012+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:26:12.012+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-10T21:26:12.018+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:26:12.018+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_09_03_pools_and_priority to None, run_after=None
+[2026-05-10T21:26:12.031+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/09_advanced/03_pools_and_priority.py took 0.044 seconds
+[2026-05-10T21:26:42.490+0000] {processor.py:186} INFO - Started process (PID=3292) to work on /opt/airflow/dags/09_advanced/03_pools_and_priority.py
+[2026-05-10T21:26:42.492+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/09_advanced/03_pools_and_priority.py for tasks to queue
+[2026-05-10T21:26:42.495+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:26:42.495+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/09_advanced/03_pools_and_priority.py
+[2026-05-10T21:26:42.501+0000] {processor.py:925} INFO - DAG(s) 'mod_09_03_pools_and_priority' retrieved from /opt/airflow/dags/09_advanced/03_pools_and_priority.py
+[2026-05-10T21:26:42.512+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:26:42.512+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-10T21:26:42.517+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:26:42.517+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_09_03_pools_and_priority to None, run_after=None
+[2026-05-10T21:26:42.526+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/09_advanced/03_pools_and_priority.py took 0.039 seconds
+[2026-05-10T21:27:13.100+0000] {processor.py:186} INFO - Started process (PID=3497) to work on /opt/airflow/dags/09_advanced/03_pools_and_priority.py
+[2026-05-10T21:27:13.101+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/09_advanced/03_pools_and_priority.py for tasks to queue
+[2026-05-10T21:27:13.102+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:27:13.102+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/09_advanced/03_pools_and_priority.py
+[2026-05-10T21:27:13.107+0000] {processor.py:925} INFO - DAG(s) 'mod_09_03_pools_and_priority' retrieved from /opt/airflow/dags/09_advanced/03_pools_and_priority.py
+[2026-05-10T21:27:13.120+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:27:13.120+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-10T21:27:13.126+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:27:13.126+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_09_03_pools_and_priority to None, run_after=None
+[2026-05-10T21:27:13.137+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/09_advanced/03_pools_and_priority.py took 0.039 seconds
+[2026-05-10T21:27:43.635+0000] {processor.py:186} INFO - Started process (PID=3698) to work on /opt/airflow/dags/09_advanced/03_pools_and_priority.py
+[2026-05-10T21:27:43.636+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/09_advanced/03_pools_and_priority.py for tasks to queue
+[2026-05-10T21:27:43.638+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:27:43.638+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/09_advanced/03_pools_and_priority.py
+[2026-05-10T21:27:43.643+0000] {processor.py:925} INFO - DAG(s) 'mod_09_03_pools_and_priority' retrieved from /opt/airflow/dags/09_advanced/03_pools_and_priority.py
+[2026-05-10T21:27:43.656+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:27:43.656+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-10T21:27:43.662+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:27:43.662+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_09_03_pools_and_priority to None, run_after=None
+[2026-05-10T21:27:43.671+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/09_advanced/03_pools_and_priority.py took 0.038 seconds
+[2026-05-10T21:28:14.111+0000] {processor.py:186} INFO - Started process (PID=3903) to work on /opt/airflow/dags/09_advanced/03_pools_and_priority.py
+[2026-05-10T21:28:14.111+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/09_advanced/03_pools_and_priority.py for tasks to queue
+[2026-05-10T21:28:14.112+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:28:14.112+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/09_advanced/03_pools_and_priority.py
+[2026-05-10T21:28:14.116+0000] {processor.py:925} INFO - DAG(s) 'mod_09_03_pools_and_priority' retrieved from /opt/airflow/dags/09_advanced/03_pools_and_priority.py
+[2026-05-10T21:28:14.123+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:28:14.123+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-10T21:28:14.128+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:28:14.128+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_09_03_pools_and_priority to None, run_after=None
+[2026-05-10T21:28:14.133+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/09_advanced/03_pools_and_priority.py took 0.025 seconds
+[2026-05-10T21:28:44.604+0000] {processor.py:186} INFO - Started process (PID=4104) to work on /opt/airflow/dags/09_advanced/03_pools_and_priority.py
+[2026-05-10T21:28:44.604+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/09_advanced/03_pools_and_priority.py for tasks to queue
+[2026-05-10T21:28:44.605+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:28:44.605+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/09_advanced/03_pools_and_priority.py
+[2026-05-10T21:28:44.610+0000] {processor.py:925} INFO - DAG(s) 'mod_09_03_pools_and_priority' retrieved from /opt/airflow/dags/09_advanced/03_pools_and_priority.py
+[2026-05-10T21:28:44.619+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:28:44.619+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-10T21:28:44.625+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:28:44.625+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_09_03_pools_and_priority to None, run_after=None
+[2026-05-10T21:28:44.637+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/09_advanced/03_pools_and_priority.py took 0.039 seconds
+[2026-05-10T21:29:15.208+0000] {processor.py:186} INFO - Started process (PID=4307) to work on /opt/airflow/dags/09_advanced/03_pools_and_priority.py
+[2026-05-10T21:29:15.208+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/09_advanced/03_pools_and_priority.py for tasks to queue
+[2026-05-10T21:29:15.210+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:29:15.210+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/09_advanced/03_pools_and_priority.py
+[2026-05-10T21:29:15.218+0000] {processor.py:925} INFO - DAG(s) 'mod_09_03_pools_and_priority' retrieved from /opt/airflow/dags/09_advanced/03_pools_and_priority.py
+[2026-05-10T21:29:15.226+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:29:15.226+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-10T21:29:15.232+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:29:15.232+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_09_03_pools_and_priority to None, run_after=None
+[2026-05-10T21:29:15.241+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/09_advanced/03_pools_and_priority.py took 0.036 seconds
+[2026-05-10T21:29:45.783+0000] {processor.py:186} INFO - Started process (PID=4510) to work on /opt/airflow/dags/09_advanced/03_pools_and_priority.py
+[2026-05-10T21:29:45.783+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/09_advanced/03_pools_and_priority.py for tasks to queue
+[2026-05-10T21:29:45.786+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:29:45.786+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/09_advanced/03_pools_and_priority.py
+[2026-05-10T21:29:45.790+0000] {processor.py:925} INFO - DAG(s) 'mod_09_03_pools_and_priority' retrieved from /opt/airflow/dags/09_advanced/03_pools_and_priority.py
+[2026-05-10T21:29:45.802+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:29:45.801+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-10T21:29:45.808+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:29:45.808+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_09_03_pools_and_priority to None, run_after=None
+[2026-05-10T21:29:45.814+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/09_advanced/03_pools_and_priority.py took 0.034 seconds
+[2026-05-10T21:30:16.243+0000] {processor.py:186} INFO - Started process (PID=4714) to work on /opt/airflow/dags/09_advanced/03_pools_and_priority.py
+[2026-05-10T21:30:16.244+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/09_advanced/03_pools_and_priority.py for tasks to queue
+[2026-05-10T21:30:16.245+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:30:16.245+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/09_advanced/03_pools_and_priority.py
+[2026-05-10T21:30:16.252+0000] {processor.py:925} INFO - DAG(s) 'mod_09_03_pools_and_priority' retrieved from /opt/airflow/dags/09_advanced/03_pools_and_priority.py
+[2026-05-10T21:30:16.264+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:30:16.264+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-10T21:30:16.269+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:30:16.269+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_09_03_pools_and_priority to None, run_after=None
+[2026-05-10T21:30:16.278+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/09_advanced/03_pools_and_priority.py took 0.038 seconds

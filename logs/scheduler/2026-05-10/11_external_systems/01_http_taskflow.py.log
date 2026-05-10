@@ -1,0 +1,169 @@
+[2026-05-10T21:19:04.193+0000] {processor.py:186} INFO - Started process (PID=208) to work on /opt/airflow/dags/11_external_systems/01_http_taskflow.py
+[2026-05-10T21:19:04.194+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/11_external_systems/01_http_taskflow.py for tasks to queue
+[2026-05-10T21:19:04.195+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:19:04.194+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/11_external_systems/01_http_taskflow.py
+[2026-05-10T21:19:04.200+0000] {processor.py:925} INFO - DAG(s) 'mod_11_01_http_pipeline' retrieved from /opt/airflow/dags/11_external_systems/01_http_taskflow.py
+[2026-05-10T21:19:04.242+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:19:04.241+0000] {override.py:1912} INFO - Created Permission View: can delete on DAG:mod_11_01_http_pipeline
+[2026-05-10T21:19:04.245+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:19:04.245+0000] {override.py:1912} INFO - Created Permission View: can edit on DAG:mod_11_01_http_pipeline
+[2026-05-10T21:19:04.247+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:19:04.247+0000] {override.py:1912} INFO - Created Permission View: can read on DAG:mod_11_01_http_pipeline
+[2026-05-10T21:19:04.249+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:19:04.249+0000] {override.py:1912} INFO - Created Permission View: can delete on DAG Run:mod_11_01_http_pipeline
+[2026-05-10T21:19:04.251+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:19:04.251+0000] {override.py:1912} INFO - Created Permission View: menu access on DAG Run:mod_11_01_http_pipeline
+[2026-05-10T21:19:04.253+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:19:04.253+0000] {override.py:1912} INFO - Created Permission View: can create on DAG Run:mod_11_01_http_pipeline
+[2026-05-10T21:19:04.255+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:19:04.255+0000] {override.py:1912} INFO - Created Permission View: can read on DAG Run:mod_11_01_http_pipeline
+[2026-05-10T21:19:04.255+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:19:04.255+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-10T21:19:04.260+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:19:04.260+0000] {dag.py:3262} INFO - Creating ORM DAG for mod_11_01_http_pipeline
+[2026-05-10T21:19:04.261+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:19:04.261+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_11_01_http_pipeline to None, run_after=None
+[2026-05-10T21:19:04.266+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/11_external_systems/01_http_taskflow.py took 0.076 seconds
+[2026-05-10T21:19:35.141+0000] {processor.py:186} INFO - Started process (PID=411) to work on /opt/airflow/dags/11_external_systems/01_http_taskflow.py
+[2026-05-10T21:19:35.142+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/11_external_systems/01_http_taskflow.py for tasks to queue
+[2026-05-10T21:19:35.143+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:19:35.143+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/11_external_systems/01_http_taskflow.py
+[2026-05-10T21:19:35.149+0000] {processor.py:925} INFO - DAG(s) 'mod_11_01_http_pipeline' retrieved from /opt/airflow/dags/11_external_systems/01_http_taskflow.py
+[2026-05-10T21:19:35.159+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:19:35.159+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-10T21:19:35.165+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:19:35.165+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_11_01_http_pipeline to None, run_after=None
+[2026-05-10T21:19:35.172+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/11_external_systems/01_http_taskflow.py took 0.034 seconds
+[2026-05-10T21:20:05.667+0000] {processor.py:186} INFO - Started process (PID=614) to work on /opt/airflow/dags/11_external_systems/01_http_taskflow.py
+[2026-05-10T21:20:05.668+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/11_external_systems/01_http_taskflow.py for tasks to queue
+[2026-05-10T21:20:05.669+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:20:05.669+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/11_external_systems/01_http_taskflow.py
+[2026-05-10T21:20:05.674+0000] {processor.py:925} INFO - DAG(s) 'mod_11_01_http_pipeline' retrieved from /opt/airflow/dags/11_external_systems/01_http_taskflow.py
+[2026-05-10T21:20:05.682+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:20:05.682+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-10T21:20:05.687+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:20:05.687+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_11_01_http_pipeline to None, run_after=None
+[2026-05-10T21:20:05.693+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/11_external_systems/01_http_taskflow.py took 0.028 seconds
+[2026-05-10T21:20:36.133+0000] {processor.py:186} INFO - Started process (PID=817) to work on /opt/airflow/dags/11_external_systems/01_http_taskflow.py
+[2026-05-10T21:20:36.134+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/11_external_systems/01_http_taskflow.py for tasks to queue
+[2026-05-10T21:20:36.135+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:20:36.135+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/11_external_systems/01_http_taskflow.py
+[2026-05-10T21:20:36.140+0000] {processor.py:925} INFO - DAG(s) 'mod_11_01_http_pipeline' retrieved from /opt/airflow/dags/11_external_systems/01_http_taskflow.py
+[2026-05-10T21:20:36.150+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:20:36.150+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-10T21:20:36.156+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:20:36.156+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_11_01_http_pipeline to None, run_after=None
+[2026-05-10T21:20:36.163+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/11_external_systems/01_http_taskflow.py took 0.035 seconds
+[2026-05-10T21:21:06.728+0000] {processor.py:186} INFO - Started process (PID=1020) to work on /opt/airflow/dags/11_external_systems/01_http_taskflow.py
+[2026-05-10T21:21:06.729+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/11_external_systems/01_http_taskflow.py for tasks to queue
+[2026-05-10T21:21:06.730+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:21:06.730+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/11_external_systems/01_http_taskflow.py
+[2026-05-10T21:21:06.735+0000] {processor.py:925} INFO - DAG(s) 'mod_11_01_http_pipeline' retrieved from /opt/airflow/dags/11_external_systems/01_http_taskflow.py
+[2026-05-10T21:21:06.751+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:21:06.750+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-10T21:21:06.756+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:21:06.756+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_11_01_http_pipeline to None, run_after=None
+[2026-05-10T21:21:06.763+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/11_external_systems/01_http_taskflow.py took 0.038 seconds
+[2026-05-10T21:21:37.254+0000] {processor.py:186} INFO - Started process (PID=1223) to work on /opt/airflow/dags/11_external_systems/01_http_taskflow.py
+[2026-05-10T21:21:37.254+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/11_external_systems/01_http_taskflow.py for tasks to queue
+[2026-05-10T21:21:37.255+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:21:37.255+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/11_external_systems/01_http_taskflow.py
+[2026-05-10T21:21:37.261+0000] {processor.py:925} INFO - DAG(s) 'mod_11_01_http_pipeline' retrieved from /opt/airflow/dags/11_external_systems/01_http_taskflow.py
+[2026-05-10T21:21:37.269+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:21:37.269+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-10T21:21:37.276+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:21:37.276+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_11_01_http_pipeline to None, run_after=None
+[2026-05-10T21:21:37.287+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/11_external_systems/01_http_taskflow.py took 0.037 seconds
+[2026-05-10T21:22:07.805+0000] {processor.py:186} INFO - Started process (PID=1426) to work on /opt/airflow/dags/11_external_systems/01_http_taskflow.py
+[2026-05-10T21:22:07.806+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/11_external_systems/01_http_taskflow.py for tasks to queue
+[2026-05-10T21:22:07.807+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:22:07.806+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/11_external_systems/01_http_taskflow.py
+[2026-05-10T21:22:07.812+0000] {processor.py:925} INFO - DAG(s) 'mod_11_01_http_pipeline' retrieved from /opt/airflow/dags/11_external_systems/01_http_taskflow.py
+[2026-05-10T21:22:07.820+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:22:07.820+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-10T21:22:07.825+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:22:07.825+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_11_01_http_pipeline to None, run_after=None
+[2026-05-10T21:22:07.831+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/11_external_systems/01_http_taskflow.py took 0.029 seconds
+[2026-05-10T21:22:38.258+0000] {processor.py:186} INFO - Started process (PID=1629) to work on /opt/airflow/dags/11_external_systems/01_http_taskflow.py
+[2026-05-10T21:22:38.259+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/11_external_systems/01_http_taskflow.py for tasks to queue
+[2026-05-10T21:22:38.259+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:22:38.259+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/11_external_systems/01_http_taskflow.py
+[2026-05-10T21:22:38.264+0000] {processor.py:925} INFO - DAG(s) 'mod_11_01_http_pipeline' retrieved from /opt/airflow/dags/11_external_systems/01_http_taskflow.py
+[2026-05-10T21:22:38.272+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:22:38.272+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-10T21:22:38.277+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:22:38.277+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_11_01_http_pipeline to None, run_after=None
+[2026-05-10T21:22:38.283+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/11_external_systems/01_http_taskflow.py took 0.028 seconds
+[2026-05-10T21:23:08.713+0000] {processor.py:186} INFO - Started process (PID=1832) to work on /opt/airflow/dags/11_external_systems/01_http_taskflow.py
+[2026-05-10T21:23:08.714+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/11_external_systems/01_http_taskflow.py for tasks to queue
+[2026-05-10T21:23:08.714+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:23:08.714+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/11_external_systems/01_http_taskflow.py
+[2026-05-10T21:23:08.719+0000] {processor.py:925} INFO - DAG(s) 'mod_11_01_http_pipeline' retrieved from /opt/airflow/dags/11_external_systems/01_http_taskflow.py
+[2026-05-10T21:23:08.727+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:23:08.727+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-10T21:23:08.732+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:23:08.732+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_11_01_http_pipeline to None, run_after=None
+[2026-05-10T21:23:08.738+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/11_external_systems/01_http_taskflow.py took 0.028 seconds
+[2026-05-10T21:23:39.136+0000] {processor.py:186} INFO - Started process (PID=2035) to work on /opt/airflow/dags/11_external_systems/01_http_taskflow.py
+[2026-05-10T21:23:39.137+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/11_external_systems/01_http_taskflow.py for tasks to queue
+[2026-05-10T21:23:39.138+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:23:39.138+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/11_external_systems/01_http_taskflow.py
+[2026-05-10T21:23:39.143+0000] {processor.py:925} INFO - DAG(s) 'mod_11_01_http_pipeline' retrieved from /opt/airflow/dags/11_external_systems/01_http_taskflow.py
+[2026-05-10T21:23:39.152+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:23:39.152+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-10T21:23:39.158+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:23:39.158+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_11_01_http_pipeline to None, run_after=None
+[2026-05-10T21:23:39.165+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/11_external_systems/01_http_taskflow.py took 0.032 seconds
+[2026-05-10T21:24:09.695+0000] {processor.py:186} INFO - Started process (PID=2252) to work on /opt/airflow/dags/11_external_systems/01_http_taskflow.py
+[2026-05-10T21:24:09.696+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/11_external_systems/01_http_taskflow.py for tasks to queue
+[2026-05-10T21:24:09.697+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:24:09.697+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/11_external_systems/01_http_taskflow.py
+[2026-05-10T21:24:09.702+0000] {processor.py:925} INFO - DAG(s) 'mod_11_01_http_pipeline' retrieved from /opt/airflow/dags/11_external_systems/01_http_taskflow.py
+[2026-05-10T21:24:09.711+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:24:09.711+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-10T21:24:09.717+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:24:09.717+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_11_01_http_pipeline to None, run_after=None
+[2026-05-10T21:24:09.724+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/11_external_systems/01_http_taskflow.py took 0.032 seconds
+[2026-05-10T21:24:40.165+0000] {processor.py:186} INFO - Started process (PID=2455) to work on /opt/airflow/dags/11_external_systems/01_http_taskflow.py
+[2026-05-10T21:24:40.166+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/11_external_systems/01_http_taskflow.py for tasks to queue
+[2026-05-10T21:24:40.167+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:24:40.167+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/11_external_systems/01_http_taskflow.py
+[2026-05-10T21:24:40.172+0000] {processor.py:925} INFO - DAG(s) 'mod_11_01_http_pipeline' retrieved from /opt/airflow/dags/11_external_systems/01_http_taskflow.py
+[2026-05-10T21:24:40.180+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:24:40.180+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-10T21:24:40.185+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:24:40.185+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_11_01_http_pipeline to None, run_after=None
+[2026-05-10T21:24:40.190+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/11_external_systems/01_http_taskflow.py took 0.028 seconds
+[2026-05-10T21:25:10.620+0000] {processor.py:186} INFO - Started process (PID=2658) to work on /opt/airflow/dags/11_external_systems/01_http_taskflow.py
+[2026-05-10T21:25:10.621+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/11_external_systems/01_http_taskflow.py for tasks to queue
+[2026-05-10T21:25:10.622+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:25:10.622+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/11_external_systems/01_http_taskflow.py
+[2026-05-10T21:25:10.627+0000] {processor.py:925} INFO - DAG(s) 'mod_11_01_http_pipeline' retrieved from /opt/airflow/dags/11_external_systems/01_http_taskflow.py
+[2026-05-10T21:25:10.638+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:25:10.638+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-10T21:25:10.645+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:25:10.645+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_11_01_http_pipeline to None, run_after=None
+[2026-05-10T21:25:10.651+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/11_external_systems/01_http_taskflow.py took 0.035 seconds
+[2026-05-10T21:25:41.193+0000] {processor.py:186} INFO - Started process (PID=2861) to work on /opt/airflow/dags/11_external_systems/01_http_taskflow.py
+[2026-05-10T21:25:41.193+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/11_external_systems/01_http_taskflow.py for tasks to queue
+[2026-05-10T21:25:41.194+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:25:41.194+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/11_external_systems/01_http_taskflow.py
+[2026-05-10T21:25:41.200+0000] {processor.py:925} INFO - DAG(s) 'mod_11_01_http_pipeline' retrieved from /opt/airflow/dags/11_external_systems/01_http_taskflow.py
+[2026-05-10T21:25:41.209+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:25:41.209+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-10T21:25:41.215+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:25:41.215+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_11_01_http_pipeline to None, run_after=None
+[2026-05-10T21:25:41.223+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/11_external_systems/01_http_taskflow.py took 0.033 seconds
+[2026-05-10T21:26:11.763+0000] {processor.py:186} INFO - Started process (PID=3064) to work on /opt/airflow/dags/11_external_systems/01_http_taskflow.py
+[2026-05-10T21:26:11.764+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/11_external_systems/01_http_taskflow.py for tasks to queue
+[2026-05-10T21:26:11.765+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:26:11.765+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/11_external_systems/01_http_taskflow.py
+[2026-05-10T21:26:11.770+0000] {processor.py:925} INFO - DAG(s) 'mod_11_01_http_pipeline' retrieved from /opt/airflow/dags/11_external_systems/01_http_taskflow.py
+[2026-05-10T21:26:11.779+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:26:11.779+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-10T21:26:11.784+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:26:11.784+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_11_01_http_pipeline to None, run_after=None
+[2026-05-10T21:26:11.791+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/11_external_systems/01_http_taskflow.py took 0.032 seconds
+[2026-05-10T21:26:42.265+0000] {processor.py:186} INFO - Started process (PID=3267) to work on /opt/airflow/dags/11_external_systems/01_http_taskflow.py
+[2026-05-10T21:26:42.266+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/11_external_systems/01_http_taskflow.py for tasks to queue
+[2026-05-10T21:26:42.267+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:26:42.267+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/11_external_systems/01_http_taskflow.py
+[2026-05-10T21:26:42.274+0000] {processor.py:925} INFO - DAG(s) 'mod_11_01_http_pipeline' retrieved from /opt/airflow/dags/11_external_systems/01_http_taskflow.py
+[2026-05-10T21:26:42.284+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:26:42.284+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-10T21:26:42.290+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:26:42.290+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_11_01_http_pipeline to None, run_after=None
+[2026-05-10T21:26:42.297+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/11_external_systems/01_http_taskflow.py took 0.036 seconds
+[2026-05-10T21:27:12.883+0000] {processor.py:186} INFO - Started process (PID=3470) to work on /opt/airflow/dags/11_external_systems/01_http_taskflow.py
+[2026-05-10T21:27:12.883+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/11_external_systems/01_http_taskflow.py for tasks to queue
+[2026-05-10T21:27:12.884+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:27:12.884+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/11_external_systems/01_http_taskflow.py
+[2026-05-10T21:27:12.889+0000] {processor.py:925} INFO - DAG(s) 'mod_11_01_http_pipeline' retrieved from /opt/airflow/dags/11_external_systems/01_http_taskflow.py
+[2026-05-10T21:27:12.897+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:27:12.897+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-10T21:27:12.902+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:27:12.902+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_11_01_http_pipeline to None, run_after=None
+[2026-05-10T21:27:12.909+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/11_external_systems/01_http_taskflow.py took 0.029 seconds
+[2026-05-10T21:27:43.434+0000] {processor.py:186} INFO - Started process (PID=3673) to work on /opt/airflow/dags/11_external_systems/01_http_taskflow.py
+[2026-05-10T21:27:43.435+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/11_external_systems/01_http_taskflow.py for tasks to queue
+[2026-05-10T21:27:43.436+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:27:43.435+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/11_external_systems/01_http_taskflow.py
+[2026-05-10T21:27:43.441+0000] {processor.py:925} INFO - DAG(s) 'mod_11_01_http_pipeline' retrieved from /opt/airflow/dags/11_external_systems/01_http_taskflow.py
+[2026-05-10T21:27:43.449+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:27:43.449+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-10T21:27:43.454+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:27:43.454+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_11_01_http_pipeline to None, run_after=None
+[2026-05-10T21:27:43.460+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/11_external_systems/01_http_taskflow.py took 0.029 seconds
+[2026-05-10T21:28:13.902+0000] {processor.py:186} INFO - Started process (PID=3876) to work on /opt/airflow/dags/11_external_systems/01_http_taskflow.py
+[2026-05-10T21:28:13.902+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/11_external_systems/01_http_taskflow.py for tasks to queue
+[2026-05-10T21:28:13.903+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:28:13.903+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/11_external_systems/01_http_taskflow.py
+[2026-05-10T21:28:13.908+0000] {processor.py:925} INFO - DAG(s) 'mod_11_01_http_pipeline' retrieved from /opt/airflow/dags/11_external_systems/01_http_taskflow.py
+[2026-05-10T21:28:13.917+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:28:13.917+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-10T21:28:13.923+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:28:13.923+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_11_01_http_pipeline to None, run_after=None
+[2026-05-10T21:28:13.931+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/11_external_systems/01_http_taskflow.py took 0.032 seconds
+[2026-05-10T21:28:44.388+0000] {processor.py:186} INFO - Started process (PID=4079) to work on /opt/airflow/dags/11_external_systems/01_http_taskflow.py
+[2026-05-10T21:28:44.388+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/11_external_systems/01_http_taskflow.py for tasks to queue
+[2026-05-10T21:28:44.389+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:28:44.389+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/11_external_systems/01_http_taskflow.py
+[2026-05-10T21:28:44.395+0000] {processor.py:925} INFO - DAG(s) 'mod_11_01_http_pipeline' retrieved from /opt/airflow/dags/11_external_systems/01_http_taskflow.py
+[2026-05-10T21:28:44.405+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:28:44.405+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-10T21:28:44.411+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:28:44.411+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_11_01_http_pipeline to None, run_after=None
+[2026-05-10T21:28:44.418+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/11_external_systems/01_http_taskflow.py took 0.034 seconds
+[2026-05-10T21:29:15.006+0000] {processor.py:186} INFO - Started process (PID=4282) to work on /opt/airflow/dags/11_external_systems/01_http_taskflow.py
+[2026-05-10T21:29:15.007+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/11_external_systems/01_http_taskflow.py for tasks to queue
+[2026-05-10T21:29:15.009+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:29:15.009+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/11_external_systems/01_http_taskflow.py
+[2026-05-10T21:29:15.014+0000] {processor.py:925} INFO - DAG(s) 'mod_11_01_http_pipeline' retrieved from /opt/airflow/dags/11_external_systems/01_http_taskflow.py
+[2026-05-10T21:29:15.028+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:29:15.028+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-10T21:29:15.033+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:29:15.033+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_11_01_http_pipeline to None, run_after=None
+[2026-05-10T21:29:15.038+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/11_external_systems/01_http_taskflow.py took 0.035 seconds
+[2026-05-10T21:29:45.565+0000] {processor.py:186} INFO - Started process (PID=4485) to work on /opt/airflow/dags/11_external_systems/01_http_taskflow.py
+[2026-05-10T21:29:45.566+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/11_external_systems/01_http_taskflow.py for tasks to queue
+[2026-05-10T21:29:45.567+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:29:45.567+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/11_external_systems/01_http_taskflow.py
+[2026-05-10T21:29:45.572+0000] {processor.py:925} INFO - DAG(s) 'mod_11_01_http_pipeline' retrieved from /opt/airflow/dags/11_external_systems/01_http_taskflow.py
+[2026-05-10T21:29:45.580+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:29:45.580+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-10T21:29:45.586+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:29:45.586+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_11_01_http_pipeline to None, run_after=None
+[2026-05-10T21:29:45.593+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/11_external_systems/01_http_taskflow.py took 0.031 seconds
+[2026-05-10T21:30:16.045+0000] {processor.py:186} INFO - Started process (PID=4688) to work on /opt/airflow/dags/11_external_systems/01_http_taskflow.py
+[2026-05-10T21:30:16.045+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/11_external_systems/01_http_taskflow.py for tasks to queue
+[2026-05-10T21:30:16.046+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:30:16.046+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/11_external_systems/01_http_taskflow.py
+[2026-05-10T21:30:16.051+0000] {processor.py:925} INFO - DAG(s) 'mod_11_01_http_pipeline' retrieved from /opt/airflow/dags/11_external_systems/01_http_taskflow.py
+[2026-05-10T21:30:16.059+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:30:16.059+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-10T21:30:16.064+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:30:16.064+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_11_01_http_pipeline to None, run_after=None
+[2026-05-10T21:30:16.071+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/11_external_systems/01_http_taskflow.py took 0.029 seconds

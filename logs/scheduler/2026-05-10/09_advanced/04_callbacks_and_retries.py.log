@@ -1,0 +1,169 @@
+[2026-05-10T21:19:04.557+0000] {processor.py:186} INFO - Started process (PID=228) to work on /opt/airflow/dags/09_advanced/04_callbacks_and_retries.py
+[2026-05-10T21:19:04.558+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/09_advanced/04_callbacks_and_retries.py for tasks to queue
+[2026-05-10T21:19:04.560+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:19:04.559+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/09_advanced/04_callbacks_and_retries.py
+[2026-05-10T21:19:04.566+0000] {processor.py:925} INFO - DAG(s) 'mod_09_04_callbacks_and_retries' retrieved from /opt/airflow/dags/09_advanced/04_callbacks_and_retries.py
+[2026-05-10T21:19:04.606+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:19:04.606+0000] {override.py:1912} INFO - Created Permission View: can delete on DAG:mod_09_04_callbacks_and_retries
+[2026-05-10T21:19:04.609+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:19:04.609+0000] {override.py:1912} INFO - Created Permission View: can edit on DAG:mod_09_04_callbacks_and_retries
+[2026-05-10T21:19:04.611+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:19:04.611+0000] {override.py:1912} INFO - Created Permission View: can read on DAG:mod_09_04_callbacks_and_retries
+[2026-05-10T21:19:04.613+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:19:04.613+0000] {override.py:1912} INFO - Created Permission View: can delete on DAG Run:mod_09_04_callbacks_and_retries
+[2026-05-10T21:19:04.614+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:19:04.614+0000] {override.py:1912} INFO - Created Permission View: menu access on DAG Run:mod_09_04_callbacks_and_retries
+[2026-05-10T21:19:04.615+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:19:04.615+0000] {override.py:1912} INFO - Created Permission View: can create on DAG Run:mod_09_04_callbacks_and_retries
+[2026-05-10T21:19:04.617+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:19:04.617+0000] {override.py:1912} INFO - Created Permission View: can read on DAG Run:mod_09_04_callbacks_and_retries
+[2026-05-10T21:19:04.617+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:19:04.617+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-10T21:19:04.622+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:19:04.622+0000] {dag.py:3262} INFO - Creating ORM DAG for mod_09_04_callbacks_and_retries
+[2026-05-10T21:19:04.622+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:19:04.622+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_09_04_callbacks_and_retries to None, run_after=None
+[2026-05-10T21:19:04.628+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/09_advanced/04_callbacks_and_retries.py took 0.075 seconds
+[2026-05-10T21:19:35.320+0000] {processor.py:186} INFO - Started process (PID=431) to work on /opt/airflow/dags/09_advanced/04_callbacks_and_retries.py
+[2026-05-10T21:19:35.320+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/09_advanced/04_callbacks_and_retries.py for tasks to queue
+[2026-05-10T21:19:35.322+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:19:35.321+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/09_advanced/04_callbacks_and_retries.py
+[2026-05-10T21:19:35.327+0000] {processor.py:925} INFO - DAG(s) 'mod_09_04_callbacks_and_retries' retrieved from /opt/airflow/dags/09_advanced/04_callbacks_and_retries.py
+[2026-05-10T21:19:35.336+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:19:35.336+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-10T21:19:35.341+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:19:35.341+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_09_04_callbacks_and_retries to None, run_after=None
+[2026-05-10T21:19:35.347+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/09_advanced/04_callbacks_and_retries.py took 0.030 seconds
+[2026-05-10T21:20:05.814+0000] {processor.py:186} INFO - Started process (PID=634) to work on /opt/airflow/dags/09_advanced/04_callbacks_and_retries.py
+[2026-05-10T21:20:05.815+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/09_advanced/04_callbacks_and_retries.py for tasks to queue
+[2026-05-10T21:20:05.816+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:20:05.816+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/09_advanced/04_callbacks_and_retries.py
+[2026-05-10T21:20:05.822+0000] {processor.py:925} INFO - DAG(s) 'mod_09_04_callbacks_and_retries' retrieved from /opt/airflow/dags/09_advanced/04_callbacks_and_retries.py
+[2026-05-10T21:20:05.835+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:20:05.835+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-10T21:20:05.842+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:20:05.842+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_09_04_callbacks_and_retries to None, run_after=None
+[2026-05-10T21:20:05.852+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/09_advanced/04_callbacks_and_retries.py took 0.040 seconds
+[2026-05-10T21:20:36.317+0000] {processor.py:186} INFO - Started process (PID=837) to work on /opt/airflow/dags/09_advanced/04_callbacks_and_retries.py
+[2026-05-10T21:20:36.318+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/09_advanced/04_callbacks_and_retries.py for tasks to queue
+[2026-05-10T21:20:36.319+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:20:36.319+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/09_advanced/04_callbacks_and_retries.py
+[2026-05-10T21:20:36.324+0000] {processor.py:925} INFO - DAG(s) 'mod_09_04_callbacks_and_retries' retrieved from /opt/airflow/dags/09_advanced/04_callbacks_and_retries.py
+[2026-05-10T21:20:36.334+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:20:36.333+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-10T21:20:36.339+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:20:36.339+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_09_04_callbacks_and_retries to None, run_after=None
+[2026-05-10T21:20:36.346+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/09_advanced/04_callbacks_and_retries.py took 0.032 seconds
+[2026-05-10T21:21:06.895+0000] {processor.py:186} INFO - Started process (PID=1040) to work on /opt/airflow/dags/09_advanced/04_callbacks_and_retries.py
+[2026-05-10T21:21:06.895+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/09_advanced/04_callbacks_and_retries.py for tasks to queue
+[2026-05-10T21:21:06.897+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:21:06.897+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/09_advanced/04_callbacks_and_retries.py
+[2026-05-10T21:21:06.903+0000] {processor.py:925} INFO - DAG(s) 'mod_09_04_callbacks_and_retries' retrieved from /opt/airflow/dags/09_advanced/04_callbacks_and_retries.py
+[2026-05-10T21:21:06.918+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:21:06.918+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-10T21:21:06.925+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:21:06.925+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_09_04_callbacks_and_retries to None, run_after=None
+[2026-05-10T21:21:06.934+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/09_advanced/04_callbacks_and_retries.py took 0.042 seconds
+[2026-05-10T21:21:37.436+0000] {processor.py:186} INFO - Started process (PID=1243) to work on /opt/airflow/dags/09_advanced/04_callbacks_and_retries.py
+[2026-05-10T21:21:37.437+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/09_advanced/04_callbacks_and_retries.py for tasks to queue
+[2026-05-10T21:21:37.438+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:21:37.438+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/09_advanced/04_callbacks_and_retries.py
+[2026-05-10T21:21:37.442+0000] {processor.py:925} INFO - DAG(s) 'mod_09_04_callbacks_and_retries' retrieved from /opt/airflow/dags/09_advanced/04_callbacks_and_retries.py
+[2026-05-10T21:21:37.452+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:21:37.452+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-10T21:21:37.457+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:21:37.457+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_09_04_callbacks_and_retries to None, run_after=None
+[2026-05-10T21:21:37.463+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/09_advanced/04_callbacks_and_retries.py took 0.031 seconds
+[2026-05-10T21:22:07.954+0000] {processor.py:186} INFO - Started process (PID=1446) to work on /opt/airflow/dags/09_advanced/04_callbacks_and_retries.py
+[2026-05-10T21:22:07.955+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/09_advanced/04_callbacks_and_retries.py for tasks to queue
+[2026-05-10T21:22:07.956+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:22:07.955+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/09_advanced/04_callbacks_and_retries.py
+[2026-05-10T21:22:07.960+0000] {processor.py:925} INFO - DAG(s) 'mod_09_04_callbacks_and_retries' retrieved from /opt/airflow/dags/09_advanced/04_callbacks_and_retries.py
+[2026-05-10T21:22:07.970+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:22:07.970+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-10T21:22:07.976+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:22:07.976+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_09_04_callbacks_and_retries to None, run_after=None
+[2026-05-10T21:22:07.984+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/09_advanced/04_callbacks_and_retries.py took 0.032 seconds
+[2026-05-10T21:22:38.405+0000] {processor.py:186} INFO - Started process (PID=1649) to work on /opt/airflow/dags/09_advanced/04_callbacks_and_retries.py
+[2026-05-10T21:22:38.406+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/09_advanced/04_callbacks_and_retries.py for tasks to queue
+[2026-05-10T21:22:38.407+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:22:38.407+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/09_advanced/04_callbacks_and_retries.py
+[2026-05-10T21:22:38.411+0000] {processor.py:925} INFO - DAG(s) 'mod_09_04_callbacks_and_retries' retrieved from /opt/airflow/dags/09_advanced/04_callbacks_and_retries.py
+[2026-05-10T21:22:38.423+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:22:38.422+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-10T21:22:38.430+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:22:38.430+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_09_04_callbacks_and_retries to None, run_after=None
+[2026-05-10T21:22:38.437+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/09_advanced/04_callbacks_and_retries.py took 0.034 seconds
+[2026-05-10T21:23:08.860+0000] {processor.py:186} INFO - Started process (PID=1852) to work on /opt/airflow/dags/09_advanced/04_callbacks_and_retries.py
+[2026-05-10T21:23:08.861+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/09_advanced/04_callbacks_and_retries.py for tasks to queue
+[2026-05-10T21:23:08.862+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:23:08.861+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/09_advanced/04_callbacks_and_retries.py
+[2026-05-10T21:23:08.866+0000] {processor.py:925} INFO - DAG(s) 'mod_09_04_callbacks_and_retries' retrieved from /opt/airflow/dags/09_advanced/04_callbacks_and_retries.py
+[2026-05-10T21:23:08.874+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:23:08.874+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-10T21:23:08.879+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:23:08.879+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_09_04_callbacks_and_retries to None, run_after=None
+[2026-05-10T21:23:08.891+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/09_advanced/04_callbacks_and_retries.py took 0.034 seconds
+[2026-05-10T21:23:39.307+0000] {processor.py:186} INFO - Started process (PID=2055) to work on /opt/airflow/dags/09_advanced/04_callbacks_and_retries.py
+[2026-05-10T21:23:39.308+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/09_advanced/04_callbacks_and_retries.py for tasks to queue
+[2026-05-10T21:23:39.308+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:23:39.308+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/09_advanced/04_callbacks_and_retries.py
+[2026-05-10T21:23:39.313+0000] {processor.py:925} INFO - DAG(s) 'mod_09_04_callbacks_and_retries' retrieved from /opt/airflow/dags/09_advanced/04_callbacks_and_retries.py
+[2026-05-10T21:23:39.322+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:23:39.322+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-10T21:23:39.327+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:23:39.327+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_09_04_callbacks_and_retries to None, run_after=None
+[2026-05-10T21:23:39.334+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/09_advanced/04_callbacks_and_retries.py took 0.030 seconds
+[2026-05-10T21:24:09.859+0000] {processor.py:186} INFO - Started process (PID=2272) to work on /opt/airflow/dags/09_advanced/04_callbacks_and_retries.py
+[2026-05-10T21:24:09.860+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/09_advanced/04_callbacks_and_retries.py for tasks to queue
+[2026-05-10T21:24:09.860+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:24:09.860+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/09_advanced/04_callbacks_and_retries.py
+[2026-05-10T21:24:09.865+0000] {processor.py:925} INFO - DAG(s) 'mod_09_04_callbacks_and_retries' retrieved from /opt/airflow/dags/09_advanced/04_callbacks_and_retries.py
+[2026-05-10T21:24:09.877+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:24:09.877+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-10T21:24:09.882+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:24:09.882+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_09_04_callbacks_and_retries to None, run_after=None
+[2026-05-10T21:24:09.893+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/09_advanced/04_callbacks_and_retries.py took 0.037 seconds
+[2026-05-10T21:24:40.337+0000] {processor.py:186} INFO - Started process (PID=2475) to work on /opt/airflow/dags/09_advanced/04_callbacks_and_retries.py
+[2026-05-10T21:24:40.337+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/09_advanced/04_callbacks_and_retries.py for tasks to queue
+[2026-05-10T21:24:40.338+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:24:40.338+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/09_advanced/04_callbacks_and_retries.py
+[2026-05-10T21:24:40.343+0000] {processor.py:925} INFO - DAG(s) 'mod_09_04_callbacks_and_retries' retrieved from /opt/airflow/dags/09_advanced/04_callbacks_and_retries.py
+[2026-05-10T21:24:40.351+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:24:40.351+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-10T21:24:40.356+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:24:40.356+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_09_04_callbacks_and_retries to None, run_after=None
+[2026-05-10T21:24:40.362+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/09_advanced/04_callbacks_and_retries.py took 0.028 seconds
+[2026-05-10T21:25:10.802+0000] {processor.py:186} INFO - Started process (PID=2678) to work on /opt/airflow/dags/09_advanced/04_callbacks_and_retries.py
+[2026-05-10T21:25:10.802+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/09_advanced/04_callbacks_and_retries.py for tasks to queue
+[2026-05-10T21:25:10.803+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:25:10.803+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/09_advanced/04_callbacks_and_retries.py
+[2026-05-10T21:25:10.808+0000] {processor.py:925} INFO - DAG(s) 'mod_09_04_callbacks_and_retries' retrieved from /opt/airflow/dags/09_advanced/04_callbacks_and_retries.py
+[2026-05-10T21:25:10.817+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:25:10.817+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-10T21:25:10.822+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:25:10.822+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_09_04_callbacks_and_retries to None, run_after=None
+[2026-05-10T21:25:10.828+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/09_advanced/04_callbacks_and_retries.py took 0.029 seconds
+[2026-05-10T21:25:41.376+0000] {processor.py:186} INFO - Started process (PID=2881) to work on /opt/airflow/dags/09_advanced/04_callbacks_and_retries.py
+[2026-05-10T21:25:41.377+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/09_advanced/04_callbacks_and_retries.py for tasks to queue
+[2026-05-10T21:25:41.378+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:25:41.378+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/09_advanced/04_callbacks_and_retries.py
+[2026-05-10T21:25:41.382+0000] {processor.py:925} INFO - DAG(s) 'mod_09_04_callbacks_and_retries' retrieved from /opt/airflow/dags/09_advanced/04_callbacks_and_retries.py
+[2026-05-10T21:25:41.392+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:25:41.391+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-10T21:25:41.397+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:25:41.397+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_09_04_callbacks_and_retries to None, run_after=None
+[2026-05-10T21:25:41.403+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/09_advanced/04_callbacks_and_retries.py took 0.030 seconds
+[2026-05-10T21:26:11.944+0000] {processor.py:186} INFO - Started process (PID=3084) to work on /opt/airflow/dags/09_advanced/04_callbacks_and_retries.py
+[2026-05-10T21:26:11.945+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/09_advanced/04_callbacks_and_retries.py for tasks to queue
+[2026-05-10T21:26:11.946+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:26:11.946+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/09_advanced/04_callbacks_and_retries.py
+[2026-05-10T21:26:11.950+0000] {processor.py:925} INFO - DAG(s) 'mod_09_04_callbacks_and_retries' retrieved from /opt/airflow/dags/09_advanced/04_callbacks_and_retries.py
+[2026-05-10T21:26:11.959+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:26:11.959+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-10T21:26:11.964+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:26:11.964+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_09_04_callbacks_and_retries to None, run_after=None
+[2026-05-10T21:26:11.970+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/09_advanced/04_callbacks_and_retries.py took 0.029 seconds
+[2026-05-10T21:26:42.451+0000] {processor.py:186} INFO - Started process (PID=3287) to work on /opt/airflow/dags/09_advanced/04_callbacks_and_retries.py
+[2026-05-10T21:26:42.451+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/09_advanced/04_callbacks_and_retries.py for tasks to queue
+[2026-05-10T21:26:42.453+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:26:42.452+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/09_advanced/04_callbacks_and_retries.py
+[2026-05-10T21:26:42.457+0000] {processor.py:925} INFO - DAG(s) 'mod_09_04_callbacks_and_retries' retrieved from /opt/airflow/dags/09_advanced/04_callbacks_and_retries.py
+[2026-05-10T21:26:42.466+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:26:42.466+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-10T21:26:42.471+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:26:42.471+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_09_04_callbacks_and_retries to None, run_after=None
+[2026-05-10T21:26:42.477+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/09_advanced/04_callbacks_and_retries.py took 0.030 seconds
+[2026-05-10T21:27:13.051+0000] {processor.py:186} INFO - Started process (PID=3490) to work on /opt/airflow/dags/09_advanced/04_callbacks_and_retries.py
+[2026-05-10T21:27:13.051+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/09_advanced/04_callbacks_and_retries.py for tasks to queue
+[2026-05-10T21:27:13.052+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:27:13.052+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/09_advanced/04_callbacks_and_retries.py
+[2026-05-10T21:27:13.058+0000] {processor.py:925} INFO - DAG(s) 'mod_09_04_callbacks_and_retries' retrieved from /opt/airflow/dags/09_advanced/04_callbacks_and_retries.py
+[2026-05-10T21:27:13.071+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:27:13.071+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-10T21:27:13.077+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:27:13.077+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_09_04_callbacks_and_retries to None, run_after=None
+[2026-05-10T21:27:13.087+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/09_advanced/04_callbacks_and_retries.py took 0.039 seconds
+[2026-05-10T21:27:43.585+0000] {processor.py:186} INFO - Started process (PID=3693) to work on /opt/airflow/dags/09_advanced/04_callbacks_and_retries.py
+[2026-05-10T21:27:43.586+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/09_advanced/04_callbacks_and_retries.py for tasks to queue
+[2026-05-10T21:27:43.587+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:27:43.586+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/09_advanced/04_callbacks_and_retries.py
+[2026-05-10T21:27:43.591+0000] {processor.py:925} INFO - DAG(s) 'mod_09_04_callbacks_and_retries' retrieved from /opt/airflow/dags/09_advanced/04_callbacks_and_retries.py
+[2026-05-10T21:27:43.601+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:27:43.601+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-10T21:27:43.607+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:27:43.607+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_09_04_callbacks_and_retries to None, run_after=None
+[2026-05-10T21:27:43.618+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/09_advanced/04_callbacks_and_retries.py took 0.036 seconds
+[2026-05-10T21:28:14.063+0000] {processor.py:186} INFO - Started process (PID=3896) to work on /opt/airflow/dags/09_advanced/04_callbacks_and_retries.py
+[2026-05-10T21:28:14.063+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/09_advanced/04_callbacks_and_retries.py for tasks to queue
+[2026-05-10T21:28:14.064+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:28:14.064+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/09_advanced/04_callbacks_and_retries.py
+[2026-05-10T21:28:14.068+0000] {processor.py:925} INFO - DAG(s) 'mod_09_04_callbacks_and_retries' retrieved from /opt/airflow/dags/09_advanced/04_callbacks_and_retries.py
+[2026-05-10T21:28:14.081+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:28:14.081+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-10T21:28:14.087+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:28:14.087+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_09_04_callbacks_and_retries to None, run_after=None
+[2026-05-10T21:28:14.096+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/09_advanced/04_callbacks_and_retries.py took 0.036 seconds
+[2026-05-10T21:28:44.561+0000] {processor.py:186} INFO - Started process (PID=4099) to work on /opt/airflow/dags/09_advanced/04_callbacks_and_retries.py
+[2026-05-10T21:28:44.562+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/09_advanced/04_callbacks_and_retries.py for tasks to queue
+[2026-05-10T21:28:44.563+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:28:44.563+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/09_advanced/04_callbacks_and_retries.py
+[2026-05-10T21:28:44.567+0000] {processor.py:925} INFO - DAG(s) 'mod_09_04_callbacks_and_retries' retrieved from /opt/airflow/dags/09_advanced/04_callbacks_and_retries.py
+[2026-05-10T21:28:44.578+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:28:44.578+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-10T21:28:44.583+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:28:44.583+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_09_04_callbacks_and_retries to None, run_after=None
+[2026-05-10T21:28:44.589+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/09_advanced/04_callbacks_and_retries.py took 0.031 seconds
+[2026-05-10T21:29:15.161+0000] {processor.py:186} INFO - Started process (PID=4302) to work on /opt/airflow/dags/09_advanced/04_callbacks_and_retries.py
+[2026-05-10T21:29:15.162+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/09_advanced/04_callbacks_and_retries.py for tasks to queue
+[2026-05-10T21:29:15.163+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:29:15.162+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/09_advanced/04_callbacks_and_retries.py
+[2026-05-10T21:29:15.167+0000] {processor.py:925} INFO - DAG(s) 'mod_09_04_callbacks_and_retries' retrieved from /opt/airflow/dags/09_advanced/04_callbacks_and_retries.py
+[2026-05-10T21:29:15.176+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:29:15.176+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-10T21:29:15.182+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:29:15.182+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_09_04_callbacks_and_retries to None, run_after=None
+[2026-05-10T21:29:15.191+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/09_advanced/04_callbacks_and_retries.py took 0.033 seconds
+[2026-05-10T21:29:45.742+0000] {processor.py:186} INFO - Started process (PID=4505) to work on /opt/airflow/dags/09_advanced/04_callbacks_and_retries.py
+[2026-05-10T21:29:45.742+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/09_advanced/04_callbacks_and_retries.py for tasks to queue
+[2026-05-10T21:29:45.744+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:29:45.743+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/09_advanced/04_callbacks_and_retries.py
+[2026-05-10T21:29:45.748+0000] {processor.py:925} INFO - DAG(s) 'mod_09_04_callbacks_and_retries' retrieved from /opt/airflow/dags/09_advanced/04_callbacks_and_retries.py
+[2026-05-10T21:29:45.757+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:29:45.757+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-10T21:29:45.763+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:29:45.763+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_09_04_callbacks_and_retries to None, run_after=None
+[2026-05-10T21:29:45.770+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/09_advanced/04_callbacks_and_retries.py took 0.031 seconds
+[2026-05-10T21:30:16.198+0000] {processor.py:186} INFO - Started process (PID=4708) to work on /opt/airflow/dags/09_advanced/04_callbacks_and_retries.py
+[2026-05-10T21:30:16.198+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/09_advanced/04_callbacks_and_retries.py for tasks to queue
+[2026-05-10T21:30:16.199+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:30:16.199+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/09_advanced/04_callbacks_and_retries.py
+[2026-05-10T21:30:16.203+0000] {processor.py:925} INFO - DAG(s) 'mod_09_04_callbacks_and_retries' retrieved from /opt/airflow/dags/09_advanced/04_callbacks_and_retries.py
+[2026-05-10T21:30:16.215+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:30:16.215+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-10T21:30:16.221+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:30:16.221+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_09_04_callbacks_and_retries to None, run_after=None
+[2026-05-10T21:30:16.230+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/09_advanced/04_callbacks_and_retries.py took 0.035 seconds

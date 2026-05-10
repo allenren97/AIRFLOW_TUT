@@ -1,0 +1,169 @@
+[2026-05-10T21:19:04.280+0000] {processor.py:186} INFO - Started process (PID=213) to work on /opt/airflow/dags/10_custom_components/01_use_custom_components.py
+[2026-05-10T21:19:04.280+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/10_custom_components/01_use_custom_components.py for tasks to queue
+[2026-05-10T21:19:04.282+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:19:04.282+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/10_custom_components/01_use_custom_components.py
+[2026-05-10T21:19:04.287+0000] {processor.py:925} INFO - DAG(s) 'mod_10_01_custom_components' retrieved from /opt/airflow/dags/10_custom_components/01_use_custom_components.py
+[2026-05-10T21:19:04.328+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:19:04.328+0000] {override.py:1912} INFO - Created Permission View: can delete on DAG:mod_10_01_custom_components
+[2026-05-10T21:19:04.331+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:19:04.331+0000] {override.py:1912} INFO - Created Permission View: can edit on DAG:mod_10_01_custom_components
+[2026-05-10T21:19:04.333+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:19:04.333+0000] {override.py:1912} INFO - Created Permission View: can read on DAG:mod_10_01_custom_components
+[2026-05-10T21:19:04.335+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:19:04.335+0000] {override.py:1912} INFO - Created Permission View: can delete on DAG Run:mod_10_01_custom_components
+[2026-05-10T21:19:04.337+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:19:04.337+0000] {override.py:1912} INFO - Created Permission View: menu access on DAG Run:mod_10_01_custom_components
+[2026-05-10T21:19:04.339+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:19:04.339+0000] {override.py:1912} INFO - Created Permission View: can create on DAG Run:mod_10_01_custom_components
+[2026-05-10T21:19:04.340+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:19:04.340+0000] {override.py:1912} INFO - Created Permission View: can read on DAG Run:mod_10_01_custom_components
+[2026-05-10T21:19:04.341+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:19:04.341+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-10T21:19:04.346+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:19:04.346+0000] {dag.py:3262} INFO - Creating ORM DAG for mod_10_01_custom_components
+[2026-05-10T21:19:04.346+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:19:04.346+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_10_01_custom_components to None, run_after=None
+[2026-05-10T21:19:04.352+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/10_custom_components/01_use_custom_components.py took 0.075 seconds
+[2026-05-10T21:19:35.185+0000] {processor.py:186} INFO - Started process (PID=416) to work on /opt/airflow/dags/10_custom_components/01_use_custom_components.py
+[2026-05-10T21:19:35.186+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/10_custom_components/01_use_custom_components.py for tasks to queue
+[2026-05-10T21:19:35.187+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:19:35.187+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/10_custom_components/01_use_custom_components.py
+[2026-05-10T21:19:35.193+0000] {processor.py:925} INFO - DAG(s) 'mod_10_01_custom_components' retrieved from /opt/airflow/dags/10_custom_components/01_use_custom_components.py
+[2026-05-10T21:19:35.201+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:19:35.201+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-10T21:19:35.207+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:19:35.207+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_10_01_custom_components to None, run_after=None
+[2026-05-10T21:19:35.213+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/10_custom_components/01_use_custom_components.py took 0.031 seconds
+[2026-05-10T21:20:05.704+0000] {processor.py:186} INFO - Started process (PID=619) to work on /opt/airflow/dags/10_custom_components/01_use_custom_components.py
+[2026-05-10T21:20:05.704+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/10_custom_components/01_use_custom_components.py for tasks to queue
+[2026-05-10T21:20:05.705+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:20:05.705+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/10_custom_components/01_use_custom_components.py
+[2026-05-10T21:20:05.710+0000] {processor.py:925} INFO - DAG(s) 'mod_10_01_custom_components' retrieved from /opt/airflow/dags/10_custom_components/01_use_custom_components.py
+[2026-05-10T21:20:05.717+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:20:05.717+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-10T21:20:05.722+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:20:05.722+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_10_01_custom_components to None, run_after=None
+[2026-05-10T21:20:05.727+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/10_custom_components/01_use_custom_components.py took 0.026 seconds
+[2026-05-10T21:20:36.176+0000] {processor.py:186} INFO - Started process (PID=822) to work on /opt/airflow/dags/10_custom_components/01_use_custom_components.py
+[2026-05-10T21:20:36.177+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/10_custom_components/01_use_custom_components.py for tasks to queue
+[2026-05-10T21:20:36.178+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:20:36.178+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/10_custom_components/01_use_custom_components.py
+[2026-05-10T21:20:36.183+0000] {processor.py:925} INFO - DAG(s) 'mod_10_01_custom_components' retrieved from /opt/airflow/dags/10_custom_components/01_use_custom_components.py
+[2026-05-10T21:20:36.193+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:20:36.193+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-10T21:20:36.199+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:20:36.199+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_10_01_custom_components to None, run_after=None
+[2026-05-10T21:20:36.205+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/10_custom_components/01_use_custom_components.py took 0.032 seconds
+[2026-05-10T21:21:06.776+0000] {processor.py:186} INFO - Started process (PID=1025) to work on /opt/airflow/dags/10_custom_components/01_use_custom_components.py
+[2026-05-10T21:21:06.776+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/10_custom_components/01_use_custom_components.py for tasks to queue
+[2026-05-10T21:21:06.777+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:21:06.777+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/10_custom_components/01_use_custom_components.py
+[2026-05-10T21:21:06.782+0000] {processor.py:925} INFO - DAG(s) 'mod_10_01_custom_components' retrieved from /opt/airflow/dags/10_custom_components/01_use_custom_components.py
+[2026-05-10T21:21:06.790+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:21:06.790+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-10T21:21:06.795+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:21:06.795+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_10_01_custom_components to None, run_after=None
+[2026-05-10T21:21:06.802+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/10_custom_components/01_use_custom_components.py took 0.029 seconds
+[2026-05-10T21:21:37.301+0000] {processor.py:186} INFO - Started process (PID=1228) to work on /opt/airflow/dags/10_custom_components/01_use_custom_components.py
+[2026-05-10T21:21:37.301+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/10_custom_components/01_use_custom_components.py for tasks to queue
+[2026-05-10T21:21:37.303+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:21:37.302+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/10_custom_components/01_use_custom_components.py
+[2026-05-10T21:21:37.307+0000] {processor.py:925} INFO - DAG(s) 'mod_10_01_custom_components' retrieved from /opt/airflow/dags/10_custom_components/01_use_custom_components.py
+[2026-05-10T21:21:37.316+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:21:37.316+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-10T21:21:37.322+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:21:37.322+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_10_01_custom_components to None, run_after=None
+[2026-05-10T21:21:37.329+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/10_custom_components/01_use_custom_components.py took 0.032 seconds
+[2026-05-10T21:22:07.842+0000] {processor.py:186} INFO - Started process (PID=1431) to work on /opt/airflow/dags/10_custom_components/01_use_custom_components.py
+[2026-05-10T21:22:07.843+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/10_custom_components/01_use_custom_components.py for tasks to queue
+[2026-05-10T21:22:07.843+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:22:07.843+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/10_custom_components/01_use_custom_components.py
+[2026-05-10T21:22:07.848+0000] {processor.py:925} INFO - DAG(s) 'mod_10_01_custom_components' retrieved from /opt/airflow/dags/10_custom_components/01_use_custom_components.py
+[2026-05-10T21:22:07.856+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:22:07.856+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-10T21:22:07.861+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:22:07.861+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_10_01_custom_components to None, run_after=None
+[2026-05-10T21:22:07.867+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/10_custom_components/01_use_custom_components.py took 0.028 seconds
+[2026-05-10T21:22:38.295+0000] {processor.py:186} INFO - Started process (PID=1634) to work on /opt/airflow/dags/10_custom_components/01_use_custom_components.py
+[2026-05-10T21:22:38.295+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/10_custom_components/01_use_custom_components.py for tasks to queue
+[2026-05-10T21:22:38.296+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:22:38.296+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/10_custom_components/01_use_custom_components.py
+[2026-05-10T21:22:38.300+0000] {processor.py:925} INFO - DAG(s) 'mod_10_01_custom_components' retrieved from /opt/airflow/dags/10_custom_components/01_use_custom_components.py
+[2026-05-10T21:22:38.308+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:22:38.308+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-10T21:22:38.312+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:22:38.312+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_10_01_custom_components to None, run_after=None
+[2026-05-10T21:22:38.318+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/10_custom_components/01_use_custom_components.py took 0.026 seconds
+[2026-05-10T21:23:08.749+0000] {processor.py:186} INFO - Started process (PID=1837) to work on /opt/airflow/dags/10_custom_components/01_use_custom_components.py
+[2026-05-10T21:23:08.750+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/10_custom_components/01_use_custom_components.py for tasks to queue
+[2026-05-10T21:23:08.750+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:23:08.750+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/10_custom_components/01_use_custom_components.py
+[2026-05-10T21:23:08.755+0000] {processor.py:925} INFO - DAG(s) 'mod_10_01_custom_components' retrieved from /opt/airflow/dags/10_custom_components/01_use_custom_components.py
+[2026-05-10T21:23:08.763+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:23:08.763+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-10T21:23:08.768+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:23:08.767+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_10_01_custom_components to None, run_after=None
+[2026-05-10T21:23:08.773+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/10_custom_components/01_use_custom_components.py took 0.027 seconds
+[2026-05-10T21:23:39.177+0000] {processor.py:186} INFO - Started process (PID=2040) to work on /opt/airflow/dags/10_custom_components/01_use_custom_components.py
+[2026-05-10T21:23:39.178+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/10_custom_components/01_use_custom_components.py for tasks to queue
+[2026-05-10T21:23:39.179+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:23:39.179+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/10_custom_components/01_use_custom_components.py
+[2026-05-10T21:23:39.184+0000] {processor.py:925} INFO - DAG(s) 'mod_10_01_custom_components' retrieved from /opt/airflow/dags/10_custom_components/01_use_custom_components.py
+[2026-05-10T21:23:39.193+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:23:39.193+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-10T21:23:39.199+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:23:39.198+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_10_01_custom_components to None, run_after=None
+[2026-05-10T21:23:39.205+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/10_custom_components/01_use_custom_components.py took 0.031 seconds
+[2026-05-10T21:24:09.736+0000] {processor.py:186} INFO - Started process (PID=2257) to work on /opt/airflow/dags/10_custom_components/01_use_custom_components.py
+[2026-05-10T21:24:09.737+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/10_custom_components/01_use_custom_components.py for tasks to queue
+[2026-05-10T21:24:09.737+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:24:09.737+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/10_custom_components/01_use_custom_components.py
+[2026-05-10T21:24:09.742+0000] {processor.py:925} INFO - DAG(s) 'mod_10_01_custom_components' retrieved from /opt/airflow/dags/10_custom_components/01_use_custom_components.py
+[2026-05-10T21:24:09.750+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:24:09.750+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-10T21:24:09.755+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:24:09.755+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_10_01_custom_components to None, run_after=None
+[2026-05-10T21:24:09.761+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/10_custom_components/01_use_custom_components.py took 0.028 seconds
+[2026-05-10T21:24:40.202+0000] {processor.py:186} INFO - Started process (PID=2460) to work on /opt/airflow/dags/10_custom_components/01_use_custom_components.py
+[2026-05-10T21:24:40.203+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/10_custom_components/01_use_custom_components.py for tasks to queue
+[2026-05-10T21:24:40.204+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:24:40.204+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/10_custom_components/01_use_custom_components.py
+[2026-05-10T21:24:40.208+0000] {processor.py:925} INFO - DAG(s) 'mod_10_01_custom_components' retrieved from /opt/airflow/dags/10_custom_components/01_use_custom_components.py
+[2026-05-10T21:24:40.217+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:24:40.217+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-10T21:24:40.221+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:24:40.221+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_10_01_custom_components to None, run_after=None
+[2026-05-10T21:24:40.227+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/10_custom_components/01_use_custom_components.py took 0.028 seconds
+[2026-05-10T21:25:10.664+0000] {processor.py:186} INFO - Started process (PID=2663) to work on /opt/airflow/dags/10_custom_components/01_use_custom_components.py
+[2026-05-10T21:25:10.664+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/10_custom_components/01_use_custom_components.py for tasks to queue
+[2026-05-10T21:25:10.665+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:25:10.665+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/10_custom_components/01_use_custom_components.py
+[2026-05-10T21:25:10.670+0000] {processor.py:925} INFO - DAG(s) 'mod_10_01_custom_components' retrieved from /opt/airflow/dags/10_custom_components/01_use_custom_components.py
+[2026-05-10T21:25:10.679+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:25:10.679+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-10T21:25:10.685+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:25:10.685+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_10_01_custom_components to None, run_after=None
+[2026-05-10T21:25:10.691+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/10_custom_components/01_use_custom_components.py took 0.030 seconds
+[2026-05-10T21:25:41.239+0000] {processor.py:186} INFO - Started process (PID=2866) to work on /opt/airflow/dags/10_custom_components/01_use_custom_components.py
+[2026-05-10T21:25:41.240+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/10_custom_components/01_use_custom_components.py for tasks to queue
+[2026-05-10T21:25:41.241+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:25:41.240+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/10_custom_components/01_use_custom_components.py
+[2026-05-10T21:25:41.245+0000] {processor.py:925} INFO - DAG(s) 'mod_10_01_custom_components' retrieved from /opt/airflow/dags/10_custom_components/01_use_custom_components.py
+[2026-05-10T21:25:41.255+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:25:41.255+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-10T21:25:41.260+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:25:41.260+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_10_01_custom_components to None, run_after=None
+[2026-05-10T21:25:41.267+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/10_custom_components/01_use_custom_components.py took 0.033 seconds
+[2026-05-10T21:26:11.805+0000] {processor.py:186} INFO - Started process (PID=3069) to work on /opt/airflow/dags/10_custom_components/01_use_custom_components.py
+[2026-05-10T21:26:11.805+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/10_custom_components/01_use_custom_components.py for tasks to queue
+[2026-05-10T21:26:11.807+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:26:11.806+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/10_custom_components/01_use_custom_components.py
+[2026-05-10T21:26:11.811+0000] {processor.py:925} INFO - DAG(s) 'mod_10_01_custom_components' retrieved from /opt/airflow/dags/10_custom_components/01_use_custom_components.py
+[2026-05-10T21:26:11.821+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:26:11.821+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-10T21:26:11.827+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:26:11.827+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_10_01_custom_components to None, run_after=None
+[2026-05-10T21:26:11.834+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/10_custom_components/01_use_custom_components.py took 0.033 seconds
+[2026-05-10T21:26:42.314+0000] {processor.py:186} INFO - Started process (PID=3272) to work on /opt/airflow/dags/10_custom_components/01_use_custom_components.py
+[2026-05-10T21:26:42.314+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/10_custom_components/01_use_custom_components.py for tasks to queue
+[2026-05-10T21:26:42.315+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:26:42.315+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/10_custom_components/01_use_custom_components.py
+[2026-05-10T21:26:42.320+0000] {processor.py:925} INFO - DAG(s) 'mod_10_01_custom_components' retrieved from /opt/airflow/dags/10_custom_components/01_use_custom_components.py
+[2026-05-10T21:26:42.330+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:26:42.330+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-10T21:26:42.336+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:26:42.336+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_10_01_custom_components to None, run_after=None
+[2026-05-10T21:26:42.343+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/10_custom_components/01_use_custom_components.py took 0.035 seconds
+[2026-05-10T21:27:12.922+0000] {processor.py:186} INFO - Started process (PID=3475) to work on /opt/airflow/dags/10_custom_components/01_use_custom_components.py
+[2026-05-10T21:27:12.922+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/10_custom_components/01_use_custom_components.py for tasks to queue
+[2026-05-10T21:27:12.923+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:27:12.923+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/10_custom_components/01_use_custom_components.py
+[2026-05-10T21:27:12.927+0000] {processor.py:925} INFO - DAG(s) 'mod_10_01_custom_components' retrieved from /opt/airflow/dags/10_custom_components/01_use_custom_components.py
+[2026-05-10T21:27:12.936+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:27:12.936+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-10T21:27:12.942+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:27:12.941+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_10_01_custom_components to None, run_after=None
+[2026-05-10T21:27:12.948+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/10_custom_components/01_use_custom_components.py took 0.029 seconds
+[2026-05-10T21:27:43.472+0000] {processor.py:186} INFO - Started process (PID=3678) to work on /opt/airflow/dags/10_custom_components/01_use_custom_components.py
+[2026-05-10T21:27:43.473+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/10_custom_components/01_use_custom_components.py for tasks to queue
+[2026-05-10T21:27:43.474+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:27:43.473+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/10_custom_components/01_use_custom_components.py
+[2026-05-10T21:27:43.478+0000] {processor.py:925} INFO - DAG(s) 'mod_10_01_custom_components' retrieved from /opt/airflow/dags/10_custom_components/01_use_custom_components.py
+[2026-05-10T21:27:43.486+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:27:43.486+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-10T21:27:43.491+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:27:43.491+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_10_01_custom_components to None, run_after=None
+[2026-05-10T21:27:43.497+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/10_custom_components/01_use_custom_components.py took 0.028 seconds
+[2026-05-10T21:28:13.945+0000] {processor.py:186} INFO - Started process (PID=3881) to work on /opt/airflow/dags/10_custom_components/01_use_custom_components.py
+[2026-05-10T21:28:13.946+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/10_custom_components/01_use_custom_components.py for tasks to queue
+[2026-05-10T21:28:13.948+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:28:13.947+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/10_custom_components/01_use_custom_components.py
+[2026-05-10T21:28:13.952+0000] {processor.py:925} INFO - DAG(s) 'mod_10_01_custom_components' retrieved from /opt/airflow/dags/10_custom_components/01_use_custom_components.py
+[2026-05-10T21:28:13.961+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:28:13.961+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-10T21:28:13.967+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:28:13.967+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_10_01_custom_components to None, run_after=None
+[2026-05-10T21:28:13.974+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/10_custom_components/01_use_custom_components.py took 0.032 seconds
+[2026-05-10T21:28:44.431+0000] {processor.py:186} INFO - Started process (PID=4084) to work on /opt/airflow/dags/10_custom_components/01_use_custom_components.py
+[2026-05-10T21:28:44.432+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/10_custom_components/01_use_custom_components.py for tasks to queue
+[2026-05-10T21:28:44.433+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:28:44.433+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/10_custom_components/01_use_custom_components.py
+[2026-05-10T21:28:44.439+0000] {processor.py:925} INFO - DAG(s) 'mod_10_01_custom_components' retrieved from /opt/airflow/dags/10_custom_components/01_use_custom_components.py
+[2026-05-10T21:28:44.449+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:28:44.449+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-10T21:28:44.455+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:28:44.454+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_10_01_custom_components to None, run_after=None
+[2026-05-10T21:28:44.461+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/10_custom_components/01_use_custom_components.py took 0.033 seconds
+[2026-05-10T21:29:15.049+0000] {processor.py:186} INFO - Started process (PID=4287) to work on /opt/airflow/dags/10_custom_components/01_use_custom_components.py
+[2026-05-10T21:29:15.049+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/10_custom_components/01_use_custom_components.py for tasks to queue
+[2026-05-10T21:29:15.050+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:29:15.050+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/10_custom_components/01_use_custom_components.py
+[2026-05-10T21:29:15.055+0000] {processor.py:925} INFO - DAG(s) 'mod_10_01_custom_components' retrieved from /opt/airflow/dags/10_custom_components/01_use_custom_components.py
+[2026-05-10T21:29:15.062+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:29:15.062+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-10T21:29:15.067+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:29:15.067+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_10_01_custom_components to None, run_after=None
+[2026-05-10T21:29:15.073+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/10_custom_components/01_use_custom_components.py took 0.027 seconds
+[2026-05-10T21:29:45.606+0000] {processor.py:186} INFO - Started process (PID=4490) to work on /opt/airflow/dags/10_custom_components/01_use_custom_components.py
+[2026-05-10T21:29:45.607+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/10_custom_components/01_use_custom_components.py for tasks to queue
+[2026-05-10T21:29:45.608+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:29:45.608+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/10_custom_components/01_use_custom_components.py
+[2026-05-10T21:29:45.613+0000] {processor.py:925} INFO - DAG(s) 'mod_10_01_custom_components' retrieved from /opt/airflow/dags/10_custom_components/01_use_custom_components.py
+[2026-05-10T21:29:45.622+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:29:45.622+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-10T21:29:45.628+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:29:45.628+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_10_01_custom_components to None, run_after=None
+[2026-05-10T21:29:45.634+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/10_custom_components/01_use_custom_components.py took 0.031 seconds
+[2026-05-10T21:30:16.082+0000] {processor.py:186} INFO - Started process (PID=4693) to work on /opt/airflow/dags/10_custom_components/01_use_custom_components.py
+[2026-05-10T21:30:16.083+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/10_custom_components/01_use_custom_components.py for tasks to queue
+[2026-05-10T21:30:16.084+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:30:16.083+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/10_custom_components/01_use_custom_components.py
+[2026-05-10T21:30:16.088+0000] {processor.py:925} INFO - DAG(s) 'mod_10_01_custom_components' retrieved from /opt/airflow/dags/10_custom_components/01_use_custom_components.py
+[2026-05-10T21:30:16.097+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:30:16.096+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-10T21:30:16.101+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:30:16.101+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_10_01_custom_components to None, run_after=None
+[2026-05-10T21:30:16.107+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/10_custom_components/01_use_custom_components.py took 0.028 seconds
