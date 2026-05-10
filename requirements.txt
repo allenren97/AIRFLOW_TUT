@@ -1,0 +1,16 @@
+# Pin Airflow itself in the install command using the matching constraints
+# file; see README.md "Quick start (local venv)".
+#
+# Everything below is an additional package most learners will want.
+
+apache-airflow-providers-postgres>=5.11.0
+apache-airflow-providers-http>=4.13.0
+apache-airflow-providers-common-sql>=1.16.0
+
+# Used by some example DAGs / unit tests
+pendulum>=3.0.0
+requests>=2.31.0
+
+# Test tooling
+pytest>=8.0.0
+pytest-mock>=3.12.0
