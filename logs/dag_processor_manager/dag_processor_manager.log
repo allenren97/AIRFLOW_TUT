@@ -1065,3 +1065,141 @@ File Path                                                                PID  Ru
 /opt/airflow/dags/04_xcom/01_classic_push_pull.py                                               1           0  0.03s           2026-05-10T21:29:47                      10
 /opt/airflow/dags/07_dynamic_task_mapping/01_simple_expand.py                                   1           0  0.03s           2026-05-10T21:29:46                      10
 ================================================================================
+[2026-05-10T21:30:46.539+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/11_external_systems/03_full_etl_pipeline.py           4883  0.01s             2           0  0.27s           2026-05-10T21:30:16                      16
+/opt/airflow/dags/05_branching/02_short_circuit.py                                              1           0  0.06s           2026-05-10T21:30:17                      10
+/opt/airflow/dags/08_datasets/02_conditional_dataset_scheduling.py                              4           0  0.06s           2026-05-10T21:30:16                      24
+/opt/airflow/dags/04_xcom/02_taskflow_xcom.py                                                   1           0  0.06s           2026-05-10T21:30:17                      10
+/opt/airflow/dags/01_basics/04_scheduling_examples.py                                           4           0  0.06s           2026-05-10T21:30:18                      21
+/opt/airflow/dags/02_taskflow_api/02_taskflow_multiple_outputs.py                               1           0  0.06s           2026-05-10T21:30:18                      10
+/opt/airflow/dags/08_datasets/04_dataset_extras.py                                              2           0  0.06s           2026-05-10T21:30:16                      20
+/opt/airflow/dags/02_taskflow_api/01_taskflow_basics.py                                         1           0  0.06s           2026-05-10T21:30:18                      10
+/opt/airflow/dags/09_advanced/01_jinja_templating.py                                            1           0  0.06s           2026-05-10T21:30:16                      12
+/opt/airflow/dags/05_branching/01_branch_python.py                                              1           0  0.06s           2026-05-10T21:30:17                      10
+/opt/airflow/dags/11_external_systems/02_postgres_pipeline.py           4886  0.00s             1           0  0.06s           2026-05-10T21:30:16                      10
+/opt/airflow/dags/08_datasets/03_dataset_aliases.py                                             2           0  0.05s           2026-05-10T21:30:16                      20
+/opt/airflow/dags/08_datasets/01_producer_consumer.py                                           2           0  0.05s           2026-05-10T21:30:16                      16
+/opt/airflow/dags/04_xcom/01_classic_push_pull.py                                               1           0  0.05s           2026-05-10T21:30:17                      10
+/opt/airflow/dags/03_dependencies/01_bitshift_deps.py                                           1           0  0.05s           2026-05-10T21:30:17                      10
+/opt/airflow/dags/03_dependencies/02_chain_and_cross_downstream.py                              2           0  0.05s           2026-05-10T21:30:17                      13
+/opt/airflow/dags/06_sensors/02_external_task_sensor.py                                         1           0  0.05s           2026-05-10T21:30:16                      12
+/opt/airflow/dags/07_dynamic_task_mapping/02_expand_kwargs.py                                   1           0  0.05s           2026-05-10T21:30:16                      10
+/opt/airflow/dags/01_basics/03_dag_parameters.py                                                1           0  0.05s           2026-05-10T21:30:18                      10
+/opt/airflow/dags/06_sensors/04_deferrable_sensor.py                                            1           0  0.05s           2026-05-10T21:30:16                      10
+/opt/airflow/dags/07_dynamic_task_mapping/01_simple_expand.py                                   1           0  0.05s           2026-05-10T21:30:16                      10
+/opt/airflow/dags/06_sensors/03_python_sensor_decorator.py                                      1           0  0.04s           2026-05-10T21:30:16                      10
+/opt/airflow/dags/01_basics/02_python_operator_dag.py                                           1           0  0.04s           2026-05-10T21:30:18                      10
+/opt/airflow/dags/06_sensors/01_file_sensor.py                                                  1           0  0.04s           2026-05-10T21:30:16                      10
+/opt/airflow/dags/09_advanced/03_pools_and_priority.py                                          1           0  0.04s           2026-05-10T21:30:16                      10
+/opt/airflow/dags/01_basics/01_hello_world_dag.py                                               1           0  0.04s           2026-05-10T21:30:18                      10
+/opt/airflow/dags/09_advanced/04_callbacks_and_retries.py                                       1           0  0.04s           2026-05-10T21:30:16                      10
+/opt/airflow/dags/07_dynamic_task_mapping/04_zip_and_mapped_groups.py                           1           0  0.04s           2026-05-10T21:30:16                      10
+/opt/airflow/dags/07_dynamic_task_mapping/03_partial_and_chained.py                             1           0  0.04s           2026-05-10T21:30:16                      10
+/opt/airflow/dags/09_advanced/02_params_ui_form.py                                              1           0  0.04s           2026-05-10T21:30:16                      10
+/opt/airflow/dags/03_dependencies/03_task_groups.py                                             1           0  0.04s           2026-05-10T21:30:17                      10
+/opt/airflow/dags/09_advanced/05_custom_timetable.py                                            1           0  0.04s           2026-05-10T21:30:16                      12
+/opt/airflow/dags/11_external_systems/01_http_taskflow.py                                       1           0  0.04s           2026-05-10T21:30:16                      10
+/opt/airflow/dags/01_basics/05_default_args_and_catchup.py                                      1           0  0.04s           2026-05-10T21:30:18                      12
+/opt/airflow/dags/09_advanced/06_variables_and_connections.py                                   1           0  0.04s           2026-05-10T21:30:16                      10
+/opt/airflow/dags/05_branching/03_trigger_rules.py                                              1           0  0.03s           2026-05-10T21:30:16                      10
+/opt/airflow/dags/10_custom_components/01_use_custom_components.py                              1           0  0.03s           2026-05-10T21:30:16                      10
+/opt/airflow/dags/02_taskflow_api/03_mixing_classic_and_taskflow.py                             1           0  0.03s           2026-05-10T21:30:17                      10
+/opt/airflow/dags/04_xcom/03_xcom_size_and_serialization.py                                     1           0  0.03s           2026-05-10T21:30:17                      10
+================================================================================
+[2026-05-10T21:31:17.043+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/11_external_systems/03_full_etl_pipeline.py           5086  0.01s             2           0  0.27s           2026-05-10T21:30:46                      16
+/opt/airflow/dags/05_branching/02_short_circuit.py                                              1           0  0.07s           2026-05-10T21:30:48                      10
+/opt/airflow/dags/08_datasets/04_dataset_extras.py                                              2           0  0.06s           2026-05-10T21:30:46                      20
+/opt/airflow/dags/08_datasets/03_dataset_aliases.py                                             2           0  0.06s           2026-05-10T21:30:46                      20
+/opt/airflow/dags/01_basics/04_scheduling_examples.py                                           4           0  0.06s           2026-05-10T21:30:48                      21
+/opt/airflow/dags/08_datasets/01_producer_consumer.py                                           2           0  0.06s           2026-05-10T21:30:47                      16
+/opt/airflow/dags/05_branching/01_branch_python.py                                              1           0  0.06s           2026-05-10T21:30:48                      10
+/opt/airflow/dags/09_advanced/01_jinja_templating.py                                            1           0  0.05s           2026-05-10T21:30:46                      12
+/opt/airflow/dags/08_datasets/02_conditional_dataset_scheduling.py                              4           0  0.05s           2026-05-10T21:30:46                      24
+/opt/airflow/dags/04_xcom/01_classic_push_pull.py                                               1           0  0.05s           2026-05-10T21:30:48                      10
+/opt/airflow/dags/11_external_systems/02_postgres_pipeline.py           5087  0.01s             1           0  0.05s           2026-05-10T21:30:46                      10
+/opt/airflow/dags/03_dependencies/02_chain_and_cross_downstream.py                              2           0  0.05s           2026-05-10T21:30:48                      13
+/opt/airflow/dags/02_taskflow_api/03_mixing_classic_and_taskflow.py                             1           0  0.05s           2026-05-10T21:30:48                      10
+/opt/airflow/dags/06_sensors/02_external_task_sensor.py                                         1           0  0.05s           2026-05-10T21:30:47                      12
+/opt/airflow/dags/07_dynamic_task_mapping/04_zip_and_mapped_groups.py                           1           0  0.05s           2026-05-10T21:30:47                      10
+/opt/airflow/dags/04_xcom/02_taskflow_xcom.py                                                   1           0  0.05s           2026-05-10T21:30:48                      10
+/opt/airflow/dags/02_taskflow_api/02_taskflow_multiple_outputs.py                               1           0  0.05s           2026-05-10T21:30:48                      10
+/opt/airflow/dags/09_advanced/03_pools_and_priority.py                                          1           0  0.05s           2026-05-10T21:30:46                      10
+/opt/airflow/dags/03_dependencies/03_task_groups.py                                             1           0  0.05s           2026-05-10T21:30:48                      10
+/opt/airflow/dags/01_basics/02_python_operator_dag.py                                           1           0  0.05s           2026-05-10T21:30:48                      10
+/opt/airflow/dags/01_basics/05_default_args_and_catchup.py                                      1           0  0.05s           2026-05-10T21:30:48                      12
+/opt/airflow/dags/09_advanced/02_params_ui_form.py                                              1           0  0.05s           2026-05-10T21:30:46                      10
+/opt/airflow/dags/03_dependencies/01_bitshift_deps.py                                           1           0  0.05s           2026-05-10T21:30:48                      10
+/opt/airflow/dags/07_dynamic_task_mapping/02_expand_kwargs.py                                   1           0  0.05s           2026-05-10T21:30:47                      10
+/opt/airflow/dags/06_sensors/03_python_sensor_decorator.py                                      1           0  0.05s           2026-05-10T21:30:47                      10
+/opt/airflow/dags/02_taskflow_api/01_taskflow_basics.py                                         1           0  0.04s           2026-05-10T21:30:48                      10
+/opt/airflow/dags/09_advanced/04_callbacks_and_retries.py                                       1           0  0.04s           2026-05-10T21:30:46                      10
+/opt/airflow/dags/01_basics/03_dag_parameters.py                                                1           0  0.04s           2026-05-10T21:30:48                      10
+/opt/airflow/dags/01_basics/01_hello_world_dag.py                                               1           0  0.04s           2026-05-10T21:30:48                      10
+/opt/airflow/dags/07_dynamic_task_mapping/01_simple_expand.py                                   1           0  0.04s           2026-05-10T21:30:47                      10
+/opt/airflow/dags/09_advanced/05_custom_timetable.py                                            1           0  0.04s           2026-05-10T21:30:46                      12
+/opt/airflow/dags/09_advanced/06_variables_and_connections.py                                   1           0  0.04s           2026-05-10T21:30:46                      10
+/opt/airflow/dags/04_xcom/03_xcom_size_and_serialization.py                                     1           0  0.04s           2026-05-10T21:30:48                      10
+/opt/airflow/dags/11_external_systems/01_http_taskflow.py                                       1           0  0.03s           2026-05-10T21:30:46                      10
+/opt/airflow/dags/10_custom_components/01_use_custom_components.py                              1           0  0.03s           2026-05-10T21:30:46                      10
+/opt/airflow/dags/07_dynamic_task_mapping/03_partial_and_chained.py                             1           0  0.03s           2026-05-10T21:30:47                      10
+/opt/airflow/dags/05_branching/03_trigger_rules.py                                              1           0  0.03s           2026-05-10T21:30:47                      10
+/opt/airflow/dags/06_sensors/04_deferrable_sensor.py                                            1           0  0.03s           2026-05-10T21:30:47                      10
+/opt/airflow/dags/06_sensors/01_file_sensor.py                                                  1           0  0.03s           2026-05-10T21:30:47                      10
+================================================================================
+[2026-05-10T21:31:47.586+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/11_external_systems/03_full_etl_pipeline.py           5289  0.01s             2           0  0.32s           2026-05-10T21:31:17                      16
+/opt/airflow/dags/08_datasets/04_dataset_extras.py                                              2           0  0.09s           2026-05-10T21:31:17                      20
+/opt/airflow/dags/09_advanced/01_jinja_templating.py                                            1           0  0.09s           2026-05-10T21:31:17                      12
+/opt/airflow/dags/08_datasets/03_dataset_aliases.py                                             2           0  0.07s           2026-05-10T21:31:17                      20
+/opt/airflow/dags/08_datasets/02_conditional_dataset_scheduling.py                              4           0  0.07s           2026-05-10T21:31:17                      24
+/opt/airflow/dags/05_branching/02_short_circuit.py                                              1           0  0.07s           2026-05-10T21:31:18                      10
+/opt/airflow/dags/06_sensors/02_external_task_sensor.py                                         1           0  0.06s           2026-05-10T21:31:17                      12
+/opt/airflow/dags/11_external_systems/02_postgres_pipeline.py           5291  0.00s             1           0  0.06s           2026-05-10T21:31:17                      10
+/opt/airflow/dags/01_basics/04_scheduling_examples.py                                           4           0  0.06s           2026-05-10T21:31:19                      21
+/opt/airflow/dags/05_branching/01_branch_python.py                                              1           0  0.06s           2026-05-10T21:31:18                      10
+/opt/airflow/dags/06_sensors/01_file_sensor.py                                                  1           0  0.06s           2026-05-10T21:31:17                      10
+/opt/airflow/dags/09_advanced/02_params_ui_form.py                                              1           0  0.06s           2026-05-10T21:31:17                      10
+/opt/airflow/dags/03_dependencies/02_chain_and_cross_downstream.py                              2           0  0.06s           2026-05-10T21:31:19                      13
+/opt/airflow/dags/08_datasets/01_producer_consumer.py                                           2           0  0.05s           2026-05-10T21:31:17                      16
+/opt/airflow/dags/06_sensors/04_deferrable_sensor.py                                            1           0  0.05s           2026-05-10T21:31:17                      10
+/opt/airflow/dags/07_dynamic_task_mapping/04_zip_and_mapped_groups.py                           1           0  0.05s           2026-05-10T21:31:17                      10
+/opt/airflow/dags/07_dynamic_task_mapping/01_simple_expand.py                                   1           0  0.05s           2026-05-10T21:31:17                      10
+/opt/airflow/dags/04_xcom/02_taskflow_xcom.py                                                   1           0  0.05s           2026-05-10T21:31:18                      10
+/opt/airflow/dags/03_dependencies/01_bitshift_deps.py                                           1           0  0.05s           2026-05-10T21:31:19                      10
+/opt/airflow/dags/07_dynamic_task_mapping/03_partial_and_chained.py                             1           0  0.05s           2026-05-10T21:31:17                      10
+/opt/airflow/dags/01_basics/05_default_args_and_catchup.py                                      1           0  0.05s           2026-05-10T21:31:19                      12
+/opt/airflow/dags/09_advanced/06_variables_and_connections.py                                   1           0  0.04s           2026-05-10T21:31:17                      10
+/opt/airflow/dags/01_basics/02_python_operator_dag.py                                           1           0  0.04s           2026-05-10T21:31:19                      10
+/opt/airflow/dags/09_advanced/03_pools_and_priority.py                                          1           0  0.04s           2026-05-10T21:31:17                      10
+/opt/airflow/dags/02_taskflow_api/01_taskflow_basics.py                                         1           0  0.04s           2026-05-10T21:31:19                      10
+/opt/airflow/dags/02_taskflow_api/02_taskflow_multiple_outputs.py                               1           0  0.04s           2026-05-10T21:31:19                      10
+/opt/airflow/dags/02_taskflow_api/03_mixing_classic_and_taskflow.py                             1           0  0.04s           2026-05-10T21:31:19                      10
+/opt/airflow/dags/04_xcom/01_classic_push_pull.py                                               1           0  0.04s           2026-05-10T21:31:18                      10
+/opt/airflow/dags/01_basics/03_dag_parameters.py                                                1           0  0.04s           2026-05-10T21:31:19                      10
+/opt/airflow/dags/01_basics/01_hello_world_dag.py                                               1           0  0.04s           2026-05-10T21:31:19                      10
+/opt/airflow/dags/09_advanced/05_custom_timetable.py                                            1           0  0.04s           2026-05-10T21:31:17                      12
+/opt/airflow/dags/11_external_systems/01_http_taskflow.py                                       1           0  0.04s           2026-05-10T21:31:17                      10
+/opt/airflow/dags/09_advanced/04_callbacks_and_retries.py                                       1           0  0.04s           2026-05-10T21:31:17                      10
+/opt/airflow/dags/10_custom_components/01_use_custom_components.py                              1           0  0.04s           2026-05-10T21:31:17                      10
+/opt/airflow/dags/06_sensors/03_python_sensor_decorator.py                                      1           0  0.04s           2026-05-10T21:31:17                      10
+/opt/airflow/dags/07_dynamic_task_mapping/02_expand_kwargs.py                                   1           0  0.03s           2026-05-10T21:31:17                      10
+/opt/airflow/dags/05_branching/03_trigger_rules.py                                              1           0  0.03s           2026-05-10T21:31:17                      10
+/opt/airflow/dags/04_xcom/03_xcom_size_and_serialization.py                                     1           0  0.03s           2026-05-10T21:31:18                      10
+/opt/airflow/dags/03_dependencies/03_task_groups.py                                             1           0  0.03s           2026-05-10T21:31:19                      10
+================================================================================

@@ -167,3 +167,24 @@
 [2026-05-10T21:30:16.312+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:30:16.312+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2026-05-10T21:30:16.324+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:30:16.324+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_09_01_jinja_templating to 2026-05-09 00:00:00+00:00, run_after=2026-05-10 00:00:00+00:00
 [2026-05-10T21:30:16.338+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/09_advanced/01_jinja_templating.py took 0.050 seconds
+[2026-05-10T21:30:46.838+0000] {processor.py:186} INFO - Started process (PID=4926) to work on /opt/airflow/dags/09_advanced/01_jinja_templating.py
+[2026-05-10T21:30:46.839+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/09_advanced/01_jinja_templating.py for tasks to queue
+[2026-05-10T21:30:46.841+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:30:46.841+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/09_advanced/01_jinja_templating.py
+[2026-05-10T21:30:46.847+0000] {processor.py:925} INFO - DAG(s) 'mod_09_01_jinja_templating' retrieved from /opt/airflow/dags/09_advanced/01_jinja_templating.py
+[2026-05-10T21:30:46.857+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:30:46.857+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-10T21:30:46.871+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:30:46.871+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_09_01_jinja_templating to 2026-05-09 00:00:00+00:00, run_after=2026-05-10 00:00:00+00:00
+[2026-05-10T21:30:46.880+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/09_advanced/01_jinja_templating.py took 0.045 seconds
+[2026-05-10T21:31:17.362+0000] {processor.py:186} INFO - Started process (PID=5129) to work on /opt/airflow/dags/09_advanced/01_jinja_templating.py
+[2026-05-10T21:31:17.363+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/09_advanced/01_jinja_templating.py for tasks to queue
+[2026-05-10T21:31:17.365+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:31:17.365+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/09_advanced/01_jinja_templating.py
+[2026-05-10T21:31:17.374+0000] {processor.py:925} INFO - DAG(s) 'mod_09_01_jinja_templating' retrieved from /opt/airflow/dags/09_advanced/01_jinja_templating.py
+[2026-05-10T21:31:17.391+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:31:17.391+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-10T21:31:17.424+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:31:17.424+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_09_01_jinja_templating to 2026-05-09 00:00:00+00:00, run_after=2026-05-10 00:00:00+00:00
+[2026-05-10T21:31:17.437+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/09_advanced/01_jinja_templating.py took 0.078 seconds
+[2026-05-10T21:31:47.918+0000] {processor.py:186} INFO - Started process (PID=5332) to work on /opt/airflow/dags/09_advanced/01_jinja_templating.py
+[2026-05-10T21:31:47.918+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/09_advanced/01_jinja_templating.py for tasks to queue
+[2026-05-10T21:31:47.920+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:31:47.920+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/09_advanced/01_jinja_templating.py
+[2026-05-10T21:31:47.930+0000] {processor.py:925} INFO - DAG(s) 'mod_09_01_jinja_templating' retrieved from /opt/airflow/dags/09_advanced/01_jinja_templating.py
+[2026-05-10T21:31:47.939+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:31:47.939+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-10T21:31:47.948+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:31:47.947+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_09_01_jinja_templating to 2026-05-09 00:00:00+00:00, run_after=2026-05-10 00:00:00+00:00
+[2026-05-10T21:31:47.961+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/09_advanced/01_jinja_templating.py took 0.046 seconds

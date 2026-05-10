@@ -167,3 +167,24 @@
 [2026-05-10T21:30:16.456+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:30:16.456+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2026-05-10T21:30:16.461+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:30:16.461+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_07_04_mapped_task_group to None, run_after=None
 [2026-05-10T21:30:16.467+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/07_dynamic_task_mapping/04_zip_and_mapped_groups.py took 0.036 seconds
+[2026-05-10T21:30:46.975+0000] {processor.py:186} INFO - Started process (PID=4951) to work on /opt/airflow/dags/07_dynamic_task_mapping/04_zip_and_mapped_groups.py
+[2026-05-10T21:30:46.977+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/07_dynamic_task_mapping/04_zip_and_mapped_groups.py for tasks to queue
+[2026-05-10T21:30:46.978+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:30:46.978+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/07_dynamic_task_mapping/04_zip_and_mapped_groups.py
+[2026-05-10T21:30:46.983+0000] {processor.py:925} INFO - DAG(s) 'mod_07_04_mapped_task_group' retrieved from /opt/airflow/dags/07_dynamic_task_mapping/04_zip_and_mapped_groups.py
+[2026-05-10T21:30:46.995+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:30:46.995+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-10T21:30:47.001+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:30:47.001+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_07_04_mapped_task_group to None, run_after=None
+[2026-05-10T21:30:47.012+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/07_dynamic_task_mapping/04_zip_and_mapped_groups.py took 0.039 seconds
+[2026-05-10T21:31:17.577+0000] {processor.py:186} INFO - Started process (PID=5154) to work on /opt/airflow/dags/07_dynamic_task_mapping/04_zip_and_mapped_groups.py
+[2026-05-10T21:31:17.578+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/07_dynamic_task_mapping/04_zip_and_mapped_groups.py for tasks to queue
+[2026-05-10T21:31:17.580+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:31:17.580+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/07_dynamic_task_mapping/04_zip_and_mapped_groups.py
+[2026-05-10T21:31:17.587+0000] {processor.py:925} INFO - DAG(s) 'mod_07_04_mapped_task_group' retrieved from /opt/airflow/dags/07_dynamic_task_mapping/04_zip_and_mapped_groups.py
+[2026-05-10T21:31:17.602+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:31:17.601+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-10T21:31:17.610+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:31:17.610+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_07_04_mapped_task_group to None, run_after=None
+[2026-05-10T21:31:17.620+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/07_dynamic_task_mapping/04_zip_and_mapped_groups.py took 0.046 seconds
+[2026-05-10T21:31:48.054+0000] {processor.py:186} INFO - Started process (PID=5357) to work on /opt/airflow/dags/07_dynamic_task_mapping/04_zip_and_mapped_groups.py
+[2026-05-10T21:31:48.054+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/07_dynamic_task_mapping/04_zip_and_mapped_groups.py for tasks to queue
+[2026-05-10T21:31:48.057+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:31:48.057+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/07_dynamic_task_mapping/04_zip_and_mapped_groups.py
+[2026-05-10T21:31:48.061+0000] {processor.py:925} INFO - DAG(s) 'mod_07_04_mapped_task_group' retrieved from /opt/airflow/dags/07_dynamic_task_mapping/04_zip_and_mapped_groups.py
+[2026-05-10T21:31:48.069+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:31:48.069+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-10T21:31:48.075+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:31:48.075+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_07_04_mapped_task_group to None, run_after=None
+[2026-05-10T21:31:48.084+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/07_dynamic_task_mapping/04_zip_and_mapped_groups.py took 0.033 seconds

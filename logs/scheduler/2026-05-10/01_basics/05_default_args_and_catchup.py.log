@@ -167,3 +167,24 @@
 [2026-05-10T21:30:18.047+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:30:18.047+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2026-05-10T21:30:18.055+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:30:18.054+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_01_05_default_args_and_catchup to 2025-06-01 00:00:00+00:00, run_after=2025-06-02 00:00:00+00:00
 [2026-05-10T21:30:18.060+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/01_basics/05_default_args_and_catchup.py took 0.030 seconds
+[2026-05-10T21:30:48.530+0000] {processor.py:186} INFO - Started process (PID=5051) to work on /opt/airflow/dags/01_basics/05_default_args_and_catchup.py
+[2026-05-10T21:30:48.532+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/01_basics/05_default_args_and_catchup.py for tasks to queue
+[2026-05-10T21:30:48.533+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:30:48.533+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/01_basics/05_default_args_and_catchup.py
+[2026-05-10T21:30:48.537+0000] {processor.py:925} INFO - DAG(s) 'mod_01_05_default_args_and_catchup' retrieved from /opt/airflow/dags/01_basics/05_default_args_and_catchup.py
+[2026-05-10T21:30:48.547+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:30:48.547+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-10T21:30:48.555+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:30:48.555+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_01_05_default_args_and_catchup to 2025-06-01 00:00:00+00:00, run_after=2025-06-02 00:00:00+00:00
+[2026-05-10T21:30:48.566+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/01_basics/05_default_args_and_catchup.py took 0.039 seconds
+[2026-05-10T21:31:19.125+0000] {processor.py:186} INFO - Started process (PID=5254) to work on /opt/airflow/dags/01_basics/05_default_args_and_catchup.py
+[2026-05-10T21:31:19.126+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/01_basics/05_default_args_and_catchup.py for tasks to queue
+[2026-05-10T21:31:19.127+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:31:19.127+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/01_basics/05_default_args_and_catchup.py
+[2026-05-10T21:31:19.132+0000] {processor.py:925} INFO - DAG(s) 'mod_01_05_default_args_and_catchup' retrieved from /opt/airflow/dags/01_basics/05_default_args_and_catchup.py
+[2026-05-10T21:31:19.144+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:31:19.144+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-10T21:31:19.155+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:31:19.155+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_01_05_default_args_and_catchup to 2025-06-01 00:00:00+00:00, run_after=2025-06-02 00:00:00+00:00
+[2026-05-10T21:31:19.161+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/01_basics/05_default_args_and_catchup.py took 0.039 seconds
+[2026-05-10T21:31:49.623+0000] {processor.py:186} INFO - Started process (PID=5459) to work on /opt/airflow/dags/01_basics/05_default_args_and_catchup.py
+[2026-05-10T21:31:49.624+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/01_basics/05_default_args_and_catchup.py for tasks to queue
+[2026-05-10T21:31:49.625+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:31:49.625+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/01_basics/05_default_args_and_catchup.py
+[2026-05-10T21:31:49.630+0000] {processor.py:925} INFO - DAG(s) 'mod_01_05_default_args_and_catchup' retrieved from /opt/airflow/dags/01_basics/05_default_args_and_catchup.py
+[2026-05-10T21:31:49.638+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:31:49.638+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-10T21:31:49.646+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:31:49.646+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_01_05_default_args_and_catchup to 2025-06-01 00:00:00+00:00, run_after=2025-06-02 00:00:00+00:00
+[2026-05-10T21:31:49.651+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/01_basics/05_default_args_and_catchup.py took 0.031 seconds

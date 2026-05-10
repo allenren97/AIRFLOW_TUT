@@ -260,3 +260,33 @@
 [2026-05-10T21:30:16.410+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:30:16.410+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_08_02_promotions_producer to 2026-05-09 00:00:00+00:00, run_after=2026-05-10 00:00:00+00:00
 [2026-05-10T21:30:16.411+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:30:16.411+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_08_02_users_producer to 2026-05-09 00:00:00+00:00, run_after=2026-05-10 00:00:00+00:00
 [2026-05-10T21:30:16.420+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/08_datasets/02_conditional_dataset_scheduling.py took 0.057 seconds
+[2026-05-10T21:30:46.916+0000] {processor.py:186} INFO - Started process (PID=4941) to work on /opt/airflow/dags/08_datasets/02_conditional_dataset_scheduling.py
+[2026-05-10T21:30:46.917+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/08_datasets/02_conditional_dataset_scheduling.py for tasks to queue
+[2026-05-10T21:30:46.918+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:30:46.918+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/08_datasets/02_conditional_dataset_scheduling.py
+[2026-05-10T21:30:46.924+0000] {processor.py:925} INFO - DAG(s) 'mod_08_02_conditional_consumer', 'mod_08_02_orders_producer', 'mod_08_02_promotions_producer', 'mod_08_02_users_producer' retrieved from /opt/airflow/dags/08_datasets/02_conditional_dataset_scheduling.py
+[2026-05-10T21:30:46.937+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:30:46.937+0000] {dag.py:3239} INFO - Sync 4 DAGs
+[2026-05-10T21:30:46.946+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:30:46.946+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_08_02_conditional_consumer to None, run_after=None
+[2026-05-10T21:30:46.948+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:30:46.948+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_08_02_orders_producer to 2026-05-09 00:00:00+00:00, run_after=2026-05-10 00:00:00+00:00
+[2026-05-10T21:30:46.951+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:30:46.951+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_08_02_promotions_producer to 2026-05-09 00:00:00+00:00, run_after=2026-05-10 00:00:00+00:00
+[2026-05-10T21:30:46.952+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:30:46.952+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_08_02_users_producer to 2026-05-09 00:00:00+00:00, run_after=2026-05-10 00:00:00+00:00
+[2026-05-10T21:30:46.960+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/08_datasets/02_conditional_dataset_scheduling.py took 0.047 seconds
+[2026-05-10T21:31:17.508+0000] {processor.py:186} INFO - Started process (PID=5144) to work on /opt/airflow/dags/08_datasets/02_conditional_dataset_scheduling.py
+[2026-05-10T21:31:17.508+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/08_datasets/02_conditional_dataset_scheduling.py for tasks to queue
+[2026-05-10T21:31:17.510+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:31:17.510+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/08_datasets/02_conditional_dataset_scheduling.py
+[2026-05-10T21:31:17.518+0000] {processor.py:925} INFO - DAG(s) 'mod_08_02_promotions_producer', 'mod_08_02_orders_producer', 'mod_08_02_conditional_consumer', 'mod_08_02_users_producer' retrieved from /opt/airflow/dags/08_datasets/02_conditional_dataset_scheduling.py
+[2026-05-10T21:31:17.529+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:31:17.529+0000] {dag.py:3239} INFO - Sync 4 DAGs
+[2026-05-10T21:31:17.541+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:31:17.540+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_08_02_conditional_consumer to None, run_after=None
+[2026-05-10T21:31:17.543+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:31:17.543+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_08_02_orders_producer to 2026-05-09 00:00:00+00:00, run_after=2026-05-10 00:00:00+00:00
+[2026-05-10T21:31:17.545+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:31:17.545+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_08_02_promotions_producer to 2026-05-09 00:00:00+00:00, run_after=2026-05-10 00:00:00+00:00
+[2026-05-10T21:31:17.547+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:31:17.547+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_08_02_users_producer to 2026-05-09 00:00:00+00:00, run_after=2026-05-10 00:00:00+00:00
+[2026-05-10T21:31:17.563+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/08_datasets/02_conditional_dataset_scheduling.py took 0.058 seconds
+[2026-05-10T21:31:47.989+0000] {processor.py:186} INFO - Started process (PID=5347) to work on /opt/airflow/dags/08_datasets/02_conditional_dataset_scheduling.py
+[2026-05-10T21:31:47.989+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/08_datasets/02_conditional_dataset_scheduling.py for tasks to queue
+[2026-05-10T21:31:47.992+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:31:47.991+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/08_datasets/02_conditional_dataset_scheduling.py
+[2026-05-10T21:31:47.999+0000] {processor.py:925} INFO - DAG(s) 'mod_08_02_orders_producer', 'mod_08_02_promotions_producer', 'mod_08_02_conditional_consumer', 'mod_08_02_users_producer' retrieved from /opt/airflow/dags/08_datasets/02_conditional_dataset_scheduling.py
+[2026-05-10T21:31:48.014+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:31:48.014+0000] {dag.py:3239} INFO - Sync 4 DAGs
+[2026-05-10T21:31:48.024+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:31:48.024+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_08_02_conditional_consumer to None, run_after=None
+[2026-05-10T21:31:48.026+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:31:48.026+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_08_02_orders_producer to 2026-05-09 00:00:00+00:00, run_after=2026-05-10 00:00:00+00:00
+[2026-05-10T21:31:48.029+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:31:48.029+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_08_02_promotions_producer to 2026-05-09 00:00:00+00:00, run_after=2026-05-10 00:00:00+00:00
+[2026-05-10T21:31:48.030+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:31:48.029+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_08_02_users_producer to 2026-05-09 00:00:00+00:00, run_after=2026-05-10 00:00:00+00:00
+[2026-05-10T21:31:48.039+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/08_datasets/02_conditional_dataset_scheduling.py took 0.053 seconds

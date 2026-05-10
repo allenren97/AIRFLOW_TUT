@@ -167,3 +167,24 @@
 [2026-05-10T21:30:17.755+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:30:17.755+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2026-05-10T21:30:17.760+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:30:17.760+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_04_03_xcom_large_payload to None, run_after=None
 [2026-05-10T21:30:17.765+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/04_xcom/03_xcom_size_and_serialization.py took 0.028 seconds
+[2026-05-10T21:30:48.292+0000] {processor.py:186} INFO - Started process (PID=5008) to work on /opt/airflow/dags/04_xcom/03_xcom_size_and_serialization.py
+[2026-05-10T21:30:48.293+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/04_xcom/03_xcom_size_and_serialization.py for tasks to queue
+[2026-05-10T21:30:48.294+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:30:48.294+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/04_xcom/03_xcom_size_and_serialization.py
+[2026-05-10T21:30:48.298+0000] {processor.py:925} INFO - DAG(s) 'mod_04_03_xcom_large_payload' retrieved from /opt/airflow/dags/04_xcom/03_xcom_size_and_serialization.py
+[2026-05-10T21:30:48.306+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:30:48.306+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-10T21:30:48.311+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:30:48.311+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_04_03_xcom_large_payload to None, run_after=None
+[2026-05-10T21:30:48.318+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/04_xcom/03_xcom_size_and_serialization.py took 0.029 seconds
+[2026-05-10T21:31:18.902+0000] {processor.py:186} INFO - Started process (PID=5211) to work on /opt/airflow/dags/04_xcom/03_xcom_size_and_serialization.py
+[2026-05-10T21:31:18.902+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/04_xcom/03_xcom_size_and_serialization.py for tasks to queue
+[2026-05-10T21:31:18.903+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:31:18.903+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/04_xcom/03_xcom_size_and_serialization.py
+[2026-05-10T21:31:18.907+0000] {processor.py:925} INFO - DAG(s) 'mod_04_03_xcom_large_payload' retrieved from /opt/airflow/dags/04_xcom/03_xcom_size_and_serialization.py
+[2026-05-10T21:31:18.916+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:31:18.916+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-10T21:31:18.921+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:31:18.921+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_04_03_xcom_large_payload to None, run_after=None
+[2026-05-10T21:31:18.926+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/04_xcom/03_xcom_size_and_serialization.py took 0.027 seconds
+[2026-05-10T21:31:49.370+0000] {processor.py:186} INFO - Started process (PID=5414) to work on /opt/airflow/dags/04_xcom/03_xcom_size_and_serialization.py
+[2026-05-10T21:31:49.370+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/04_xcom/03_xcom_size_and_serialization.py for tasks to queue
+[2026-05-10T21:31:49.371+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:31:49.371+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/04_xcom/03_xcom_size_and_serialization.py
+[2026-05-10T21:31:49.376+0000] {processor.py:925} INFO - DAG(s) 'mod_04_03_xcom_large_payload' retrieved from /opt/airflow/dags/04_xcom/03_xcom_size_and_serialization.py
+[2026-05-10T21:31:49.384+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:31:49.384+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-10T21:31:49.389+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:31:49.389+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_04_03_xcom_large_payload to None, run_after=None
+[2026-05-10T21:31:49.401+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/04_xcom/03_xcom_size_and_serialization.py took 0.034 seconds

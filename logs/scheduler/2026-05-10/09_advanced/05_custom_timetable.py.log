@@ -167,3 +167,24 @@
 [2026-05-10T21:30:16.172+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:30:16.172+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2026-05-10T21:30:16.180+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:30:16.180+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_09_05_custom_timetable to 2025-01-01 09:00:00+00:00, run_after=2025-01-02 09:00:00+00:00
 [2026-05-10T21:30:16.186+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/09_advanced/05_custom_timetable.py took 0.030 seconds
+[2026-05-10T21:30:46.705+0000] {processor.py:186} INFO - Started process (PID=4906) to work on /opt/airflow/dags/09_advanced/05_custom_timetable.py
+[2026-05-10T21:30:46.705+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/09_advanced/05_custom_timetable.py for tasks to queue
+[2026-05-10T21:30:46.706+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:30:46.706+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/09_advanced/05_custom_timetable.py
+[2026-05-10T21:30:46.710+0000] {processor.py:925} INFO - DAG(s) 'mod_09_05_custom_timetable' retrieved from /opt/airflow/dags/09_advanced/05_custom_timetable.py
+[2026-05-10T21:30:46.718+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:30:46.718+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-10T21:30:46.726+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:30:46.726+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_09_05_custom_timetable to 2025-01-01 09:00:00+00:00, run_after=2025-01-02 09:00:00+00:00
+[2026-05-10T21:30:46.731+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/09_advanced/05_custom_timetable.py took 0.030 seconds
+[2026-05-10T21:31:17.232+0000] {processor.py:186} INFO - Started process (PID=5109) to work on /opt/airflow/dags/09_advanced/05_custom_timetable.py
+[2026-05-10T21:31:17.232+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/09_advanced/05_custom_timetable.py for tasks to queue
+[2026-05-10T21:31:17.234+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:31:17.234+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/09_advanced/05_custom_timetable.py
+[2026-05-10T21:31:17.238+0000] {processor.py:925} INFO - DAG(s) 'mod_09_05_custom_timetable' retrieved from /opt/airflow/dags/09_advanced/05_custom_timetable.py
+[2026-05-10T21:31:17.246+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:31:17.246+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-10T21:31:17.254+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:31:17.254+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_09_05_custom_timetable to 2025-01-01 09:00:00+00:00, run_after=2025-01-02 09:00:00+00:00
+[2026-05-10T21:31:17.260+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/09_advanced/05_custom_timetable.py took 0.032 seconds
+[2026-05-10T21:31:47.781+0000] {processor.py:186} INFO - Started process (PID=5312) to work on /opt/airflow/dags/09_advanced/05_custom_timetable.py
+[2026-05-10T21:31:47.781+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/09_advanced/05_custom_timetable.py for tasks to queue
+[2026-05-10T21:31:47.782+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:31:47.782+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/09_advanced/05_custom_timetable.py
+[2026-05-10T21:31:47.786+0000] {processor.py:925} INFO - DAG(s) 'mod_09_05_custom_timetable' retrieved from /opt/airflow/dags/09_advanced/05_custom_timetable.py
+[2026-05-10T21:31:47.795+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:31:47.795+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-10T21:31:47.803+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:31:47.803+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_09_05_custom_timetable to 2025-01-01 09:00:00+00:00, run_after=2025-01-02 09:00:00+00:00
+[2026-05-10T21:31:47.809+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/09_advanced/05_custom_timetable.py took 0.032 seconds

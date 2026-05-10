@@ -167,3 +167,24 @@
 [2026-05-10T21:30:18.140+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:30:18.140+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2026-05-10T21:30:18.148+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:30:18.147+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_01_02_python_operator to None, run_after=None
 [2026-05-10T21:30:18.160+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/01_basics/02_python_operator_dag.py took 0.038 seconds
+[2026-05-10T21:30:48.610+0000] {processor.py:186} INFO - Started process (PID=5066) to work on /opt/airflow/dags/01_basics/02_python_operator_dag.py
+[2026-05-10T21:30:48.611+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/01_basics/02_python_operator_dag.py for tasks to queue
+[2026-05-10T21:30:48.612+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:30:48.612+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/01_basics/02_python_operator_dag.py
+[2026-05-10T21:30:48.617+0000] {processor.py:925} INFO - DAG(s) 'mod_01_02_python_operator' retrieved from /opt/airflow/dags/01_basics/02_python_operator_dag.py
+[2026-05-10T21:30:48.626+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:30:48.626+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-10T21:30:48.632+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:30:48.632+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_01_02_python_operator to None, run_after=None
+[2026-05-10T21:30:48.642+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/01_basics/02_python_operator_dag.py took 0.035 seconds
+[2026-05-10T21:31:19.220+0000] {processor.py:186} INFO - Started process (PID=5270) to work on /opt/airflow/dags/01_basics/02_python_operator_dag.py
+[2026-05-10T21:31:19.221+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/01_basics/02_python_operator_dag.py for tasks to queue
+[2026-05-10T21:31:19.223+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:31:19.223+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/01_basics/02_python_operator_dag.py
+[2026-05-10T21:31:19.226+0000] {processor.py:925} INFO - DAG(s) 'mod_01_02_python_operator' retrieved from /opt/airflow/dags/01_basics/02_python_operator_dag.py
+[2026-05-10T21:31:19.237+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:31:19.237+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-10T21:31:19.244+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:31:19.244+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_01_02_python_operator to None, run_after=None
+[2026-05-10T21:31:19.255+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/01_basics/02_python_operator_dag.py took 0.037 seconds
+[2026-05-10T21:31:49.710+0000] {processor.py:186} INFO - Started process (PID=5472) to work on /opt/airflow/dags/01_basics/02_python_operator_dag.py
+[2026-05-10T21:31:49.711+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/01_basics/02_python_operator_dag.py for tasks to queue
+[2026-05-10T21:31:49.712+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:31:49.712+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/01_basics/02_python_operator_dag.py
+[2026-05-10T21:31:49.715+0000] {processor.py:925} INFO - DAG(s) 'mod_01_02_python_operator' retrieved from /opt/airflow/dags/01_basics/02_python_operator_dag.py
+[2026-05-10T21:31:49.724+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:31:49.724+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-10T21:31:49.731+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:31:49.731+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_01_02_python_operator to None, run_after=None
+[2026-05-10T21:31:49.743+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/01_basics/02_python_operator_dag.py took 0.036 seconds

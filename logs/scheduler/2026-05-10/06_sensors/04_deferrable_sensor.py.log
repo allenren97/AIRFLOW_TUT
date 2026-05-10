@@ -167,3 +167,24 @@
 [2026-05-10T21:30:16.555+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:30:16.555+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2026-05-10T21:30:16.561+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:30:16.561+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_06_04_deferrable_sensor to None, run_after=None
 [2026-05-10T21:30:16.572+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/06_sensors/04_deferrable_sensor.py took 0.039 seconds
+[2026-05-10T21:30:47.098+0000] {processor.py:186} INFO - Started process (PID=4973) to work on /opt/airflow/dags/06_sensors/04_deferrable_sensor.py
+[2026-05-10T21:30:47.099+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/06_sensors/04_deferrable_sensor.py for tasks to queue
+[2026-05-10T21:30:47.099+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:30:47.099+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/06_sensors/04_deferrable_sensor.py
+[2026-05-10T21:30:47.103+0000] {processor.py:925} INFO - DAG(s) 'mod_06_04_deferrable_sensor' retrieved from /opt/airflow/dags/06_sensors/04_deferrable_sensor.py
+[2026-05-10T21:30:47.111+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:30:47.111+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-10T21:30:47.116+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:30:47.116+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_06_04_deferrable_sensor to None, run_after=None
+[2026-05-10T21:30:47.122+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/06_sensors/04_deferrable_sensor.py took 0.026 seconds
+[2026-05-10T21:31:17.672+0000] {processor.py:186} INFO - Started process (PID=5174) to work on /opt/airflow/dags/06_sensors/04_deferrable_sensor.py
+[2026-05-10T21:31:17.672+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/06_sensors/04_deferrable_sensor.py for tasks to queue
+[2026-05-10T21:31:17.674+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:31:17.674+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/06_sensors/04_deferrable_sensor.py
+[2026-05-10T21:31:17.678+0000] {processor.py:925} INFO - DAG(s) 'mod_06_04_deferrable_sensor' retrieved from /opt/airflow/dags/06_sensors/04_deferrable_sensor.py
+[2026-05-10T21:31:17.690+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:31:17.690+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-10T21:31:17.696+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:31:17.696+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_06_04_deferrable_sensor to None, run_after=None
+[2026-05-10T21:31:17.707+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/06_sensors/04_deferrable_sensor.py took 0.038 seconds
+[2026-05-10T21:31:48.176+0000] {processor.py:186} INFO - Started process (PID=5379) to work on /opt/airflow/dags/06_sensors/04_deferrable_sensor.py
+[2026-05-10T21:31:48.176+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/06_sensors/04_deferrable_sensor.py for tasks to queue
+[2026-05-10T21:31:48.177+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:31:48.177+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/06_sensors/04_deferrable_sensor.py
+[2026-05-10T21:31:48.181+0000] {processor.py:925} INFO - DAG(s) 'mod_06_04_deferrable_sensor' retrieved from /opt/airflow/dags/06_sensors/04_deferrable_sensor.py
+[2026-05-10T21:31:48.189+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:31:48.189+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-10T21:31:48.193+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:31:48.193+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_06_04_deferrable_sensor to None, run_after=None
+[2026-05-10T21:31:48.199+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/06_sensors/04_deferrable_sensor.py took 0.025 seconds

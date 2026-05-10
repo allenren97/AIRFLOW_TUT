@@ -167,3 +167,24 @@
 [2026-05-10T21:30:16.018+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:30:16.018+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2026-05-10T21:30:16.024+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:30:16.024+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_11_02_postgres_pipeline to None, run_after=None
 [2026-05-10T21:30:16.032+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/11_external_systems/02_postgres_pipeline.py took 0.048 seconds
+[2026-05-10T21:30:46.543+0000] {processor.py:186} INFO - Started process (PID=4886) to work on /opt/airflow/dags/11_external_systems/02_postgres_pipeline.py
+[2026-05-10T21:30:46.544+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/11_external_systems/02_postgres_pipeline.py for tasks to queue
+[2026-05-10T21:30:46.546+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:30:46.545+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/11_external_systems/02_postgres_pipeline.py
+[2026-05-10T21:30:46.554+0000] {processor.py:925} INFO - DAG(s) 'mod_11_02_postgres_pipeline' retrieved from /opt/airflow/dags/11_external_systems/02_postgres_pipeline.py
+[2026-05-10T21:30:46.566+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:30:46.566+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-10T21:30:46.572+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:30:46.572+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_11_02_postgres_pipeline to None, run_after=None
+[2026-05-10T21:30:46.580+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/11_external_systems/02_postgres_pipeline.py took 0.041 seconds
+[2026-05-10T21:31:17.046+0000] {processor.py:186} INFO - Started process (PID=5087) to work on /opt/airflow/dags/11_external_systems/02_postgres_pipeline.py
+[2026-05-10T21:31:17.048+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/11_external_systems/02_postgres_pipeline.py for tasks to queue
+[2026-05-10T21:31:17.051+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:31:17.051+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/11_external_systems/02_postgres_pipeline.py
+[2026-05-10T21:31:17.061+0000] {processor.py:925} INFO - DAG(s) 'mod_11_02_postgres_pipeline' retrieved from /opt/airflow/dags/11_external_systems/02_postgres_pipeline.py
+[2026-05-10T21:31:17.074+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:31:17.074+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-10T21:31:17.083+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:31:17.083+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_11_02_postgres_pipeline to None, run_after=None
+[2026-05-10T21:31:17.091+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/11_external_systems/02_postgres_pipeline.py took 0.050 seconds
+[2026-05-10T21:31:47.590+0000] {processor.py:186} INFO - Started process (PID=5291) to work on /opt/airflow/dags/11_external_systems/02_postgres_pipeline.py
+[2026-05-10T21:31:47.590+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/11_external_systems/02_postgres_pipeline.py for tasks to queue
+[2026-05-10T21:31:47.592+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:31:47.592+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/11_external_systems/02_postgres_pipeline.py
+[2026-05-10T21:31:47.602+0000] {processor.py:925} INFO - DAG(s) 'mod_11_02_postgres_pipeline' retrieved from /opt/airflow/dags/11_external_systems/02_postgres_pipeline.py
+[2026-05-10T21:31:47.622+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:31:47.622+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-05-10T21:31:47.629+0000] {logging_mixin.py:190} INFO - [2026-05-10T21:31:47.629+0000] {dag.py:4180} INFO - Setting next_dagrun for mod_11_02_postgres_pipeline to None, run_after=None
+[2026-05-10T21:31:47.637+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/11_external_systems/02_postgres_pipeline.py took 0.053 seconds
